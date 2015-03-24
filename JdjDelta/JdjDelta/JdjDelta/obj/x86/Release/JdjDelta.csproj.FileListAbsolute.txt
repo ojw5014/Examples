@@ -1,0 +1,32 @@
+L:\Bin\C#\test\JdjDelta\JdjDelta\JdjDelta\bin\Release\JdjDelta.exe
+L:\Bin\C#\test\JdjDelta\JdjDelta\JdjDelta\bin\Release\JdjDelta.pdb
+L:\Bin\C#\test\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\ResolveAssemblyReference.cache
+L:\Bin\C#\test\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.Form1.resources
+L:\Bin\C#\test\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.Properties.Resources.resources
+L:\Bin\C#\test\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\GenerateResource.read.1.tlog
+L:\Bin\C#\test\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\GenerateResource.write.1.tlog
+L:\Bin\C#\test\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.exe
+L:\Bin\C#\test\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.pdb
+D:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.exe
+D:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.pdb
+D:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\JdjDelta.exe
+D:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\JdjDelta.pdb
+D:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.Form1.resources
+D:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\OpenJigWare.dll
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.exe
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.pdb
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\JdjDelta.exe
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\JdjDelta.pdb
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\OpenJigWare.dll
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\Tao.FreeGlut.dll
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\Tao.Ode.dll
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\Tao.OpenGl.dll
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\bin\Release\Tao.Platform.Windows.dll
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.Form1.resources
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.Properties.Resources.resources
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\GenerateResource.read.1.tlog
+E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\GenerateResource.write.1.tlog

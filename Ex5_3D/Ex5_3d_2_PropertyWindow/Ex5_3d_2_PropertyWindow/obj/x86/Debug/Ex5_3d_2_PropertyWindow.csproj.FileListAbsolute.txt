@@ -1,0 +1,13 @@
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\bin\Debug\Ex5_3d_2_PropertyWindow.exe
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\bin\Debug\Ex5_3d_2_PropertyWindow.pdb
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\bin\Debug\OpenJigWare.dll
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\bin\Debug\Tao.FreeGlut.dll
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\bin\Debug\Tao.Ode.dll
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\bin\Debug\Tao.OpenGl.dll
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\bin\Debug\Tao.Platform.Windows.dll
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\obj\x86\Debug\Ex5_3d_2_PropertyWindow.csprojResolveAssemblyReference.cache
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\obj\x86\Debug\Ex5_3d_2_PropertyWindow.Form1.resources
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\obj\x86\Debug\Ex5_3d_2_PropertyWindow.Properties.Resources.resources
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\obj\x86\Debug\Ex5_3d_2_PropertyWindow.csproj.GenerateResource.Cache
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\obj\x86\Debug\Ex5_3d_2_PropertyWindow.exe
+K:\Bin\C#\GitHub\for Others(public)\Example\Ex5_3D\Ex5_3d_2_PropertyWindow\Ex5_3d_2_PropertyWindow\obj\x86\Debug\Ex5_3d_2_PropertyWindow.pdb

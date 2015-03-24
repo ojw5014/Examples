@@ -1,0 +1,59 @@
+{Form1.cs}{btnMessage1_Click}{37}{2015/2/16,13:31:7}Message1
+Test1, Test2, Test3, 
+{Form1.cs}{btnMessage1_Click}{37}{2015/2/16,13:31:8}Message1
+Test1, Test2, Test3, 
+{Form1.cs}{btnMessage2_Click}{48}{2015/2/16,13:31:8}Message2
+Test1, Test2, Test3, 
+{Form1.cs}{btnErrorMessage1_Click}{59}{2015/2/16,13:31:9}Error 1
+{Form1.cs}{btnErrorMessage1_Click}{59}{2015/2/16,13:31:13}Error 1
+{Form1.cs}{btnMessage1_Click}{37}{2015/2/16,13:31:26}Message1
+Test1, Test2, Test3, 
+{Form1.cs}{btnMessage2_Click}{48}{2015/2/16,13:31:26}Message2
+Test1, Test2, Test3, 
+{Form1.cs}{btnErrorMessage1_Click}{59}{2015/2/16,13:31:27}
+**************[Error]***********
+Error 1
+********************************
+{2015/2/16,13:31:27}
+------------------------
+1'st. Error 1
+------------------------
+
+{Form1.cs}{btnErrorMessage2_Click}{64}{2015/2/16,13:31:27}
+**************[Error]***********
+Error 2
+********************************
+{2015/2/16,13:31:27}
+------------------------
+2'st. Error 2
+------------------------
+
+{Form1.cs}{btnErrorMessage2_Click}{64}{2015/2/16,13:32:2}
+**************[Error]***********
+Error 2
+********************************
+{2015/2/16,13:32:2}
+------------------------
+1'st. Error 2
+------------------------
+
+{Form1.cs}{btnErrorMessage1_Click}{59}{2015/2/16,13:32:3}
+**************[Error]***********
+Error 1
+********************************
+{2015/2/16,13:32:3}
+------------------------
+2'st. Error 1
+------------------------
+
+{Form1.cs}{btnMessage2_Click}{48}{2015/2/16,13:32:4}Message2
+Test1, Test2, Test3, 
+{Form1.cs}{btnErrorMessage1_Click}{59}{2015/2/16,13:32:12}
+**************[Error]***********
+Error 1
+********************************
+{2015/2/16,13:32:12}
+------------------------
+1'st. Error 1
+------------------------
+
