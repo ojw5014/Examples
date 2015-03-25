@@ -1,0 +1,9 @@
+D:\Bin\C#\GitHub\for Others(public)\Examples\OjwKinematics\OjwKinematics\obj\x86\Debug\OjwKinematics.Main.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\OjwKinematics\OjwKinematics\obj\x86\Debug\OjwKinematics.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\OjwKinematics\OjwKinematics\obj\x86\Debug\OjwKinematics.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\OjwKinematics\OjwKinematics\bin\Debug\OjwKinematics.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\OjwKinematics\OjwKinematics\bin\Debug\OjwKinematics.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\OjwKinematics\OjwKinematics\obj\x86\Debug\OjwKinematics.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\OjwKinematics\OjwKinematics\obj\x86\Debug\OjwKinematics.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\OjwKinematics\OjwKinematics\bin\Debug\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\OjwKinematics\OjwKinematics\obj\x86\Debug\OjwKinematics.csprojResolveAssemblyReference.cache
