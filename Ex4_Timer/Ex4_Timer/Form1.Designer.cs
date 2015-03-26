@@ -35,32 +35,35 @@
             this.lbGet = new System.Windows.Forms.Label();
             this.btnCurrent = new System.Windows.Forms.Button();
             this.lbCurrent = new System.Windows.Forms.Label();
+            this.btnKill = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnWait
             // 
-            this.btnWait.Location = new System.Drawing.Point(12, 12);
+            this.btnWait.Location = new System.Drawing.Point(14, 15);
+            this.btnWait.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnWait.Name = "btnWait";
-            this.btnWait.Size = new System.Drawing.Size(175, 23);
+            this.btnWait.Size = new System.Drawing.Size(200, 29);
             this.btnWait.TabIndex = 0;
-            this.btnWait.Text = "Wait(1000 milli-second)";
+            this.btnWait.Text = "Wait(5000 milli-second)";
             this.btnWait.UseVisualStyleBackColor = true;
             this.btnWait.Click += new System.EventHandler(this.btnWait_Click);
             // 
             // lbWait
             // 
             this.lbWait.AutoSize = true;
-            this.lbWait.Location = new System.Drawing.Point(211, 17);
+            this.lbWait.Location = new System.Drawing.Point(241, 21);
             this.lbWait.Name = "lbWait";
-            this.lbWait.Size = new System.Drawing.Size(11, 12);
+            this.lbWait.Size = new System.Drawing.Size(15, 15);
             this.lbWait.TabIndex = 1;
             this.lbWait.Text = "0";
             // 
             // btnSet
             // 
-            this.btnSet.Location = new System.Drawing.Point(12, 57);
+            this.btnSet.Location = new System.Drawing.Point(14, 71);
+            this.btnSet.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSet.Name = "btnSet";
-            this.btnSet.Size = new System.Drawing.Size(75, 23);
+            this.btnSet.Size = new System.Drawing.Size(86, 29);
             this.btnSet.TabIndex = 2;
             this.btnSet.Text = "Set";
             this.btnSet.UseVisualStyleBackColor = true;
@@ -68,9 +71,10 @@
             // 
             // btnGet
             // 
-            this.btnGet.Location = new System.Drawing.Point(112, 57);
+            this.btnGet.Location = new System.Drawing.Point(128, 71);
+            this.btnGet.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnGet.Name = "btnGet";
-            this.btnGet.Size = new System.Drawing.Size(75, 23);
+            this.btnGet.Size = new System.Drawing.Size(86, 29);
             this.btnGet.TabIndex = 2;
             this.btnGet.Text = "Get";
             this.btnGet.UseVisualStyleBackColor = true;
@@ -79,17 +83,18 @@
             // lbGet
             // 
             this.lbGet.AutoSize = true;
-            this.lbGet.Location = new System.Drawing.Point(211, 62);
+            this.lbGet.Location = new System.Drawing.Point(241, 78);
             this.lbGet.Name = "lbGet";
-            this.lbGet.Size = new System.Drawing.Size(254, 12);
+            this.lbGet.Size = new System.Drawing.Size(317, 15);
             this.lbGet.TabIndex = 1;
             this.lbGet.Text = "Set 을 누른 후 Get 을 누르기 까지의 시간체크";
             // 
             // btnCurrent
             // 
-            this.btnCurrent.Location = new System.Drawing.Point(12, 97);
+            this.btnCurrent.Location = new System.Drawing.Point(14, 121);
+            this.btnCurrent.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCurrent.Name = "btnCurrent";
-            this.btnCurrent.Size = new System.Drawing.Size(75, 23);
+            this.btnCurrent.Size = new System.Drawing.Size(86, 29);
             this.btnCurrent.TabIndex = 2;
             this.btnCurrent.Text = "오늘은?";
             this.btnCurrent.UseVisualStyleBackColor = true;
@@ -98,17 +103,28 @@
             // lbCurrent
             // 
             this.lbCurrent.AutoSize = true;
-            this.lbCurrent.Location = new System.Drawing.Point(211, 102);
+            this.lbCurrent.Location = new System.Drawing.Point(241, 128);
             this.lbCurrent.Name = "lbCurrent";
-            this.lbCurrent.Size = new System.Drawing.Size(11, 12);
+            this.lbCurrent.Size = new System.Drawing.Size(15, 15);
             this.lbCurrent.TabIndex = 1;
             this.lbCurrent.Text = "0";
             // 
+            // btnKill
+            // 
+            this.btnKill.Location = new System.Drawing.Point(309, 174);
+            this.btnKill.Name = "btnKill";
+            this.btnKill.Size = new System.Drawing.Size(141, 53);
+            this.btnKill.TabIndex = 3;
+            this.btnKill.Text = "KillWait";
+            this.btnKill.UseVisualStyleBackColor = true;
+            this.btnKill.Click += new System.EventHandler(this.btnKill_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(489, 262);
+            this.ClientSize = new System.Drawing.Size(559, 328);
+            this.Controls.Add(this.btnKill);
             this.Controls.Add(this.btnGet);
             this.Controls.Add(this.btnCurrent);
             this.Controls.Add(this.btnSet);
@@ -116,6 +132,7 @@
             this.Controls.Add(this.lbCurrent);
             this.Controls.Add(this.lbWait);
             this.Controls.Add(this.btnWait);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -133,6 +150,7 @@
         private System.Windows.Forms.Label lbGet;
         private System.Windows.Forms.Button btnCurrent;
         private System.Windows.Forms.Label lbCurrent;
+        private System.Windows.Forms.Button btnKill;
     }
 }
 

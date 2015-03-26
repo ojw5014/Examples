@@ -32,7 +32,7 @@ namespace Ex4_Timer
             lbWait.Text = "Running...";
 
             // Wait sample
-            Ojw.CTimer.Wait(1000);
+            Ojw.CTimer.Wait(5000);
 
             lbWait.Text = "End";
             btnWait.Enabled = true;
@@ -59,6 +59,11 @@ namespace Ex4_Timer
                 Ojw.CTimer.GetHour() + ":" +
                 Ojw.CTimer.GetMinute() + ":" +
                 Ojw.CTimer.GetSecond();
+        }
+
+        private void btnKill_Click(object sender, EventArgs e)
+        {
+            Ojw.CTimer.KillWait();
         }
     }
 }
