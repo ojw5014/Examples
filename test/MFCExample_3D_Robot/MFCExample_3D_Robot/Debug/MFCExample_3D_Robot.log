@@ -1,0 +1,38 @@
+﻿빌드 시작: 2015-03-31 오전 9:53:43
+     1>2 노드의 "D:\Bin\C#\GitHub\for Others(public)\Examples\test\MFCExample_3D_Robot\MFCExample_3D_Robot\MFCExample_3D_Robot.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Debug\MFCExample_3D_Robot.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\MFCExample_3D_Robot.unsuccessfulbuild"을(를) 만들고 있습니다.
+       GenerateTargetFrameworkMonikerAttribute:
+       해당 입력 파일과 비교하여 출력 파일이 모두 최신 파일이므로 "GenerateTargetFrameworkMonikerAttribute" 대상을 건너뜁니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\MFCExample_3D_Robot.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"D:\Bin\C#\GitHub\for Others(public)\Examples\Released_DLL\OpenJigWare.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\TaoFramework\bin\Tao.FreeGlut.dll" /FU"C:\Program Files (x86)\TaoFramework\bin\Tao.Ode.dll" /FU"C:\Program Files (x86)\TaoFramework\bin\Tao.OpenGl.dll" /FU"C:\Program Files (x86)\TaoFramework\bin\Tao.Platform.Windows.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MFCExample_3D_Robot.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"D:\Bin\C#\GitHub\for Others(public)\Examples\Released_DLL\OpenJigWare.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\TaoFramework\bin\Tao.FreeGlut.dll" /FU"C:\Program Files (x86)\TaoFramework\bin\Tao.Ode.dll" /FU"C:\Program Files (x86)\TaoFramework\bin\Tao.OpenGl.dll" /FU"C:\Program Files (x86)\TaoFramework\bin\Tao.Platform.Windows.dll" /analyze- /errorReport:prompt MFCExample_3D_Robot.cpp MFCExample_3D_RobotDlg.cpp /clr:nostdlib 
+         MFCExample_3D_Robot.cpp
+         MFCExample_3D_RobotDlg.cpp
+         코드를 생성하고 있습니다...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\User\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0412" /IDebug\ /nologo /fo"Debug\MFCExample_3D_Robot.res" MFCExample_3D_Robot.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Bin\C#\GitHub\for Others(public)\Examples\test\MFCExample_3D_Robot\Debug\MFCExample_3D_Robot.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\MFCExample_3D_Robot.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Bin\C#\GitHub\for Others(public)\Examples\test\MFCExample_3D_Robot\Debug\MFCExample_3D_Robot.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MFCExample_3D_Robot.res
+         Debug\MFCExample_3D_Robot.obj
+         Debug\MFCExample_3D_RobotDlg.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         MFCExample_3D_Robot.vcxproj -> D:\Bin\C#\GitHub\for Others(public)\Examples\test\MFCExample_3D_Robot\Debug\MFCExample_3D_Robot.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Bin\C#\GitHub\for Others(public)\Examples\test\MFCExample_3D_Robot\Debug\MFCExample_3D_Robot.exe;#1" /manifest Debug\MFCExample_3D_Robot.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       _CopyFilesMarkedCopyLocal:
+         "D:\Bin\C#\GitHub\for Others(public)\Examples\Released_DLL\OpenJigWare.dll"에서 "D:\Bin\C#\GitHub\for Others(public)\Examples\test\MFCExample_3D_Robot\Debug\OpenJigWare.dll"(으)로 파일을 복사하고 있습니다.
+       FinalizeBuildStatus:
+         "Debug\MFCExample_3D_Robot.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\MFCExample_3D_Robot.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Bin\C#\GitHub\for Others(public)\Examples\test\MFCExample_3D_Robot\MFCExample_3D_Robot\MFCExample_3D_Robot.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.02

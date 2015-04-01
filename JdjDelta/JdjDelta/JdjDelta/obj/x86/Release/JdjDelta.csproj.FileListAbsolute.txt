@@ -32,3 +32,10 @@ E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\R
 E:\Bin\C#\GitHub\for Others(public)\Example\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\GenerateResource.write.1.tlog
 D:\Bin\C#\GitHub\for Others(public)\Examples\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.exe
 D:\Bin\C#\GitHub\for Others(public)\Examples\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\JdjDelta\JdjDelta\JdjDelta\bin\Release\JdjDelta.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\JdjDelta\JdjDelta\JdjDelta\bin\Release\JdjDelta.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\JdjDelta\JdjDelta\JdjDelta\bin\Release\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.Form1.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\JdjDelta\JdjDelta\JdjDelta\obj\x86\Release\JdjDelta.csproj.GenerateResource.Cache
