@@ -48,7 +48,7 @@ namespace Simple_3D_Robot
                 m_C3d.AddMouseEvent_Down(OjwMouseDown);
                 m_C3d.AddMouseEvent_Move(OjwMouseMove);
                 m_C3d.AddMouseEvent_Up(OjwMouseUp);
-                m_C3d.Gridview_Init(dgAngle, 70, 999);
+                m_C3d.GridMotionEditor_Init(dgAngle, 70, 999);
                 //InitGridView
             }
             else Application.Exit();
@@ -156,87 +156,87 @@ namespace Simple_3D_Robot
         private void dgAngle_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
             //Ojw.CMessage.Write(e.RowIndex.ToString() + "," + e.ColumnIndex.ToString());
-            //m_C3d.Gridview_Draw(e.RowIndex);
+            //m_C3d.GridMotionEditor_Draw(e.RowIndex);
         }
 
         private void btnValueIncrement_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Plus, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Plus, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnValueDecrement_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Minus, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Minus, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnValueMul_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Mul, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Mul, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnValueDiv_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Div, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Div, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnValueStackIncrement_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Inc, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Inc, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnValueStackDecrement_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Dec, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Dec, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnValueChange_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Change, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Change, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnValueFlip_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Flip_Value, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Flip_Value, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnInterpolation_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Interpolation, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Interpolation, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnInterpolation2_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._S_Curve, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._S_Curve, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnFlip_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Calc(Ojw.ECalc_t._Flip_Position, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
+            m_C3d.GridMotionEditor_Calc(Ojw.ECalc_t._Flip_Position, Ojw.CConvert.StrToFloat(txtChangeValue.Text)); 
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_Clear();
+            m_C3d.GridMotionEditor_Clear();
         }
 
         private void btnGroup1_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_SetSelectedGroup(1);
+            m_C3d.GridMotionEditor_SetSelectedGroup(1);
         }
 
         private void btnGroup2_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_SetSelectedGroup(2);
+            m_C3d.GridMotionEditor_SetSelectedGroup(2);
         }
 
         private void btnGroup3_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_SetSelectedGroup(3);
+            m_C3d.GridMotionEditor_SetSelectedGroup(3);
         }
 
         private void btnGroupDel_Click(object sender, EventArgs e)
         {
-            m_C3d.GridView_SetSelectedGroup(0);
+            m_C3d.GridMotionEditor_SetSelectedGroup(0);
         }
 
         private bool m_bStop = false;
@@ -251,15 +251,15 @@ namespace Simple_3D_Robot
         }
         private void Run()
         {
-            for (int i = 0; i < m_C3d.GridView_GetLines(); i++)
+            for (int i = 0; i < m_C3d.GridMotionEditor_GetLines(); i++)
             {
-                if (m_C3d.GridView_GetEnable(i) == true)
+                if (m_C3d.GridMotionEditor_GetEnable(i) == true)
                 {
-                    int nTime = m_C3d.GridView_GetTime(i);
-                    int nDelay = m_C3d.GridView_GetDelay(i);
+                    int nTime = m_C3d.GridMotionEditor_GetTime(i);
+                    int nDelay = m_C3d.GridMotionEditor_GetDelay(i);
                     int nWait = nTime + nDelay;
 
-                    m_C3d.Gridview_Draw(i);
+                    m_C3d.GridMotionEditor_Draw(i);
                     if (nWait > 0)
                         Ojw.CTimer.Wait(nWait);
 

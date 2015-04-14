@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OjwRobotMaker", "OjwRobotMaker\OjwRobotMaker.csproj", "{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39} = {E0E62640-C66D-46A3-A57C-80A42A1C3E39}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenJigWare", "..\..\..\..\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\OpenJigWare\OpenJigWare.csproj", "{E0E62640-C66D-46A3-A57C-80A42A1C3E39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Debug|x86.ActiveCfg = Debug|x86
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Debug|x86.Build.0 = Debug|x86
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Release|Any CPU.ActiveCfg = Release|x86
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Release|x86.ActiveCfg = Release|x86
+		{CAC1F32E-A734-4F9F-8C18-978FA3F8F74E}.Release|x86.Build.0 = Release|x86
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

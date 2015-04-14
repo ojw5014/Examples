@@ -94,6 +94,15 @@
             this.txtT13 = new System.Windows.Forms.TextBox();
             this.txtT14 = new System.Windows.Forms.TextBox();
             this.chkUserControl = new System.Windows.Forms.CheckBox();
+            this.lbPos = new System.Windows.Forms.Label();
+            this.btnThumb = new System.Windows.Forms.Button();
+            this.btnFirstFinger = new System.Windows.Forms.Button();
+            this.btnMiddleFinger = new System.Windows.Forms.Button();
+            this.btnLittleFinger = new System.Windows.Forms.Button();
+            this.btnFist = new System.Windows.Forms.Button();
+            this.btnSpread = new System.Windows.Forms.Button();
+            this.btnLeft = new System.Windows.Forms.Button();
+            this.btnRight = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picDisp)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -750,11 +759,109 @@
             this.chkUserControl.UseVisualStyleBackColor = true;
             this.chkUserControl.CheckedChanged += new System.EventHandler(this.chkUserControl_CheckedChanged);
             // 
+            // lbPos
+            // 
+            this.lbPos.AutoSize = true;
+            this.lbPos.Location = new System.Drawing.Point(1043, 291);
+            this.lbPos.Name = "lbPos";
+            this.lbPos.Size = new System.Drawing.Size(53, 15);
+            this.lbPos.TabIndex = 496;
+            this.lbPos.Text = "label16";
+            // 
+            // btnThumb
+            // 
+            this.btnThumb.Location = new System.Drawing.Point(1297, 588);
+            this.btnThumb.Name = "btnThumb";
+            this.btnThumb.Size = new System.Drawing.Size(106, 30);
+            this.btnThumb.TabIndex = 497;
+            this.btnThumb.Text = "Thumb";
+            this.btnThumb.UseVisualStyleBackColor = true;
+            this.btnThumb.Click += new System.EventHandler(this.btnThumb_Click);
+            // 
+            // btnFirstFinger
+            // 
+            this.btnFirstFinger.Location = new System.Drawing.Point(1297, 624);
+            this.btnFirstFinger.Name = "btnFirstFinger";
+            this.btnFirstFinger.Size = new System.Drawing.Size(106, 30);
+            this.btnFirstFinger.TabIndex = 497;
+            this.btnFirstFinger.Text = "FirstFinger";
+            this.btnFirstFinger.UseVisualStyleBackColor = true;
+            this.btnFirstFinger.Click += new System.EventHandler(this.btnFirstFinger_Click);
+            // 
+            // btnMiddleFinger
+            // 
+            this.btnMiddleFinger.Location = new System.Drawing.Point(1297, 660);
+            this.btnMiddleFinger.Name = "btnMiddleFinger";
+            this.btnMiddleFinger.Size = new System.Drawing.Size(106, 30);
+            this.btnMiddleFinger.TabIndex = 497;
+            this.btnMiddleFinger.Text = "MiddleFinger";
+            this.btnMiddleFinger.UseVisualStyleBackColor = true;
+            this.btnMiddleFinger.Click += new System.EventHandler(this.btnMiddleFinger_Click);
+            // 
+            // btnLittleFinger
+            // 
+            this.btnLittleFinger.Location = new System.Drawing.Point(1297, 696);
+            this.btnLittleFinger.Name = "btnLittleFinger";
+            this.btnLittleFinger.Size = new System.Drawing.Size(106, 30);
+            this.btnLittleFinger.TabIndex = 497;
+            this.btnLittleFinger.Text = "LittltFinger";
+            this.btnLittleFinger.UseVisualStyleBackColor = true;
+            this.btnLittleFinger.Click += new System.EventHandler(this.btnLittleFinger_Click);
+            // 
+            // btnFist
+            // 
+            this.btnFist.Location = new System.Drawing.Point(1297, 732);
+            this.btnFist.Name = "btnFist";
+            this.btnFist.Size = new System.Drawing.Size(106, 30);
+            this.btnFist.TabIndex = 497;
+            this.btnFist.Text = "Fist";
+            this.btnFist.UseVisualStyleBackColor = true;
+            this.btnFist.Click += new System.EventHandler(this.btnFist_Click);
+            // 
+            // btnSpread
+            // 
+            this.btnSpread.Location = new System.Drawing.Point(1297, 768);
+            this.btnSpread.Name = "btnSpread";
+            this.btnSpread.Size = new System.Drawing.Size(106, 30);
+            this.btnSpread.TabIndex = 497;
+            this.btnSpread.Text = "Spread";
+            this.btnSpread.UseVisualStyleBackColor = true;
+            this.btnSpread.Click += new System.EventHandler(this.btnSpread_Click);
+            // 
+            // btnLeft
+            // 
+            this.btnLeft.Location = new System.Drawing.Point(1297, 807);
+            this.btnLeft.Name = "btnLeft";
+            this.btnLeft.Size = new System.Drawing.Size(106, 30);
+            this.btnLeft.TabIndex = 497;
+            this.btnLeft.Text = "Left";
+            this.btnLeft.UseVisualStyleBackColor = true;
+            this.btnLeft.Click += new System.EventHandler(this.btnLeft_Click);
+            // 
+            // btnRight
+            // 
+            this.btnRight.Location = new System.Drawing.Point(1297, 843);
+            this.btnRight.Name = "btnRight";
+            this.btnRight.Size = new System.Drawing.Size(106, 30);
+            this.btnRight.TabIndex = 497;
+            this.btnRight.Text = "Right";
+            this.btnRight.UseVisualStyleBackColor = true;
+            this.btnRight.Click += new System.EventHandler(this.btnRight_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1404, 1057);
+            this.Controls.Add(this.btnRight);
+            this.Controls.Add(this.btnLeft);
+            this.Controls.Add(this.btnSpread);
+            this.Controls.Add(this.btnFist);
+            this.Controls.Add(this.btnLittleFinger);
+            this.Controls.Add(this.btnMiddleFinger);
+            this.Controls.Add(this.btnFirstFinger);
+            this.Controls.Add(this.btnThumb);
+            this.Controls.Add(this.lbPos);
             this.Controls.Add(this.chkUserControl);
             this.Controls.Add(this.btnDraw_240);
             this.Controls.Add(this.btnDraw_90);
@@ -887,6 +994,15 @@
         private System.Windows.Forms.TextBox txtT13;
         private System.Windows.Forms.TextBox txtT14;
         private System.Windows.Forms.CheckBox chkUserControl;
+        private System.Windows.Forms.Label lbPos;
+        private System.Windows.Forms.Button btnThumb;
+        private System.Windows.Forms.Button btnFirstFinger;
+        private System.Windows.Forms.Button btnMiddleFinger;
+        private System.Windows.Forms.Button btnLittleFinger;
+        private System.Windows.Forms.Button btnFist;
+        private System.Windows.Forms.Button btnSpread;
+        private System.Windows.Forms.Button btnLeft;
+        private System.Windows.Forms.Button btnRight;
     }
 }
 

@@ -3,7 +3,7 @@
 // License - GPL v2(everything is free)
 
 //#define _DEF_NORMAL
-#define _DEF_POSE // Defined Motion : need to Unlock Motion(Double tab)
+//#define _DEF_POSE // Defined Motion : need to Unlock Motion(Double tab)
 #define _DEF_ORIENTATION
 #define _DEF_EMG
 using System;
@@ -260,8 +260,9 @@ namespace testMyo
         private static int[] m_anData = new int[8];
         private static int[] m_anData_Back = new int[8];
         private const int _DATA_HISTORY = 10;
-        private static bool[] m_anData_Set = new bool[8];
+        private static bool[] m_abData_Set = new bool[8];
         private static int [,] m_anValue_Back = new int[8, _DATA_HISTORY];
+        private static bool m_bCapture = false;
         private static void Myo_EmgDataAcquired(object sender, EmgDataEventArgs e)
         {
             if (m_CTId2.Get() >= 1000)
@@ -290,7 +291,7 @@ namespace testMyo
                     if (m_bFilter == true)
                     {
                         if (m_bAnother == true)
-                            m_anData[i] = (int)Ojw.CMath.LowPassFilter(fAlpha, (float)m_anData[i], (int)Math.Abs(e.EmgData.GetDataForSensor(i)) + (int)Math.Abs(e.EmgData.GetDataForSensor(i) - m_anData_Back[i]));
+                            m_anData[i] = (int)Ojw.CMath.LowPassFilter(fAlpha, (float)m_anData[i], (int)Math.Abs(e.EmgData.GetDataForSensor(i)) + (int)Math.Abs(e.EmgData.GetDataForSensor(i) - m_anData_Back[i]) + (int)Math.Abs(m_anData_Back[i]));
                         else
                             m_anData[i] = (int)Ojw.CMath.LowPassFilter(fAlpha, (float)m_anData[i], (float)e.EmgData.GetDataForSensor(i));
                     }
@@ -306,7 +307,7 @@ namespace testMyo
                 }
                 if (m_bStep2 == true)
                 {
-                    int nValue = 30;// 50;
+                    int nValue = 30;// 30;// 50;
                     //int nRange = 25;
                     //m_CGrap.Push(
                     //    (int)(m_anData[0] / nValue) * nValue,
@@ -338,13 +339,13 @@ namespace testMyo
                         }
 
 
-                        if (m_anData_Set[i] == false)
+                        if (m_abData_Set[i] == false)
                         {
-                            if (nCnt >= 7) m_anData_Set[i] = true;
+                            if (nCnt >= 7) m_abData_Set[i] = true;
                         }
                         else
                         {
-                            if (nCnt <= 2) m_anData_Set[i] = false;
+                            if (nCnt <= 2) m_abData_Set[i] = false;
                         }
 
                         //if ((nCnt * 100 / _DATA_HISTORY) > 60) anValue[i] = nValue;
@@ -353,16 +354,21 @@ namespace testMyo
                     }
 
                     m_CGrap.Push(
-                        ((m_anData_Set[0] == true) ? nValue : 0),
-                        ((m_anData_Set[1] == true) ? nValue : 0),
-                        ((m_anData_Set[2] == true) ? nValue : 0),
-                        ((m_anData_Set[3] == true) ? nValue : 0),
-                        ((m_anData_Set[4] == true) ? nValue : 0),
-                        ((m_anData_Set[5] == true) ? nValue : 0),
-                        ((m_anData_Set[6] == true) ? nValue : 0),
-                        ((m_anData_Set[7] == true) ? nValue : 0)
+                        ((m_abData_Set[0] == true) ? nValue : 0),
+                        ((m_abData_Set[1] == true) ? nValue : 0),
+                        ((m_abData_Set[2] == true) ? nValue : 0),
+                        ((m_abData_Set[3] == true) ? nValue : 0),
+                        ((m_abData_Set[4] == true) ? nValue : 0),
+                        ((m_abData_Set[5] == true) ? nValue : 0),
+                        ((m_abData_Set[6] == true) ? nValue : 0),
+                        ((m_abData_Set[7] == true) ? nValue : 0)
                     );
-                    
+
+                    if (m_bCapture == true)
+                    {
+                        RememberPose(m_nPos);
+                    }
+
                     //m_CGrap.Push(
                     //    anValue[0],
                     //    anValue[1],
@@ -374,17 +380,21 @@ namespace testMyo
                     //    anValue[7]
                     //);
 
-                    int nPos = CheckJesture(
-                        ((m_anData_Set[0] == true) ? nValue : 0),
-                        ((m_anData_Set[1] == true) ? nValue : 0),
-                        ((m_anData_Set[2] == true) ? nValue : 0),
-                        ((m_anData_Set[3] == true) ? nValue : 0),
-                        ((m_anData_Set[4] == true) ? nValue : 0),
-                        ((m_anData_Set[5] == true) ? nValue : 0),
-                        ((m_anData_Set[6] == true) ? nValue : 0),
-                        ((m_anData_Set[7] == true) ? nValue : 0)
-                    );
+                    int nPos = CheckJesture();
+                    //int nPos = CheckJesture(
+                    //    ((m_abData_Set[0] == true) ? nValue : 0),
+                    //    ((m_abData_Set[1] == true) ? nValue : 0),
+                    //    ((m_abData_Set[2] == true) ? nValue : 0),
+                    //    ((m_abData_Set[3] == true) ? nValue : 0),
+                    //    ((m_abData_Set[4] == true) ? nValue : 0),
+                    //    ((m_abData_Set[5] == true) ? nValue : 0),
+                    //    ((m_abData_Set[6] == true) ? nValue : 0),
+                    //    ((m_abData_Set[7] == true) ? nValue : 0)
+                    //);
+                    if (nPos >= 0) Ojw.CMessage.Write2("Pos => " + nPos.ToString());
                     m_nJesture = nPos;
+#if false
+                    #region Pos
                     if ((nPos >= 0) && (nPos != (int)EMyoPos_t.Fist) && (nPos != (int)EMyoPos_t.Spread))// && (m_nMyoJesture != (int)Pose.Rest))
                     {
                         int i;
@@ -507,7 +517,123 @@ namespace testMyo
                             m_C3d.SetData(14, 0.0f);
                         }
                     }
-
+                    #endregion Pos
+#else
+                    if (nPos >= 0)
+                    {
+                        int i;
+                        if (nPos == (int)EMyoPos_t.FirstFinger)
+                        {
+                            Ojw.CMessage.Write("First Finger");
+                            for (i = 0; i < 20; i++) m_C3d.SetData(i, _REST);
+                            m_C3d.SetData(14, 0.0f);
+                            i = 0;
+                            // 엄지
+                            i += 2;
+                            // 검지
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                        }
+                        else if (nPos == (int)EMyoPos_t.MiddleFinger)
+                        {
+                            Ojw.CMessage.Write("Middle Finger");
+                            for (i = 0; i < 20; i++) m_C3d.SetData(i, _REST);
+                            m_C3d.SetData(14, 0.0f);
+                            i = 0;
+                            // 엄지
+                            i += 2;
+                            // 검지
+                            i += 3;
+                            // 중지
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                        }
+                        else if (nPos == (int)EMyoPos_t.LittleFinger)
+                        {
+                            Ojw.CMessage.Write("Little Finger");
+                            for (i = 0; i < 20; i++) m_C3d.SetData(i, _REST);
+                            m_C3d.SetData(14, 0.0f);
+                            i = 0;
+                            // 엄지
+                            i += 2;
+                            // 검지
+                            i += 3;
+                            // 중지
+                            i += 3;
+                            // 약지
+                            i += 3;
+                            // 새끼
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                        }
+                        else if (nPos == (int)EMyoPos_t.Fist)
+                        {
+                            Ojw.CMessage.Write("Fist");
+                            for (i = 0; i < 20; i++) m_C3d.SetData(i, 80.0f);
+                            m_C3d.SetData(14, 0.0f);
+                        }
+                        else if (nPos == (int)EMyoPos_t.Spread)
+                        {
+                            Ojw.CMessage.Write("Spread");
+                            for (i = 0; i < 20; i++) m_C3d.SetData(i, 0.0f);
+                            m_C3d.SetData(14, 0.0f);
+                        }
+                        else if (nPos == (int)EMyoPos_t.V)
+                        {
+                            Ojw.CMessage.Write("Jesture V");
+                            for (i = 0; i < 20; i++) m_C3d.SetData(i, _REST);
+                            m_C3d.SetData(14, 0.0f);
+                            i = 0;
+                            // 엄지
+                            m_C3d.SetData(i++, _REST);
+                            m_C3d.SetData(i++, _REST);
+                            // 검지
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                            // 중지
+                            i += 3;
+                            // 약지
+                            i += 3;
+                            // 새끼
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                            m_C3d.SetData(i++, 0.0f);
+                        }
+                        else if (nPos == (int)EMyoPos_t.Thumb)
+                        {
+                            Ojw.CMessage.Write("Jesture Thumb");
+                            for (i = 0; i < 20; i++) m_C3d.SetData(i, _REST);
+                            m_C3d.SetData(14, 0.0f);
+                            i = 0;
+                            // 엄지
+                            m_C3d.SetData(i++, 0);
+                            m_C3d.SetData(i++, 0);
+                            // 검지
+                            i += 3;
+                            // 중지
+                            i += 3;
+                            // 약지
+                            i += 3;
+                            // 새끼
+                            i += 3;
+                        }
+                        else
+                        {
+                            for (i = 0; i < 20; i++) m_C3d.SetData(i, _REST);
+                            m_C3d.SetData(14, 0.0f);
+                        }
+                    }
+                    else
+                    {
+                        int i;
+                        for (i = 0; i < 20; i++) m_C3d.SetData(i, _REST);
+                        m_C3d.SetData(14, 0.0f);
+                    }
+#endif
                 }
                 else
                 {
@@ -539,7 +665,7 @@ namespace testMyo
             m_CTId3.Set();
             Ojw.CMessage.Write(String.Format("Myo {0} has connected!", e.Myo.Handle));
             e.Myo.Vibrate(VibrationType.Short);
-            //e.Myo.Unlock(UnlockType.Hold); 
+            e.Myo.Unlock(UnlockType.Hold); 
             Ojw.CMessage.Write("접속");
 #if _DEF_NORMAL
             e.Myo.PoseChanged += Myo_PoseChanged;
@@ -823,6 +949,9 @@ namespace testMyo
             FirstFinger,
             MiddleFinger,
             LittleFinger,
+            Left,
+            Right,
+            Thumb,
             _Count
         }
 
@@ -832,6 +961,120 @@ namespace testMyo
             return m_nJesture;
         }
         private static int[,] m_anJesture = new int[(int)EMyoPos_t._Count, 8];//{{},
+        
+        private static int[,] m_anHand = new int[2,(int)EMyoPos_t._Count];
+        private static void RememberPose(int nHand)
+        {
+            m_anHand[0, nHand] =
+                (
+                ((m_abData_Set[0] == false) ? 0 : 0x80) |
+                ((m_abData_Set[1] == false) ? 0 : 0x40) |
+                ((m_abData_Set[2] == false) ? 0 : 0x20) |
+                ((m_abData_Set[3] == false) ? 0 : 0x10) |
+                ((m_abData_Set[4] == false) ? 0 : 0x08) |
+                ((m_abData_Set[5] == false) ? 0 : 0x04) |
+                ((m_abData_Set[6] == false) ? 0 : 0x02) |
+                ((m_abData_Set[7] == false) ? 0 : 0x01)
+                );
+            m_anHand[1, nHand] =
+                (
+                ((m_abData_Set[7] == false) ? 0 : 0x80) |
+                ((m_abData_Set[6] == false) ? 0 : 0x40) |
+                ((m_abData_Set[5] == false) ? 0 : 0x20) |
+                ((m_abData_Set[4] == false) ? 0 : 0x10) |
+                ((m_abData_Set[3] == false) ? 0 : 0x08) |
+                ((m_abData_Set[2] == false) ? 0 : 0x04) |
+                ((m_abData_Set[1] == false) ? 0 : 0x02) |
+                ((m_abData_Set[0] == false) ? 0 : 0x01)
+                );
+        }
+        //private static bool m_bMakedPos = false;
+        private static int CheckJesture()//params int[] anData)
+        {
+            if (m_nMask != 0xff) return -1;
+            int i = 0;
+            //if (m_bMakedPos == false) return -1;
+            /*
+                    1,2,3,8 = 1110 0001     = 0xe1       1000 0111 = 0x87 => 엄지
+            1,4,8 - 주먹 ( 1001 0001 = 0x91 <=> 1000 1001 = 0x89 )
+            //1,3 - 보자기 ( 1010 0000 = 0xa0 <=> 0000 0101 = 0x05 )
+            3,4,7 - 보자기 ( 0011 0010 = 0x32 <=> 0100 1100 = 0x4c )
+            1,4,8 - 검지 ( 1001 0001 = 0x91 <=> 1000 1001 = 0x89 )
+            3,4,8 - 중지 ( 0011 0001 = 0x31 <=> 1000 1100 = 0x8c )
+            3,8 - 새끼   ( 0010 0001 = 0x21 <=> 1000 0100 = 0x84 }
+            3,7 - 좌     ( 0010 0010 = 0x22 <=> 0100 0100 = 0x44 )
+            3,4 - 우     ( 0011 0000 = 0x30 <=> 0000 1100 = 0x0c )
+            */
+            int nRet = -1;
+            int nCnt = 4;// 10;
+            int nModelCount = m_CGrap.GetCount_Model();
+            int nHistoryCount = m_CGrap.GetCount_History();
+            int [] anHistory = new int[nModelCount];
+            Array.Clear(anHistory, 0, anHistory.Length);
+            // Data 수집
+            int nData = 0;
+            for (i = 0; i < nModelCount; i++)
+            {
+                nData = 0;
+                //for (int j = nHistoryCount - nCnt; j < nHistoryCount; j++)
+                if (nCnt == 1)
+                {
+                    anHistory[i] = ((m_abData_Set[i] == true) ? 1 : 0); // Current Data
+                }
+                else
+                {
+                    for (int j = 0; j < nCnt; j++)
+                    {
+                        nData += (m_CGrap.Pop(i, j) > 0) ? 1 : 0;
+                    }
+                    //nData += ((m_abData_Set[i] == true) ? 1 : 0); // Current Data
+                    anHistory[i] = (nData >= nCnt / 2) ? 1 : 0;
+                }
+            }
+            // Pose Check
+            int nIndex = 0;
+            int nTmp = 0;
+            int nTmpData = 0;
+            //for (int i = 0; i < nModelCount; i++)
+            i = 0;
+            {
+                nData = 0;
+                nTmpData = 0;
+                for (int j = 0; j < nModelCount; j++)
+                {
+                    nTmp = (j + nIndex) % nModelCount;
+                    nTmpData |= (anHistory[nTmp] << j);
+                }
+
+                if (nRet == -1)
+                {
+                    if (((nTmpData & m_anHand[0, (int)EMyoPos_t.Thumb]) == m_anHand[0, (int)EMyoPos_t.Thumb]) || ((nTmpData & m_anHand[1, (int)EMyoPos_t.Thumb]) == m_anHand[1, (int)EMyoPos_t.Thumb])) nRet = (int)EMyoPos_t.Thumb; // 엄지
+                    else if (((nTmpData & m_anHand[0, (int)EMyoPos_t.Fist]) == m_anHand[0, (int)EMyoPos_t.Fist]) || ((nTmpData & m_anHand[1, (int)EMyoPos_t.Fist]) == m_anHand[1, (int)EMyoPos_t.Fist])) nRet = (int)EMyoPos_t.Fist; // 주먹
+                    //else if (((nTmpData & 0xa0) == 0xa0) || ((nTmpData & 0x05) == 0x05)) nRet = (int)EMyoPos_t.Spread; // 보
+                    else if (((nTmpData & m_anHand[0, (int)EMyoPos_t.Spread])       == m_anHand[0, (int)EMyoPos_t.Spread])      || ((nTmpData & m_anHand[1, (int)EMyoPos_t.Spread])         == m_anHand[1, (int)EMyoPos_t.Spread]))         nRet = (int)EMyoPos_t.Spread; // 보
+                    else if (((nTmpData & m_anHand[0, (int)EMyoPos_t.FirstFinger])  == m_anHand[0, (int)EMyoPos_t.FirstFinger]) || ((nTmpData & m_anHand[1, (int)EMyoPos_t.FirstFinger])    == m_anHand[1, (int)EMyoPos_t.FirstFinger]))    nRet = (int)EMyoPos_t.FirstFinger; // 검지
+                    else if (((nTmpData & m_anHand[0, (int)EMyoPos_t.MiddleFinger]) == m_anHand[0, (int)EMyoPos_t.MiddleFinger])|| ((nTmpData & m_anHand[1, (int)EMyoPos_t.MiddleFinger])   == m_anHand[1, (int)EMyoPos_t.MiddleFinger]))   nRet = (int)EMyoPos_t.MiddleFinger; // 중지
+                    else if (((nTmpData & m_anHand[0, (int)EMyoPos_t.LittleFinger]) == m_anHand[0, (int)EMyoPos_t.LittleFinger])|| ((nTmpData & m_anHand[1, (int)EMyoPos_t.LittleFinger])   == m_anHand[1, (int)EMyoPos_t.LittleFinger]))   nRet = (int)EMyoPos_t.LittleFinger; // 새끼
+                    else if (((nTmpData & m_anHand[0, (int)EMyoPos_t.Left])         == m_anHand[0, (int)EMyoPos_t.Left])        || ((nTmpData & m_anHand[1, (int)EMyoPos_t.Left])           == m_anHand[1, (int)EMyoPos_t.Left]))           nRet = (int)EMyoPos_t.Left; // Left
+                    else if (((nTmpData & m_anHand[0, (int)EMyoPos_t.Right])        == m_anHand[0, (int)EMyoPos_t.Right])       || ((nTmpData & m_anHand[1, (int)EMyoPos_t.Right])          == m_anHand[1, (int)EMyoPos_t.Right]))          nRet = (int)EMyoPos_t.Right; // Right
+                }
+                //else
+                //{
+                //    if (nRet == (int)EMyoPos_t.Left)
+                //    {
+                //        if (((nTmpData & 0x32) == 0x32) || ((nTmpData & 0x4c) == 0x4c)) nRet = (int)EMyoPos_t.Spread; // 보
+                //    }
+                //    else if (nRet == (int)EMyoPos_t.Right)
+                //    {
+                //        if (((nTmpData & 0x32) == 0x32) || ((nTmpData & 0x4c) == 0x4c)) nRet = (int)EMyoPos_t.Spread; // 보
+                //        //else if (((nTmpData & 0x31) == 0x31) || ((nTmpData & 0x8c) == 0x8c)) nRet = (int)EMyoPos_t.MiddleFinger; // 중지
+                //    }
+                //}
+                nIndex++;
+            }
+            return nRet;
+        }
+#if false
         private static int CheckJesture(params int[] anData)
         {
             int nRet = -1;
@@ -898,6 +1141,7 @@ namespace testMyo
 
             return nRet;
         }
+#endif
         private static void InitJesture()
         {
             InitData();
@@ -960,13 +1204,13 @@ namespace testMyo
             m_anJesture[(int)EMyoPos_t.LittleFinger, i++] = 0;
             m_anJesture[(int)EMyoPos_t.LittleFinger, i++] = 0;
             m_anJesture[(int)EMyoPos_t.LittleFinger, i++] = 0;
-            m_anJesture[(int)EMyoPos_t.LittleFinger, i++] = 0;
+            m_anJesture[(int)EMyoPos_t.LittleFinger, i++] = 0;            
         }
         private static void InitData()
         {
             Array.Clear(m_anData, 0, m_anData.Length);
             Array.Clear(m_anData_Back, 0, m_anData.Length);
-            Array.Clear(m_anData_Set, 0, m_anData.Length);
+            Array.Clear(m_abData_Set, 0, m_anData.Length);
             //Array.Clear(m_anValue_Back, 0, m_anData.GetLength(0) * m_anData.GetLength(1));
         }
 
@@ -1131,6 +1375,64 @@ namespace testMyo
         {
             m_C3d.Prop_Set_Main_MouseControlMode(Ojw.CConvert.BoolToInt(chkUserControl.Checked)); // 0: 화면이동,   1: 제어타입
             m_C3d.Prop_Update_VirtualObject(); // 변경 사항 Update
+        }
+
+        private static int m_nPos = -1;
+        private static int m_nMask = 0x00;
+        private void btnThumb_Click(object sender, EventArgs e)
+        {
+            m_nPos = (int)EMyoPos_t.Thumb;
+            m_bCapture = true;
+            m_nMask |= 0x01;
+        }
+
+        private void btnFirstFinger_Click(object sender, EventArgs e)
+        {
+            m_nPos = (int)EMyoPos_t.FirstFinger;
+            m_bCapture = true;
+            m_nMask |= 0x02;
+        }
+
+        private void btnMiddleFinger_Click(object sender, EventArgs e)
+        {
+            m_nPos = (int)EMyoPos_t.MiddleFinger;
+            m_bCapture = true;
+            m_nMask |= 0x04;
+        }
+
+        private void btnLittleFinger_Click(object sender, EventArgs e)
+        {
+            m_nPos = (int)EMyoPos_t.LittleFinger;
+            m_bCapture = true;
+            m_nMask |= 0x08;
+        }
+
+        private void btnFist_Click(object sender, EventArgs e)
+        {
+            m_nPos = (int)EMyoPos_t.Fist;
+            m_bCapture = true;
+            m_nMask |= 0x10;
+        }
+
+        private void btnSpread_Click(object sender, EventArgs e)
+        {
+            m_nPos = (int)EMyoPos_t.Spread;
+            m_bCapture = true;
+            m_nMask |= 0x20;
+        }
+
+        private void btnLeft_Click(object sender, EventArgs e)
+        {
+            m_nPos = (int)EMyoPos_t.Left;
+            m_bCapture = true;
+            m_nMask |= 0x40;
+        }
+
+        private void btnRight_Click(object sender, EventArgs e)
+        {
+            m_nPos = (int)EMyoPos_t.Right;
+            m_bCapture = true;
+            m_nMask |= 0x80;
         }
     }
 }
