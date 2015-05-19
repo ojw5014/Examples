@@ -1,0 +1,11 @@
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\bin\Debug\MyoSample.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\bin\Debug\MyoSample.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\obj\x86\Debug\MyoSample.frmMain.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\obj\x86\Debug\MyoSample.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\obj\x86\Debug\MyoSample.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\obj\x86\Debug\MyoSample.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\obj\x86\Debug\MyoSample.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\bin\Debug\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\bin\Debug\MyoSharp.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\bin\Debug\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\MyoSample\obj\x86\Debug\MyoSample.csprojResolveAssemblyReference.cache

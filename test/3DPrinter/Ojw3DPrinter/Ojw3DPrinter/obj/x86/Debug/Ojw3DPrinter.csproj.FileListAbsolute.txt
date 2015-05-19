@@ -1,0 +1,9 @@
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\3DPrinter\Ojw3DPrinter\Ojw3DPrinter\bin\Debug\Ojw3DPrinter.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\3DPrinter\Ojw3DPrinter\Ojw3DPrinter\bin\Debug\Ojw3DPrinter.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\3DPrinter\Ojw3DPrinter\Ojw3DPrinter\bin\Debug\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\3DPrinter\Ojw3DPrinter\Ojw3DPrinter\obj\x86\Debug\Ojw3DPrinter.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\3DPrinter\Ojw3DPrinter\Ojw3DPrinter\obj\x86\Debug\Ojw3DPrinter.Main.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\3DPrinter\Ojw3DPrinter\Ojw3DPrinter\obj\x86\Debug\Ojw3DPrinter.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\3DPrinter\Ojw3DPrinter\Ojw3DPrinter\obj\x86\Debug\Ojw3DPrinter.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\3DPrinter\Ojw3DPrinter\Ojw3DPrinter\obj\x86\Debug\Ojw3DPrinter.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\3DPrinter\Ojw3DPrinter\Ojw3DPrinter\obj\x86\Debug\Ojw3DPrinter.pdb

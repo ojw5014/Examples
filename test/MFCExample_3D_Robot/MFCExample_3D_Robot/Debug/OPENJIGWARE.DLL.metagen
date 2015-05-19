@@ -24,8 +24,11 @@ Class OpenJigWare.Ojw+CKinematics: AutoLayout, AnsiClass, Class, NestedPublic, B
 Class OpenJigWare.Ojw+CKinematics+CForward: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    CalcKinematics_ToString(CDhParamAll, Single[], String&(Out)): PrivateScope, Public, Static, HideBySig
     CalcKinematics_ToString(CDhParamAll, Double[], String&(Out)): PrivateScope, Public, Static, HideBySig
+    CalcKinematics(CDhParamAll, Single[], Single&(Out), Single&(Out), Single&(Out)): PrivateScope, Public, Static, HideBySig
     CalcKinematics(CDhParamAll, Double[], Double&(Out), Double&(Out), Double&(Out)): PrivateScope, Public, Static, HideBySig
+    CalcKinematics(CDhParamAll, Single[], Single[]&(Out), Single[]&(Out), Single[]&(Out), Single&(Out), Single&(Out), Single&(Out)): PrivateScope, Public, Static, HideBySig
     CalcKinematics(CDhParamAll, Double[], Double[]&(Out), Double[]&(Out), Double[]&(Out), Double&(Out), Double&(Out), Double&(Out)): PrivateScope, Public, Static, HideBySig
     MakeDhParam(Byte[], CDhParamAll&(Out)): PrivateScope, Public, Static, HideBySig
     MakeDhParam(String, CDhParamAll&(Out)): PrivateScope, Public, Static, HideBySig
@@ -138,8 +141,12 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     Double m_dPos_X : Public
     Double m_dPos_Y : Public
     Double m_dPos_Z : Public
+    CUserEvent Event_FileOpen : Public
+    CUserEvent Event_ItemAdd : Public
     Int32 m_nMenuStatus : Public
     Boolean m_bShowPopup : Public
+    Single[] m_afLookat : Public
+    Single[] m_afLookat_Dir : Public
     Single[] m_afPos_Test : Public
     Single[] m_afAngle_Test : Public
     Int32 m_nCnt_Obj_Ase : Public
@@ -152,6 +159,35 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     System.String _STR_EXT_VERSION : Public, Static
     Int32 _CNT_FILEOPEN : Public, Static
   Methods:
+    SetHeader_pSMotorInfo(Int32, SMotorInfo_t): PrivateScope, Public, HideBySig
+    SetHeader_SInitAngle(SAngle3D_t): PrivateScope, Public, HideBySig
+    SetHeader_SInitPos(SVector3D_t): PrivateScope, Public, HideBySig
+    SetHeader_strComment(String): PrivateScope, Public, HideBySig
+    SetHeader_strDrawModel(String): PrivateScope, Public, HideBySig
+    AddHeader_strDrawModel(String): PrivateScope, Public, HideBySig
+    InsertHeader_strDrawModel(Int32, String): PrivateScope, Public, HideBySig
+    SetHeader_strModelName(String): PrivateScope, Public, HideBySig
+    SetHeader_strVersion(String): PrivateScope, Public, HideBySig
+    GetHeader(): PrivateScope, Public, HideBySig
+    GetHeader_bDisplay_Axis(): PrivateScope, Public, HideBySig
+    GetHeader_bDisplay_Invisible(): PrivateScope, Public, HideBySig
+    GetHeader_bDisplay_Light(): PrivateScope, Public, HideBySig
+    GetHeader_cBackColor(): PrivateScope, Public, HideBySig
+    GetHeader_fInitScale(): PrivateScope, Public, HideBySig
+    GetHeader_nModelNum(): PrivateScope, Public, HideBySig
+    GetHeader_strModelNum(): PrivateScope, Public, HideBySig
+    GetHeader_nMotorCnt(): PrivateScope, Public, HideBySig
+    GetHeader_nVersion(): PrivateScope, Public, HideBySig
+    GetHeader_nWheelCounter_2(): PrivateScope, Public, HideBySig
+    GetHeader_nWheelCounter_3(): PrivateScope, Public, HideBySig
+    GetHeader_nWheelCounter_4(): PrivateScope, Public, HideBySig
+    GetHeader_pDhParamAll(): PrivateScope, Public, HideBySig
+    GetHeader_pnSecret(): PrivateScope, Public, HideBySig
+    GetHeader_pnType(): PrivateScope, Public, HideBySig
+    GetHeader_pSEncryptInverseKinematics_encryption(): PrivateScope, Public, HideBySig
+    GetHeader_pSEncryptKinematics_encryption(): PrivateScope, Public, HideBySig
+    GetHeader_pSMotorInfo(): PrivateScope, Public, HideBySig
+    GetHeader_pSMotorInfo(Int32): PrivateScope, Public, HideBySig
     GetHeader_pSOjwCode(): PrivateScope, Public, HideBySig
     GetHeader_pstrGroupName(): PrivateScope, Public, HideBySig
     GetHeader_pstrInverseKinematics(): PrivateScope, Public, HideBySig
@@ -174,6 +210,33 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     CheckInverse(): PrivateScope, Public, HideBySig
     FileSave(String, COjwDesignerHeader): PrivateScope, Public, HideBySig
     FileOpen(String, COjwDesignerHeader&(Out)): PrivateScope, Public, HideBySig
+    Convert_CDisp_To_String(COjwDisp, COjwDesignerHeader&): PrivateScope, Public, HideBySig
+    Convert_CDisp_To_String(COjwDisp, String&): PrivateScope, Public, HideBySig
+    User_GetCnt(): PrivateScope, Public, HideBySig
+    User_Clear(): PrivateScope, Public, HideBySig
+    User_Add_Ex(COjwDisp): PrivateScope, Public, HideBySig
+    User_Add(): PrivateScope, Public, HideBySig
+    User_Delete(Int32): PrivateScope, Public, HideBySig
+    User_Delete(): PrivateScope, Public, HideBySig
+    User_Get(Int32): PrivateScope, Public, HideBySig
+    User_Get_Index(): PrivateScope, Public, HideBySig
+    User_Set(Int32, COjwDisp): PrivateScope, Public, HideBySig
+    User_Set(): PrivateScope, Public, HideBySig
+    User_Set_AxisName(Int32): PrivateScope, Public, HideBySig
+    User_Set_Color(Color): PrivateScope, Public, HideBySig
+    User_Set_Model(String): PrivateScope, Public, HideBySig
+    User_Set_Fill(Boolean): PrivateScope, Public, HideBySig
+    User_Set_Texture(Int32): PrivateScope, Public, HideBySig
+    User_Set_Init(Boolean): PrivateScope, Public, HideBySig
+    User_Set_Points_Clear(): PrivateScope, Public, HideBySig
+    User_Set_Points_Add(SVector3D_t): PrivateScope, Public, HideBySig
+    User_Set_Points_Add(Single, Single, Single): PrivateScope, Public, HideBySig
+    User_Set_Width_Or_Radius(Single): PrivateScope, Public, HideBySig
+    User_Set_Height_Or_Depth(Single): PrivateScope, Public, HideBySig
+    User_Set_Depth_Or_Cnt(Single): PrivateScope, Public, HideBySig
+    User_Set_Thickness(Single): PrivateScope, Public, HideBySig
+    User_Set_Gap(Single): PrivateScope, Public, HideBySig
+    User_Set_Caption(String): PrivateScope, Public, HideBySig
     User_Set_AxisMoveType(Int32): PrivateScope, Public, HideBySig
     User_Set_Dir(Int32): PrivateScope, Public, HideBySig
     User_Set_Angle(Single): PrivateScope, Public, HideBySig
@@ -232,33 +295,33 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     SetHeader_nWheelCounter_2(Int32): PrivateScope, Public, HideBySig
     SetHeader_nWheelCounter_3(Int32): PrivateScope, Public, HideBySig
     SetHeader_nWheelCounter_4(Int32): PrivateScope, Public, HideBySig
-    SetHeader_pSMotorInfo(Int32, SMotorInfo_t): PrivateScope, Public, HideBySig
-    SetHeader_SInitAngle(SAngle3D_t): PrivateScope, Public, HideBySig
-    SetHeader_SInitPos(SVector3D_t): PrivateScope, Public, HideBySig
-    SetHeader_strComment(String): PrivateScope, Public, HideBySig
-    SetHeader_strDrawModel(String): PrivateScope, Public, HideBySig
-    AddHeader_strDrawModel(String): PrivateScope, Public, HideBySig
-    SetHeader_strModelName(String): PrivateScope, Public, HideBySig
-    SetHeader_strVersion(String): PrivateScope, Public, HideBySig
-    GetHeader_bDisplay_Axis(): PrivateScope, Public, HideBySig
-    GetHeader_bDisplay_Invisible(): PrivateScope, Public, HideBySig
-    GetHeader_bDisplay_Light(): PrivateScope, Public, HideBySig
-    GetHeader_cBackColor(): PrivateScope, Public, HideBySig
-    GetHeader_fInitScale(): PrivateScope, Public, HideBySig
-    GetHeader_nModelNum(): PrivateScope, Public, HideBySig
-    GetHeader_strModelNum(): PrivateScope, Public, HideBySig
-    GetHeader_nMotorCnt(): PrivateScope, Public, HideBySig
-    GetHeader_nVersion(): PrivateScope, Public, HideBySig
-    GetHeader_nWheelCounter_2(): PrivateScope, Public, HideBySig
-    GetHeader_nWheelCounter_3(): PrivateScope, Public, HideBySig
-    GetHeader_nWheelCounter_4(): PrivateScope, Public, HideBySig
-    GetHeader_pDhParamAll(): PrivateScope, Public, HideBySig
-    GetHeader_pnSecret(): PrivateScope, Public, HideBySig
-    GetHeader_pnType(): PrivateScope, Public, HideBySig
-    GetHeader_pSEncryptInverseKinematics_encryption(): PrivateScope, Public, HideBySig
-    GetHeader_pSEncryptKinematics_encryption(): PrivateScope, Public, HideBySig
-    GetHeader_pSMotorInfo(): PrivateScope, Public, HideBySig
-    GetHeader_pSMotorInfo(Int32): PrivateScope, Public, HideBySig
+    AddColor_Second(Int32, Int32, Int32, Color): PrivateScope, Public, HideBySig
+    ClearColor_Second(): PrivateScope, Public, HideBySig
+    SetPick_ColorMode(Boolean): PrivateScope, Public, HideBySig
+    SetPick_AlphaMode(Boolean): PrivateScope, Public, HideBySig
+    SetPick_ColorValue(Color): PrivateScope, Public, HideBySig
+    SetPick_AlphaValue(Single): PrivateScope, Public, HideBySig
+    SetDrawFastMode(Int32): PrivateScope, Public, HideBySig
+    GetDrawFastMode(): PrivateScope, Public, HideBySig
+    OjwDraw_Class(COjwDisp): PrivateScope, Public, HideBySig
+    StringLine_To_Class(String, COjwDisp&(Out)): PrivateScope, Public, HideBySig
+    TextBox_To_CodeString(TextBox, COjwDisp[]&(Out)): PrivateScope, Public, HideBySig
+    TextBox_To_CodeString(TextBox): PrivateScope, Public, HideBySig
+    ClassToString(COjwDisp): PrivateScope, Public, HideBySig
+    Picking_Ready(Int32, Int32): PrivateScope, Public, HideBySig
+    Picking_Check(): PrivateScope, Public, HideBySig
+    Picking_End(): PrivateScope, Public, HideBySig
+    IsPicking(): PrivateScope, Public, HideBySig
+    Clear_IsPicking(): PrivateScope, Public, HideBySig
+    GetPickingData(Int32&(Out), Int32&(Out), Int32&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
+    InitNames(): PrivateScope, Public, HideBySig
+    SetName(UInt32): PrivateScope, Public, HideBySig
+    PushName(UInt32): PrivateScope, Public, HideBySig
+    PopName(): PrivateScope, Public, HideBySig
+    Push(): PrivateScope, Public, HideBySig
+    Pop(): PrivateScope, Public, HideBySig
+    OjwBox_Text(Boolean, Color, Single, Single, Single): PrivateScope, Public, HideBySig
+    OjwSetMode(Int32): PrivateScope, Public, HideBySig
     IsStandardAxis(): PrivateScope, Public, HideBySig
     SetStandardAxis(Boolean): PrivateScope, Public, HideBySig
     SetVirtualClass_Enable(Boolean): PrivateScope, Public, HideBySig
@@ -316,40 +379,38 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     OjwLines(Boolean, Color, Single, List`1, Single, Single, Single, Single, Single, Single): PrivateScope, Public, HideBySig
     CopyDispAllClassFrom(COjwDispAll): PrivateScope, Public, HideBySig
     Convert_CDisp_To_String(): PrivateScope, Public, HideBySig
-    Convert_CDisp_To_String(COjwDisp, COjwDesignerHeader&): PrivateScope, Public, HideBySig
-    Convert_CDisp_To_String(COjwDisp, String&): PrivateScope, Public, HideBySig
-    User_GetCnt(): PrivateScope, Public, HideBySig
-    User_Clear(): PrivateScope, Public, HideBySig
-    User_Add_Ex(COjwDisp): PrivateScope, Public, HideBySig
-    User_Add(): PrivateScope, Public, HideBySig
-    User_Delete(Int32): PrivateScope, Public, HideBySig
-    User_Delete(): PrivateScope, Public, HideBySig
-    User_Get(Int32): PrivateScope, Public, HideBySig
-    User_Get_Index(): PrivateScope, Public, HideBySig
-    User_Set(Int32, COjwDisp): PrivateScope, Public, HideBySig
-    User_Set(): PrivateScope, Public, HideBySig
-    User_Set_AxisName(Int32): PrivateScope, Public, HideBySig
-    User_Set_Color(Color): PrivateScope, Public, HideBySig
-    User_Set_Model(String): PrivateScope, Public, HideBySig
-    User_Set_Fill(Boolean): PrivateScope, Public, HideBySig
-    User_Set_Texture(Int32): PrivateScope, Public, HideBySig
-    User_Set_Init(Boolean): PrivateScope, Public, HideBySig
-    User_Set_Points_Clear(): PrivateScope, Public, HideBySig
-    User_Set_Points_Add(SVector3D_t): PrivateScope, Public, HideBySig
-    User_Set_Points_Add(Single, Single, Single): PrivateScope, Public, HideBySig
-    User_Set_Width_Or_Radius(Single): PrivateScope, Public, HideBySig
-    User_Set_Height_Or_Depth(Single): PrivateScope, Public, HideBySig
-    User_Set_Depth_Or_Cnt(Single): PrivateScope, Public, HideBySig
-    User_Set_Thickness(Single): PrivateScope, Public, HideBySig
-    User_Set_Gap(Single): PrivateScope, Public, HideBySig
-    User_Set_Caption(String): PrivateScope, Public, HideBySig
-    SetMouseEventEnable(Boolean): PrivateScope, Public, HideBySig
     InitGLContext(): PrivateScope, Public, HideBySig
-    Init(PictureBox): PrivateScope, Public, HideBySig
+    Init(Control): PrivateScope, Public, HideBySig
     LoadTextures(String[]): PrivateScope, Public, HideBySig
     GetPickMousePoint(Int32&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
     glFlush(): PrivateScope, Public, HideBySig
     glDraw_Ready(): PrivateScope, Public, HideBySig
+    GridDraw_Init(DataGridView, Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_Init(DataGridView, Int32, Int32): PrivateScope, Public, HideBySig
+    GridDraw_Event_CellEnter(Object, DataGridViewCellEventArgs): PrivateScope, Public, HideBySig
+    GridDraw_Event_RowsAdded(Object, DataGridViewRowsAddedEventArgs): PrivateScope, Public, HideBySig
+    GridDraw_Event_RowsRemoved(Object, DataGridViewRowsRemovedEventArgs): PrivateScope, Public, HideBySig
+    GridDraw_CellValueChanged(Object, DataGridViewCellEventArgs): PrivateScope, Public, HideBySig
+    GridMotionEditor_Event_CellEnter(Object, DataGridViewCellEventArgs): PrivateScope, Public, HideBySig
+    GridMotionEditor_GetCurrentLine(): PrivateScope, Public, HideBySig
+    GridMotionEditor_GetCurrentColumn(): PrivateScope, Public, HideBySig
+    GridMotionEditor_SetEnable(Int32, Boolean): PrivateScope, Public, HideBySig
+    GridMotionEditor_GetEnable(Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_SetGroup(Int32, Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_GetGroup(Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_SetTime(Int32, Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_GetTime(Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_SetDelay(Int32, Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_GetDelay(Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_GetLines(): PrivateScope, Public, HideBySig
+    GridMotionEditor_GetCols(): PrivateScope, Public, HideBySig
+    GridMotionEditor_GetMotor(Int32, Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_Calc(ECalc_t, Single): PrivateScope, Public, HideBySig
+    GridMotionEditor_Calc(DataGridView, ECalc_t, Single): PrivateScope, Public, HideBySig
+    GridMotionEditor_Clear(): PrivateScope, Public, HideBySig
+    GridMotionEditor_SetMotor(Int32, Int32, Single): PrivateScope, Public, HideBySig
+    GridMotionEditor_SetSelectedGroup(Int32): PrivateScope, Public, HideBySig
+    GridMotionEditor_Draw(Int32): PrivateScope, Public, HideBySig
     GetStatus_GroupA(): PrivateScope, Public, HideBySig
     GetStatus_GroupB(): PrivateScope, Public, HideBySig
     GetStatus_GroupC(): PrivateScope, Public, HideBySig
@@ -364,6 +425,7 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     InitJoystic(): PrivateScope, Public, HideBySig
     OjwDraw(Single[], COjwDesignerHeader, Int32&(Out), Int32&(Out), Int32&(Out), Int32&(Out), Boolean&(Out), Boolean&(Out)): PrivateScope, Public, HideBySig
     OjwDraw(COjwDesignerHeader, Int32&(Out), Int32&(Out), Int32&(Out), Int32&(Out), Boolean&(Out), Boolean&(Out)): PrivateScope, Public, HideBySig
+    OjwDraw(Single[], Int32&(Out), Int32&(Out), Int32&(Out), Int32&(Out), Boolean&(Out), Boolean&(Out)): PrivateScope, Public, HideBySig
     OjwDraw(Int32&(Out), Int32&(Out), Int32&(Out), Int32&(Out), Boolean&(Out), Boolean&(Out)): PrivateScope, Public, HideBySig
     OjwDraw(): PrivateScope, Public, HideBySig
     OjwDraw(Single[], COjwDesignerHeader): PrivateScope, Public, HideBySig
@@ -394,40 +456,6 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     SetClass_EmptyBody(Boolean): PrivateScope, Public, HideBySig
     SetClass_AseFake(Boolean, Int32): PrivateScope, Public, HideBySig
     SetColor_Second(Int32, Int32, Int32, Int32, Color): PrivateScope, Public, HideBySig
-    AddColor_Second(Int32, Int32, Int32, Color): PrivateScope, Public, HideBySig
-    ClearColor_Second(): PrivateScope, Public, HideBySig
-    SetPick_ColorMode(Boolean): PrivateScope, Public, HideBySig
-    SetPick_AlphaMode(Boolean): PrivateScope, Public, HideBySig
-    SetPick_ColorValue(Color): PrivateScope, Public, HideBySig
-    SetPick_AlphaValue(Single): PrivateScope, Public, HideBySig
-    SetDrawFastMode(Int32): PrivateScope, Public, HideBySig
-    GetDrawFastMode(): PrivateScope, Public, HideBySig
-    OjwDraw_Class(COjwDisp): PrivateScope, Public, HideBySig
-    StringLine_To_Class(String, COjwDisp&(Out)): PrivateScope, Public, HideBySig
-    TextBox_To_CodeString(TextBox, COjwDisp[]&(Out)): PrivateScope, Public, HideBySig
-    TextBox_To_CodeString(TextBox): PrivateScope, Public, HideBySig
-    ClassToString(COjwDisp): PrivateScope, Public, HideBySig
-    Picking_Ready(Int32, Int32): PrivateScope, Public, HideBySig
-    Picking_Check(): PrivateScope, Public, HideBySig
-    Picking_End(): PrivateScope, Public, HideBySig
-    IsPicking(): PrivateScope, Public, HideBySig
-    Clear_IsPicking(): PrivateScope, Public, HideBySig
-    GetPickingData(Int32&(Out), Int32&(Out), Int32&(Out), Int32&(Out)): PrivateScope, Public, HideBySig
-    InitNames(): PrivateScope, Public, HideBySig
-    SetName(UInt32): PrivateScope, Public, HideBySig
-    PushName(UInt32): PrivateScope, Public, HideBySig
-    PopName(): PrivateScope, Public, HideBySig
-    Push(): PrivateScope, Public, HideBySig
-    Pop(): PrivateScope, Public, HideBySig
-    OjwBox_Text(Boolean, Color, Single, Single, Single): PrivateScope, Public, HideBySig
-    OjwSetMode(Int32): PrivateScope, Public, HideBySig
-    Prop_Get_Trans_X4(): PrivateScope, Public, HideBySig
-    Prop_Get_Rot_Pan4(): PrivateScope, Public, HideBySig
-    Prop_Get_Trans_X5(): PrivateScope, Public, HideBySig
-    Prop_Get_Rot_Pan5(): PrivateScope, Public, HideBySig
-    Prop_Get_PickGroup_A(): PrivateScope, Public, HideBySig
-    Prop_Get_InverseKinematicsNumber(): PrivateScope, Public, HideBySig
-    Prop_Get_Scale_Serve0(): PrivateScope, Public, HideBySig
     Prop_Get_Scale_Serve1(): PrivateScope, Public, HideBySig
     Prop_Get_MotorType(): PrivateScope, Public, HideBySig
     Prop_Get_MotorControl_MousePoint(): PrivateScope, Public, HideBySig
@@ -472,6 +500,7 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     OjwMouseDown(Object, MouseEventArgs): PrivateScope, Public, HideBySig
     OjwMouseDown(MouseEventArgs): PrivateScope, Public, HideBySig
     OjwMouseUp(Object, MouseEventArgs): PrivateScope, Public, HideBySig
+    SetDrawText_ForDisplay(TextBox): PrivateScope, Public, HideBySig
     OjwMouseUp(MouseEventArgs): PrivateScope, Public, HideBySig
     SetMouseMode_Move(): PrivateScope, Public, HideBySig
     SetMouseMode_Control(): PrivateScope, Public, HideBySig
@@ -501,12 +530,7 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     RemoveMouseEvent_Move(MouseEventHandler): PrivateScope, Public, HideBySig
     RemoveMouseEvent_Up(MouseEventHandler): PrivateScope, Public, HideBySig
     RemoveMouseEvent_Wheel(MouseEventHandler): PrivateScope, Public, HideBySig
-    CreateProb(Panel): PrivateScope, Public, HideBySig
-    Prop_SetEvent_Changed(PropertyValueChangedEventHandler): PrivateScope, Public, HideBySig
-    Prop_Add(String, String, String, Object, Boolean, Boolean): PrivateScope, Public, HideBySig
-    Prop_Remove(String): PrivateScope, Public, HideBySig
-    VisibleProp(String, Boolean): PrivateScope, Public, HideBySig
-    CreateProb_VirtualObject(Panel): PrivateScope, Public, HideBySig
+    SetMouseEventEnable(Boolean): PrivateScope, Public, HideBySig
     Prop_SetServe_Test(Int32): PrivateScope, Public, HideBySig
     Prop_Update_VirtualObject(): PrivateScope, Public, HideBySig
     Prop_Set_Main_MouseControlMode(Int32): PrivateScope, Public, HideBySig
@@ -584,6 +608,96 @@ Class OpenJigWare.Ojw+C3d: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFie
     Prop_Get_Rot_Pan2(): PrivateScope, Public, HideBySig
     Prop_Get_Trans_X3(): PrivateScope, Public, HideBySig
     Prop_Get_Rot_Pan3(): PrivateScope, Public, HideBySig
+    Prop_Get_Trans_X4(): PrivateScope, Public, HideBySig
+    Prop_Get_Rot_Pan4(): PrivateScope, Public, HideBySig
+    Prop_Get_Trans_X5(): PrivateScope, Public, HideBySig
+    Prop_Get_Rot_Pan5(): PrivateScope, Public, HideBySig
+    Prop_Get_PickGroup_A(): PrivateScope, Public, HideBySig
+    Prop_Get_InverseKinematicsNumber(): PrivateScope, Public, HideBySig
+    Prop_Get_Scale_Serve0(): PrivateScope, Public, HideBySig
+    CreateProb(Panel): PrivateScope, Public, HideBySig
+    Prop_SetEvent_Changed(PropertyValueChangedEventHandler): PrivateScope, Public, HideBySig
+    Prop_Add(String, String, String, Object, Boolean, Boolean): PrivateScope, Public, HideBySig
+    Prop_Remove(String): PrivateScope, Public, HideBySig
+    CreateProp_Selected(Int32): PrivateScope, Public, HideBySig
+    CreateProp_Selected(COjwDisp): PrivateScope, Public, HideBySig
+    CreateProp_Selected(Panel, Int32): PrivateScope, Public, HideBySig
+    CreateProp_Selected(Panel, COjwDisp): PrivateScope, Public, HideBySig
+    Prop_Update_Selected(): PrivateScope, Public, HideBySig
+    Prop_Set_Name_Selected(Int32): PrivateScope, Public, HideBySig
+    Prop_Set_Color_Selected(Color): PrivateScope, Public, HideBySig
+    Prop_Set_DispAlpha_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_DispObject_Selected(String): PrivateScope, Public, HideBySig
+    Prop_Set_Fill_Selected(Boolean): PrivateScope, Public, HideBySig
+    Prop_Set_Texture_Selected(Int32): PrivateScope, Public, HideBySig
+    Prop_Set_Init_Selected(Boolean): PrivateScope, Public, HideBySig
+    Prop_Set_Width_Or_Radius_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_Height_Or_Depth_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_Depth_Or_Cnt_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_Thickness_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_Gap_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_Caption_Selected(String): PrivateScope, Public, HideBySig
+    Prop_Set_AxisMoveType_Selected(Int32): PrivateScope, Public, HideBySig
+    Prop_Set_Dir_Selected(Int32): PrivateScope, Public, HideBySig
+    Prop_Set_Angle_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_Angle_Offset_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_Offset_Trans_Selected(SVector3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Offset_Rot_Selected(SAngle3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Trans_1_Selected(SVector3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Rot_1_Selected(SAngle3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Trans_2_Selected(SVector3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Rot_2_Selected(SAngle3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Trans_3_Selected(SVector3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Rot_3_Selected(SAngle3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Trans_4_Selected(SVector3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Rot_4_Selected(SAngle3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Trans_5_Selected(SVector3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_Rot_5_Selected(SAngle3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_PickGroup_Selected(SPoint3D_t): PrivateScope, Public, HideBySig
+    Prop_Set_InverseKinematicsNumber_Selected(Int32): PrivateScope, Public, HideBySig
+    Prop_Set_Scale_Serve0_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_Scale_Serve1_Selected(Single): PrivateScope, Public, HideBySig
+    Prop_Set_MotorType_Selected(Int32): PrivateScope, Public, HideBySig
+    Prop_Set_MotorControl_MousePoint_Selected(Int32): PrivateScope, Public, HideBySig
+    Prop_Set_PickGroup_Comment_Selected(String): PrivateScope, Public, HideBySig
+    Prop_Get_Name_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Color_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_DispAlpha_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_DispObject_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Fill_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Texture_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Init_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Width_Or_Radius_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Height_Or_Depth_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Depth_Or_Cnt_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Thickness_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Gap_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Caption_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_AxisMoveType_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Dir_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Angle_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Angle_Offset_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Offset_Trans_X_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Offset_Rot_Pan_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Trans_X1_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Rot_Pan1_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Trans_X2_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Rot_Pan2_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Trans_X3_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Rot_Pan3_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Trans_X4_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Rot_Pan4_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Trans_X5_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Rot_Pan5_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_PickGroup_A_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_InverseKinematicsNumber_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Scale_Serve0_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_Scale_Serve1_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_MotorType_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_MotorControl_MousePoint_Selected(): PrivateScope, Public, HideBySig
+    Prop_Get_PickGroup_Comment_Selected(): PrivateScope, Public, HideBySig
+    VisibleProp(String, Boolean): PrivateScope, Public, HideBySig
+    CreateProb_VirtualObject(Panel): PrivateScope, Public, HideBySig
 Class OpenJigWare.Ojw+C3d+CSlider`1[T]: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
   Type parameter: T
     Void .ctor(T, T, T, T): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -1290,6 +1404,81 @@ Struct OpenJigWare.Ojw+CRegistry+SystemParametersInfoAction: AutoLayout, AnsiCla
     SystemParametersInfoAction SPI_SETMINIMUMHITRADIUS = 8213 : Public, Static, Literal, HasDefault
     SystemParametersInfoAction SPI_GETMESSAGEDURATION = 8214 : Public, Static, Literal, HasDefault
     SystemParametersInfoAction SPI_SETMESSAGEDURATION = 8215 : Public, Static, Literal, HasDefault
+Class OpenJigWare.Ojw+CJoystick: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 _ID_0 : Public, Static
+    Int32 _ID_1 : Public, Static
+  Properties:
+    Double dX0 'get ' : 
+    Double dY0 'get ' : 
+    Int32 nID  'get set' : 
+    Double dX1 'get ' : 
+    Double dY1 'get ' : 
+    Double Slide 'get ' : 
+    Boolean IsValid 'get set' : 
+  Methods:
+    get_dX0(): PrivateScope, Public, HideBySig, SpecialName
+    get_dY0(): PrivateScope, Public, HideBySig, SpecialName
+    get_nID(): PrivateScope, Public, HideBySig, SpecialName
+    get_dX1(): PrivateScope, Public, HideBySig, SpecialName
+    get_dY1(): PrivateScope, Public, HideBySig, SpecialName
+    get_Slide(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsValid(): PrivateScope, Public, HideBySig, SpecialName
+    Update(): PrivateScope, Public, HideBySig
+    IsDown(IEnumerable`1): PrivateScope, Public, HideBySig
+    IsDown(PadKey[]): PrivateScope, Public, HideBySig
+    IsDown(PadKey): PrivateScope, Public, HideBySig
+    IsUp(IEnumerable`1): PrivateScope, Public, HideBySig
+    IsUp(PadKey[]): PrivateScope, Public, HideBySig
+    IsUp(PadKey): PrivateScope, Public, HideBySig
+Struct OpenJigWare.Ojw+CJoystick+PadKey: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Byte value__ : Public, SpecialName, RTSpecialName
+    PadKey None = 0 : Public, Static, Literal, HasDefault
+    PadKey Button1 = 1 : Public, Static, Literal, HasDefault
+    PadKey Button2 = 2 : Public, Static, Literal, HasDefault
+    PadKey Button3 = 3 : Public, Static, Literal, HasDefault
+    PadKey Button4 = 4 : Public, Static, Literal, HasDefault
+    PadKey Button5 = 5 : Public, Static, Literal, HasDefault
+    PadKey Button6 = 6 : Public, Static, Literal, HasDefault
+    PadKey Button7 = 7 : Public, Static, Literal, HasDefault
+    PadKey Button8 = 8 : Public, Static, Literal, HasDefault
+    PadKey Button9 = 9 : Public, Static, Literal, HasDefault
+    PadKey Button10 = 10 : Public, Static, Literal, HasDefault
+    PadKey Button11 = 11 : Public, Static, Literal, HasDefault
+    PadKey Button12 = 12 : Public, Static, Literal, HasDefault
+    PadKey Button13 = 13 : Public, Static, Literal, HasDefault
+    PadKey Button14 = 14 : Public, Static, Literal, HasDefault
+    PadKey Button15 = 15 : Public, Static, Literal, HasDefault
+    PadKey Button16 = 16 : Public, Static, Literal, HasDefault
+    PadKey Button17 = 17 : Public, Static, Literal, HasDefault
+    PadKey Button18 = 18 : Public, Static, Literal, HasDefault
+    PadKey Button19 = 19 : Public, Static, Literal, HasDefault
+    PadKey Button20 = 20 : Public, Static, Literal, HasDefault
+    PadKey Button21 = 21 : Public, Static, Literal, HasDefault
+    PadKey Button22 = 22 : Public, Static, Literal, HasDefault
+    PadKey Button23 = 23 : Public, Static, Literal, HasDefault
+    PadKey Button24 = 24 : Public, Static, Literal, HasDefault
+    PadKey Button25 = 25 : Public, Static, Literal, HasDefault
+    PadKey Button26 = 26 : Public, Static, Literal, HasDefault
+    PadKey Button27 = 27 : Public, Static, Literal, HasDefault
+    PadKey Button28 = 28 : Public, Static, Literal, HasDefault
+    PadKey Button29 = 29 : Public, Static, Literal, HasDefault
+    PadKey Button30 = 30 : Public, Static, Literal, HasDefault
+    PadKey StickUp = 31 : Public, Static, Literal, HasDefault
+    PadKey StickDown = 32 : Public, Static, Literal, HasDefault
+    PadKey StickLeft = 33 : Public, Static, Literal, HasDefault
+    PadKey StickRight = 34 : Public, Static, Literal, HasDefault
+    PadKey POVUp = 35 : Public, Static, Literal, HasDefault
+    PadKey POVDown = 36 : Public, Static, Literal, HasDefault
+    PadKey POVLeft = 37 : Public, Static, Literal, HasDefault
+    PadKey POVRight = 38 : Public, Static, Literal, HasDefault
+    PadKey SpinUp = 39 : Public, Static, Literal, HasDefault
+    PadKey SpinDown = 40 : Public, Static, Literal, HasDefault
+    PadKey SpinLeft = 41 : Public, Static, Literal, HasDefault
+    PadKey SpinRight = 42 : Public, Static, Literal, HasDefault
 Class OpenJigWare.Ojw+CGrid: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -1352,7 +1541,9 @@ Class OpenJigWare.Ojw+COjwCell: AutoLayout, AnsiClass, Class, NestedPublic, Befo
 Class OpenJigWare.Ojw+CProperty: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
-    Create(Panel, Object): PrivateScope, Public, HideBySig
+    Destroy(): PrivateScope, Public, HideBySig
+    Destroy(Control): PrivateScope, Public, HideBySig
+    Create(Control, Object): PrivateScope, Public, HideBySig
     SetEvent_Changed(PropertyValueChangedEventHandler): PrivateScope, Public, HideBySig
     RemoveEvent_Changed(PropertyValueChangedEventHandler): PrivateScope, Public, HideBySig
     Update(): PrivateScope, Public, HideBySig
@@ -1472,10 +1663,14 @@ Class OpenJigWare.Ojw+CGridView: AutoLayout, AnsiClass, Class, NestedPublic, Bef
     Boolean m_bKey_Ctrl : Public
     Boolean m_bKey_Alt : Public
     Boolean m_bKey_Shift : Public
+    Int32 m_nCurrntCell : Public
+    Int32 m_nCurrntColumn : Public
+    Boolean m_bGridMotionEditing : Public
   Methods:
     GetTableCount(): PrivateScope, Public, HideBySig
     GetLineCount(): PrivateScope, Public, HideBySig
     Create(DataGridView, Int32, SGridTable_t[]): PrivateScope, Public, HideBySig
+    Delete(): PrivateScope, Public, HideBySig
     Delete(Int32): PrivateScope, Public, HideBySig
     Delete(Int32, Int32): PrivateScope, Public, HideBySig
     Insert(Int32): PrivateScope, Public, HideBySig
@@ -1485,6 +1680,11 @@ Class OpenJigWare.Ojw+CGridView: AutoLayout, AnsiClass, Class, NestedPublic, Bef
     ChangePos(DataGridView, Int32, Int32): PrivateScope, Public, HideBySig
     Clear(Int32): PrivateScope, Public, HideBySig
     Clear(): PrivateScope, Public, HideBySig
+    OjwGrid_GetCurrentLine(): PrivateScope, Public, HideBySig
+    OjwGrid_GetCurrentColumn(): PrivateScope, Public, HideBySig
+    Ignore_CellEnter(Boolean): PrivateScope, Public, HideBySig
+    SetChangeCurrentLine(Int32): PrivateScope, Public, HideBySig
+    SetChangeCurrentCol(Int32): PrivateScope, Public, HideBySig
     SetEnable(Boolean): PrivateScope, Public, HideBySig
     SetEnable(Int32, Boolean): PrivateScope, Public, HideBySig
     GetEnable(): PrivateScope, Public, HideBySig
@@ -1528,9 +1728,11 @@ Class OpenJigWare.Ojw+CGridView: AutoLayout, AnsiClass, Class, NestedPublic, Bef
     SetCaption(Int32, String): PrivateScope, Public, HideBySig
     GetCaption(): PrivateScope, Public, HideBySig
     GetCaption(Int32): PrivateScope, Public, HideBySig
+    GetHandle(): PrivateScope, Public, HideBySig
     Calc(Int32, Single): PrivateScope, Public, HideBySig
     Calc(DataGridView, Int32, Single): PrivateScope, Public, HideBySig
     CheckMirror(Int32): PrivateScope, Public, HideBySig
+    dgAngle_Block_GridChange(TextBox, Boolean): PrivateScope, Public, HideBySig
 Class OpenJigWare.Ojw+CMessage: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
@@ -1556,16 +1758,16 @@ Class OpenJigWare.Ojw+CMessage: AutoLayout, AnsiClass, Class, NestedPublic, Befo
     SetupDisplay_Function(Boolean): PrivateScope, Public, Static, HideBySig
     SetupDisplay_Line(Boolean): PrivateScope, Public, Static, HideBySig
     SetupDisplay_Time(Boolean): PrivateScope, Public, Static, HideBySig
-    Write(String): PrivateScope, Public, Static, HideBySig
-    Write2(String): PrivateScope, Public, Static, HideBySig
-    Write(TextBox, String): PrivateScope, Public, Static, HideBySig
-    Write2(TextBox, String): PrivateScope, Public, Static, HideBySig
-    Write(TextBox, String, String): PrivateScope, Public, Static, HideBySig
-    Write2(TextBox, String, String): PrivateScope, Public, Static, HideBySig
-    Write(String, String): PrivateScope, Public, Static, HideBySig
-    Write2(String, String): PrivateScope, Public, Static, HideBySig
-    Write_Error(String): PrivateScope, Public, Static, HideBySig
-    Write_Error(TextBox, String): PrivateScope, Public, Static, HideBySig
+    Write(String, Object[]): PrivateScope, Public, Static, HideBySig
+    Write2(String, Object[]): PrivateScope, Public, Static, HideBySig
+    Write(TextBox, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Write2(TextBox, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Write(TextBox, String, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Write2(TextBox, String, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Write_withFileName(String, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Write2_withFileName(String, String, Object[]): PrivateScope, Public, Static, HideBySig
+    Write_Error(String, Object[]): PrivateScope, Public, Static, HideBySig
+    Write_Error(TextBox, String, Object[]): PrivateScope, Public, Static, HideBySig
 Struct OpenJigWare.Ojw+SEncryption_t: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
   :System.ValueType
   Fields:
@@ -1656,6 +1858,22 @@ Struct OpenJigWare.Ojw+SOjwCode_t: AutoLayout, AnsiClass, Class, NestedPublic, S
     Int32[] pnMotor_Number : Public
     Int32 nVar_Max : Public
     Int32[] pnVar_Number : Public
+Class OpenJigWare.Ojw+CUserEventArgs: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String strMessage 'get set' : 
+  Methods:
+    get_strMessage(): PrivateScope, Public, HideBySig, SpecialName
+    set_strMessage(String): PrivateScope, Public, HideBySig, SpecialName
+Class OpenJigWare.Ojw+CUserEvent: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Events:
+    System.EventHandler UserEvent: 
+  Methods:
+    add_UserEvent(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_UserEvent(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    RunEvent(): PrivateScope, Public, HideBySig
 Class OpenJigWare.Ojw+CInputBox: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
@@ -1853,6 +2071,8 @@ Class OpenJigWare.Ojw+CMath: AutoLayout, AnsiClass, Class, NestedPublic, BeforeF
     MakeMatrix_Rot(Double, Double, Double, Double[,]&(Out)): PrivateScope, Public, Static, HideBySig
     MakeMatrix(Double, Double, Double, Double[,]&(Out)): PrivateScope, Public, Static, HideBySig
     CompareMatrix(Int32, Double[,], Double[,]): PrivateScope, Public, Static, HideBySig
+    CalcRps(Single, Single): PrivateScope, Public, Static, HideBySig
+    CalcTime(Single, Single): PrivateScope, Public, Static, HideBySig
     LowPassFilter(Single, Single, Single): PrivateScope, Public, Static, HideBySig
     LowPassFilter_vd(Double, Double, Double): PrivateScope, Public, Static, HideBySig
     HighPassFilter(Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig
@@ -1944,10 +2164,15 @@ Class OpenJigWare.Ojw+CConvert`1[T]: AutoLayout, AnsiClass, Class, NestedPublic,
     Array2To1(T[,]): PrivateScope, Public, Static, HideBySig
     Array1To2(T[], Int32, Int32): PrivateScope, Public, Static, HideBySig
     ArrayCopy2(T[,], Int32, Int32, T[,]&, Int32, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    FloatsToDoubles(Single[]): PrivateScope, Public, Static, HideBySig
+    DoublesToFloats(Single[]): PrivateScope, Public, Static, HideBySig
 Class OpenJigWare.Ojw+CGraph: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
     Void .ctor(System.Windows.Forms.Label, Int32, System.Drawing.Color, System.Drawing.Bitmap, System.Drawing.Color[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
     Push(Int32[]): PrivateScope, Public, HideBySig
+    GetCount_Model(): PrivateScope, Public, HideBySig
+    GetCount_History(): PrivateScope, Public, HideBySig
+    Pop(Int32, Int32): PrivateScope, Public, HideBySig
     OjwDraw(): PrivateScope, Public, HideBySig
     SetOverwrite(Boolean): PrivateScope, Public, HideBySig
 Class OpenJigWare.Ojw+CSerial: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
@@ -1996,8 +2221,18 @@ Class OpenJigWare.Ojw+CTimer: AutoLayout, AnsiClass, Class, NestedPublic, Before
 Struct OpenJigWare.SVersion_T: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
   :System.ValueType
   Fields:
-    System.String strVersion = 01.00.10 : Public, Static, Literal, HasDefault
-    System.String strHistory = [V01.00.10]
+    System.String strVersion = 01.01.20 : Public, Static, Literal, HasDefault
+    System.String strHistory = [V01.01.20]
+ - 12_3D.cs - Init(Panel -> Control), InitProperty...(Label -> Control)
+========================================
+[V01.01.10]
+ - Message Param feature added
+========================================
+[V01.01.00]
+ - Joystics features added
+ - COjw_xx_Users.cs file added
+========================================
+[V01.00.10]
  - Debugging and some features are added
 ========================================
 [V01.00.00]

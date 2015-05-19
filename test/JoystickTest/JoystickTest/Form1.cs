@@ -173,11 +173,12 @@ namespace JoystickTest
             nNum = 11;
             if (m_CJoy.IsDown(PadKey.Button5) == true) m_afAngle[nNum] = fDown;
             else m_afAngle[nNum] = fUp;
-
-
+            
             // 좌상단 조이스틱
             m_afAngle[0] = (float)(20.0 * (m_CJoy.X0 - 0.5));
             m_afAngle[1] = (float)(20.0 * (m_CJoy.Y0 - 0.5));
+            //Ojw.CMessage.Write2("{0}, \t{1}\n", m_CJoy.X0, m_CJoy.Y0);
+            Ojw.CMessage.Write2("{0}, \t{1}\n", m_afAngle[0], m_afAngle[1]);
 
             // 우하단 조이스틱
             m_afAngle[4] = (float)(20.0 * (m_CJoy.X1 - 0.5));
