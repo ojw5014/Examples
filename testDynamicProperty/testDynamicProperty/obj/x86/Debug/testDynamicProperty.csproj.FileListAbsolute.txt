@@ -1,7 +1,0 @@
-D:\Bin\C#\GitHub\for Others(public)\Example\testDynamicProperty\testDynamicProperty\bin\Debug\testDynamicProperty.exe
-D:\Bin\C#\GitHub\for Others(public)\Example\testDynamicProperty\testDynamicProperty\bin\Debug\testDynamicProperty.pdb
-D:\Bin\C#\GitHub\for Others(public)\Example\testDynamicProperty\testDynamicProperty\obj\x86\Debug\testDynamicProperty.Form1.resources
-D:\Bin\C#\GitHub\for Others(public)\Example\testDynamicProperty\testDynamicProperty\obj\x86\Debug\testDynamicProperty.Properties.Resources.resources
-D:\Bin\C#\GitHub\for Others(public)\Example\testDynamicProperty\testDynamicProperty\obj\x86\Debug\testDynamicProperty.csproj.GenerateResource.Cache
-D:\Bin\C#\GitHub\for Others(public)\Example\testDynamicProperty\testDynamicProperty\obj\x86\Debug\testDynamicProperty.exe
-D:\Bin\C#\GitHub\for Others(public)\Example\testDynamicProperty\testDynamicProperty\obj\x86\Debug\testDynamicProperty.pdb
