@@ -1,0 +1,1024 @@
+ImageRuntimeVersion: v2.0.50727
+Assembly Tao.Platform.Windows, Version=1.0.0.5, Culture=neutral, PublicKeyToken=701104b2da67a104: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly Tao.OpenGl, Version=2.1.0.12, Culture=neutral, PublicKeyToken=1ca010269a4501ef: 
+	hash=None, flags=None
+Class Tao.Platform.Windows.Gdi: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 LPD_TYPE_RGBA = 0 : Public, Static, Literal, HasDefault
+    Int32 LPD_TYPE_COLORINDEX = 1 : Public, Static, Literal, HasDefault
+    Int32 LPD_DOUBLEBUFFER = 1 : Public, Static, Literal, HasDefault
+    Int32 LPD_STEREO = 2 : Public, Static, Literal, HasDefault
+    Int32 LPD_SUPPORT_GDI = 16 : Public, Static, Literal, HasDefault
+    Int32 LPD_SUPPORT_OPENGL = 32 : Public, Static, Literal, HasDefault
+    Int32 LPD_SHARE_DEPTH = 64 : Public, Static, Literal, HasDefault
+    Int32 LPD_SHARE_STENCIL = 128 : Public, Static, Literal, HasDefault
+    Int32 LPD_SHARE_ACCUM = 256 : Public, Static, Literal, HasDefault
+    Int32 LPD_SWAP_EXCHANGE = 512 : Public, Static, Literal, HasDefault
+    Int32 LPD_SWAP_COPY = 1024 : Public, Static, Literal, HasDefault
+    Int32 LPD_TRANSPARENT = 4096 : Public, Static, Literal, HasDefault
+    Int32 PFD_TYPE_RGBA = 0 : Public, Static, Literal, HasDefault
+    Int32 PFD_TYPE_COLORINDEX = 1 : Public, Static, Literal, HasDefault
+    Int32 PFD_MAIN_PLANE = 0 : Public, Static, Literal, HasDefault
+    Int32 PFD_OVERLAY_PLANE = 1 : Public, Static, Literal, HasDefault
+    Int32 PFD_UNDERLAY_PLANE = -1 : Public, Static, Literal, HasDefault
+    Int32 PFD_DOUBLEBUFFER = 1 : Public, Static, Literal, HasDefault
+    Int32 PFD_STEREO = 2 : Public, Static, Literal, HasDefault
+    Int32 PFD_DRAW_TO_WINDOW = 4 : Public, Static, Literal, HasDefault
+    Int32 PFD_DRAW_TO_BITMAP = 8 : Public, Static, Literal, HasDefault
+    Int32 PFD_SUPPORT_GDI = 16 : Public, Static, Literal, HasDefault
+    Int32 PFD_SUPPORT_OPENGL = 32 : Public, Static, Literal, HasDefault
+    Int32 PFD_GENERIC_FORMAT = 64 : Public, Static, Literal, HasDefault
+    Int32 PFD_NEED_PALETTE = 128 : Public, Static, Literal, HasDefault
+    Int32 PFD_NEED_SYSTEM_PALETTE = 256 : Public, Static, Literal, HasDefault
+    Int32 PFD_SWAP_EXCHANGE = 512 : Public, Static, Literal, HasDefault
+    Int32 PFD_SWAP_COPY = 1024 : Public, Static, Literal, HasDefault
+    Int32 PFD_SWAP_LAYER_BUFFERS = 2048 : Public, Static, Literal, HasDefault
+    Int32 PFD_GENERIC_ACCELERATED = 4096 : Public, Static, Literal, HasDefault
+    Int32 PFD_SUPPORT_DIRECTDRAW = 8192 : Public, Static, Literal, HasDefault
+    Int32 PFD_DEPTH_DONTCARE = 536870912 : Public, Static, Literal, HasDefault
+    Int32 PFD_DOUBLEBUFFER_DONTCARE = 1073741824 : Public, Static, Literal, HasDefault
+    Int32 PFD_STEREO_DONTCARE = -2147483648 : Public, Static, Literal, HasDefault
+    Int32 DM_BITSPERPEL = 262144 : Public, Static, Literal, HasDefault
+    Int32 DM_PELSWIDTH = 524288 : Public, Static, Literal, HasDefault
+    Int32 DM_PELSHEIGHT = 1048576 : Public, Static, Literal, HasDefault
+    Int32 DM_DISPLAYFLAGS = 2097152 : Public, Static, Literal, HasDefault
+    Int32 DM_DISPLAYFREQUENCY = 4194304 : Public, Static, Literal, HasDefault
+    Int32 OUT_TT_PRECIS = 4 : Public, Static, Literal, HasDefault
+    Int32 CLIP_DEFAULT_PRECIS = 0 : Public, Static, Literal, HasDefault
+    Int32 DEFAULT_QUALITY = 0 : Public, Static, Literal, HasDefault
+    Int32 DRAFT_QUALITY = 1 : Public, Static, Literal, HasDefault
+    Int32 PROOF_QUALITY = 2 : Public, Static, Literal, HasDefault
+    Int32 NONANTIALIASED_QUALITY = 3 : Public, Static, Literal, HasDefault
+    Int32 ANTIALIASED_QUALITY = 4 : Public, Static, Literal, HasDefault
+    Int32 CLEARTYPE_QUALITY = 5 : Public, Static, Literal, HasDefault
+    Int32 CLEARTYPE_NATURAL_QUALITY = 6 : Public, Static, Literal, HasDefault
+    Int32 DEFAULT_PITCH = 0 : Public, Static, Literal, HasDefault
+    Int32 FIXED_PITCH = 1 : Public, Static, Literal, HasDefault
+    Int32 VARIABLE_PITCH = 2 : Public, Static, Literal, HasDefault
+    Int32 MONO_FONT = 8 : Public, Static, Literal, HasDefault
+    Int32 ANSI_CHARSET = 0 : Public, Static, Literal, HasDefault
+    Int32 DEFAULT_CHARSET = 1 : Public, Static, Literal, HasDefault
+    Int32 SYMBOL_CHARSET = 2 : Public, Static, Literal, HasDefault
+    Int32 SHIFTJIS_CHARSET = 128 : Public, Static, Literal, HasDefault
+    Int32 FF_DONTCARE = 0 : Public, Static, Literal, HasDefault
+    Int32 FW_BOLD = 700 : Public, Static, Literal, HasDefault
+  Methods:
+    _SetPixelFormat(IntPtr, Int32, PIXELFORMATDESCRIPTOR&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    ChoosePixelFormat(IntPtr, PIXELFORMATDESCRIPTOR&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    SetPixelFormat(IntPtr, Int32, PIXELFORMATDESCRIPTOR&): PrivateScope, Public, Static, HideBySig
+    SwapBuffers(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    SwapBuffersFast(IntPtr(In)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    CreateFont(Int32, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Int32, Int32, Int32, Int32, Int32, String): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    DeleteObject(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    SelectObject(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetDeviceCaps(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+Struct Tao.Platform.Windows.Gdi+DEVMODE: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String dmDeviceName : Public, HasFieldMarshal
+    Int16 dmSpecVersion : Public
+    Int16 dmDriverVersion : Public
+    Int16 dmSize : Public
+    Int16 dmDriverExtra : Public
+    Int32 dmFields : Public
+    Int16 dmOrientation : Public
+    Int16 dmPaperSize : Public
+    Int16 dmPaperLength : Public
+    Int16 dmPaperWidth : Public
+    Int16 dmScale : Public
+    Int16 dmCopies : Public
+    Int16 dmDefaultSource : Public
+    Int16 dmPrintQuality : Public
+    Int16 dmColor : Public
+    Int16 dmDuplex : Public
+    Int16 dmYResolution : Public
+    Int16 dmTTOption : Public
+    Int16 dmCollate : Public
+    System.String dmFormName : Public, HasFieldMarshal
+    Int16 dmLogPixels : Public
+    Int32 dmBitsPerPel : Public
+    Int32 dmPelsWidth : Public
+    Int32 dmPelsHeight : Public
+    Int32 dmDisplayFlags : Public
+    Int32 dmDisplayFrequency : Public
+    Int32 dmICMMethod : Public
+    Int32 dmICMIntent : Public
+    Int32 dmMediaType : Public
+    Int32 dmDitherType : Public
+    Int32 dmReserved1 : Public
+    Int32 dmReserved2 : Public
+    Int32 dmPanningWidth : Public
+    Int32 dmPanningHeight : Public
+Struct Tao.Platform.Windows.Gdi+GLYPHMETRICSFLOAT: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Single gmfBlackBoxX : Public
+    Single gmfBlackBoxY : Public
+    POINTFLOAT gmfptGlyphOrigin : Public
+    Single gmfCellIncX : Public
+    Single gmfCellIncY : Public
+Struct Tao.Platform.Windows.Gdi+PIXELFORMATDESCRIPTOR: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int16 nSize : Public
+    Int16 nVersion : Public
+    Int32 dwFlags : Public
+    Byte iPixelType : Public
+    Byte cColorBits : Public
+    Byte cRedBits : Public
+    Byte cRedShift : Public
+    Byte cGreenBits : Public
+    Byte cGreenShift : Public
+    Byte cBlueBits : Public
+    Byte cBlueShift : Public
+    Byte cAlphaBits : Public
+    Byte cAlphaShift : Public
+    Byte cAccumBits : Public
+    Byte cAccumRedBits : Public
+    Byte cAccumGreenBits : Public
+    Byte cAccumBlueBits : Public
+    Byte cAccumAlphaBits : Public
+    Byte cDepthBits : Public
+    Byte cStencilBits : Public
+    Byte cAuxBuffers : Public
+    Byte iLayerType : Public
+    Byte bReserved : Public
+    Int32 dwLayerMask : Public
+    Int32 dwVisibleMask : Public
+    Int32 dwDamageMask : Public
+Struct Tao.Platform.Windows.Gdi+POINTFLOAT: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Single X : Public
+    Single Y : Public
+Struct Tao.Platform.Windows.Gdi+LAYERPLANEDESCRIPTOR: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int16 nSize : Public
+    Int16 nVersion : Public
+    Int32 dwFlags : Public
+    Byte iPixelType : Public
+    Byte cColorBits : Public
+    Byte cRedBits : Public
+    Byte cRedShift : Public
+    Byte cGreenBits : Public
+    Byte cGreenShift : Public
+    Byte cBlueBits : Public
+    Byte cBlueShift : Public
+    Byte cAlphaBits : Public
+    Byte cAlphaShift : Public
+    Byte cAccumBits : Public
+    Byte cAccumRedBits : Public
+    Byte cAccumGreenBits : Public
+    Byte cAccumBlueBits : Public
+    Byte cAccumAlphaBits : Public
+    Byte cDepthBits : Public
+    Byte cStencilBits : Public
+    Byte cAuxBuffers : Public
+    Byte iLayerPlane : Public
+    Byte bReserved : Public
+    Int32 crTransparent : Public
+Struct Tao.Platform.Windows.Gdi+DevCaps: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    DevCaps DRIVERVERSION = 0 : Public, Static, Literal, HasDefault
+    DevCaps TECHNOLOGY = 2 : Public, Static, Literal, HasDefault
+    DevCaps HORZSIZE = 4 : Public, Static, Literal, HasDefault
+    DevCaps VERTSIZE = 6 : Public, Static, Literal, HasDefault
+    DevCaps HORZRES = 8 : Public, Static, Literal, HasDefault
+    DevCaps VERTRES = 10 : Public, Static, Literal, HasDefault
+    DevCaps BITSPIXEL = 12 : Public, Static, Literal, HasDefault
+    DevCaps PLANES = 14 : Public, Static, Literal, HasDefault
+    DevCaps NUMBRUSHES = 16 : Public, Static, Literal, HasDefault
+    DevCaps NUMPENS = 18 : Public, Static, Literal, HasDefault
+    DevCaps NUMMARKERS = 20 : Public, Static, Literal, HasDefault
+    DevCaps NUMFONTS = 22 : Public, Static, Literal, HasDefault
+    DevCaps NUMCOLORS = 24 : Public, Static, Literal, HasDefault
+    DevCaps PDEVICESIZE = 26 : Public, Static, Literal, HasDefault
+    DevCaps CURVECAPS = 28 : Public, Static, Literal, HasDefault
+    DevCaps LINECAPS = 30 : Public, Static, Literal, HasDefault
+    DevCaps POLYGONALCAPS = 32 : Public, Static, Literal, HasDefault
+    DevCaps TEXTCAPS = 34 : Public, Static, Literal, HasDefault
+    DevCaps CLIPCAPS = 36 : Public, Static, Literal, HasDefault
+    DevCaps RASTERCAPS = 38 : Public, Static, Literal, HasDefault
+    DevCaps ASPECTX = 40 : Public, Static, Literal, HasDefault
+    DevCaps ASPECTY = 42 : Public, Static, Literal, HasDefault
+    DevCaps ASPECTXY = 44 : Public, Static, Literal, HasDefault
+    DevCaps SHADEBLENDCAPS = 45 : Public, Static, Literal, HasDefault
+    DevCaps LOGPIXELSX = 88 : Public, Static, Literal, HasDefault
+    DevCaps LOGPIXELSY = 90 : Public, Static, Literal, HasDefault
+    DevCaps SIZEPALETTE = 104 : Public, Static, Literal, HasDefault
+    DevCaps NUMRESERVED = 106 : Public, Static, Literal, HasDefault
+    DevCaps COLORRES = 108 : Public, Static, Literal, HasDefault
+    DevCaps PHYSICALWIDTH = 110 : Public, Static, Literal, HasDefault
+    DevCaps PHYSICALHEIGHT = 111 : Public, Static, Literal, HasDefault
+    DevCaps PHYSICALOFFSETX = 112 : Public, Static, Literal, HasDefault
+    DevCaps PHYSICALOFFSETY = 113 : Public, Static, Literal, HasDefault
+    DevCaps SCALINGFACTORX = 114 : Public, Static, Literal, HasDefault
+    DevCaps SCALINGFACTORY = 115 : Public, Static, Literal, HasDefault
+    DevCaps VREFRESH = 116 : Public, Static, Literal, HasDefault
+    DevCaps DESKTOPVERTRES = 117 : Public, Static, Literal, HasDefault
+    DevCaps DESKTOPHORZRES = 118 : Public, Static, Literal, HasDefault
+    DevCaps BLTALIGNMENT = 119 : Public, Static, Literal, HasDefault
+Class Tao.Platform.Windows.IlasmAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Tao.Platform.Windows.Kernel: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Beep(Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    FreeLibrary(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetDllDirectory(Int32, StringBuilder(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetModuleFileName(IntPtr, StringBuilder(Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetModuleHandle(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetProcAddress(IntPtr, String): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetProcessWorkingSetSize(IntPtr, Int32&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetSystemDirectory(StringBuilder(Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetSystemInfo(SYSTEM_INFO&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetSystemWindowsDirectory(StringBuilder(Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetTickCount(): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetWindowsDirectory(StringBuilder(Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GlobalMemoryStatus(MEMORYSTATUS&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    IsProcessorFeaturePresent(Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    LoadLibrary(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    QueryPerformanceCounter(Int64&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    QueryPerformanceCounterFast(Int64&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    QueryPerformanceFrequency(Int64&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    SetDllDirectory(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    SetProcessWorkingSetSize(IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+Struct Tao.Platform.Windows.Kernel+MEMORYSTATUS: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 Length : Public
+    Int32 MemoryLoad : Public
+    Int32 TotalPhys : Public
+    Int32 AvailPhys : Public
+    Int32 TotalPageFile : Public
+    Int32 AvailPageFile : Public
+    Int32 TotalVirtual : Public
+    Int32 AvailVirtual : Public
+Struct Tao.Platform.Windows.Kernel+SYSTEM_INFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    SYSTEM_INFO_UNION SystemInfoUnion : Public
+    Int32 PageSize : Public
+    IntPtr MinimumApplicationAddress : Public
+    IntPtr MaximumApplicationAddress : Public
+    Int32 ActiveProcessorMask : Public
+    Int32 NumberOfProcessors : Public
+    Int32 ProcessorType : Public
+    Int32 AllocationGranularity : Public
+    Int32 ProcessorLevel : Public
+    Int32 ProcessorRevision : Public
+Struct Tao.Platform.Windows.Kernel+SYSTEM_INFO_UNION: AutoLayout, AnsiClass, Class, NestedPublic, ExplicitLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 OemId : Public
+    Int16 ProcessorArchitecture : Public
+    Int16 Reserved : Public
+Class Tao.Platform.Windows.SimpleOpenGlControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 LogScaleX 'get ' : 
+    Int32 LogScaleY 'get ' : 
+    Byte AccumBits 'get set' : 
+    Byte ColorBits 'get set' : 
+    Byte DepthBits 'get set' : 
+    Byte StencilBits 'get set' : 
+    Boolean AutoCheckErrors 'get set' : 
+    Boolean AutoFinish 'get set' : 
+    Boolean AutoMakeCurrent 'get set' : 
+    Boolean AutoSwapBuffers 'get set' : 
+  Methods:
+    get_LogScaleX(): PrivateScope, Public, HideBySig, SpecialName
+    get_LogScaleY(): PrivateScope, Public, HideBySig, SpecialName
+    get_AccumBits(): PrivateScope, Public, HideBySig, SpecialName
+    set_AccumBits(Byte): PrivateScope, Public, HideBySig, SpecialName
+    get_ColorBits(): PrivateScope, Public, HideBySig, SpecialName
+    set_ColorBits(Byte): PrivateScope, Public, HideBySig, SpecialName
+    get_DepthBits(): PrivateScope, Public, HideBySig, SpecialName
+    set_DepthBits(Byte): PrivateScope, Public, HideBySig, SpecialName
+    get_StencilBits(): PrivateScope, Public, HideBySig, SpecialName
+    set_StencilBits(Byte): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoCheckErrors(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoCheckErrors(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoFinish(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoFinish(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoMakeCurrent(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoMakeCurrent(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoSwapBuffers(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoSwapBuffers(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    DestroyContexts(): PrivateScope, Public, HideBySig
+    Draw(): PrivateScope, Public, HideBySig
+    InitializeContexts(): PrivateScope, Public, HideBySig
+    MakeCurrent(): PrivateScope, Public, HideBySig
+    SwapBuffers(): PrivateScope, Public, HideBySig
+Class Tao.Platform.Windows.User: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 CS_VREDRAW = 1 : Public, Static, Literal, HasDefault
+    Int32 CS_HREDRAW = 2 : Public, Static, Literal, HasDefault
+    Int32 CS_DBLCLKS = 8 : Public, Static, Literal, HasDefault
+    Int32 CS_OWNDC = 32 : Public, Static, Literal, HasDefault
+    Int32 CS_CLASSDC = 64 : Public, Static, Literal, HasDefault
+    Int32 CS_PARENTDC = 128 : Public, Static, Literal, HasDefault
+    Int32 CS_NOCLOSE = 512 : Public, Static, Literal, HasDefault
+    Int32 CS_SAVEBITS = 2048 : Public, Static, Literal, HasDefault
+    Int32 CS_BYTEALIGNCLIENT = 4096 : Public, Static, Literal, HasDefault
+    Int32 CS_BYTEALIGNWINDOW = 8192 : Public, Static, Literal, HasDefault
+    Int32 CS_GLOBALCLASS = 16384 : Public, Static, Literal, HasDefault
+    Int32 CS_IME = 65536 : Public, Static, Literal, HasDefault
+    Int32 CS_DROPSHADOW = 131072 : Public, Static, Literal, HasDefault
+    Int32 CDS_UPDATEREGISTRY = 1 : Public, Static, Literal, HasDefault
+    Int32 CDS_TEST = 2 : Public, Static, Literal, HasDefault
+    Int32 CDS_FULLSCREEN = 4 : Public, Static, Literal, HasDefault
+    Int32 DISP_CHANGE_SUCCESSFUL = 0 : Public, Static, Literal, HasDefault
+    Int32 DISP_CHANGE_RESTART = 1 : Public, Static, Literal, HasDefault
+    Int32 DISP_CHANGE_FAILED = -1 : Public, Static, Literal, HasDefault
+    Int32 ENUM_CURRENT_SETTINGS = -1 : Public, Static, Literal, HasDefault
+  Methods:
+    ChangeDisplaySettings(DEVMODE&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    ChangeDisplaySettings(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    EnumDisplaySettings(String, Int32, DEVMODE&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    GetDC(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    ReleaseDC(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    SetParent(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    FindWindow(String, String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ShowWindow(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetWindowPos(IntPtr, IntPtr, Int32, Int32, Int32, Int32, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+Struct Tao.Platform.Windows.User+SHOWWINDOW: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    SHOWWINDOW SW_HIDE = 0 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_SHOWNORMAL = 1 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_NORMAL = 1 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_SHOWMINIMIZED = 2 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_SHOWMAXIMIZED = 3 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_MAXIMIZE = 3 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_SHOWNOACTIVATE = 4 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_SHOW = 5 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_MINIMIZE = 6 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_SHOWMINNOACTIVE = 7 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_SHOWNA = 8 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_RESTORE = 9 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_SHOWDEFAULT = 10 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_FORCEMINIMIZE = 11 : Public, Static, Literal, HasDefault
+    SHOWWINDOW SW_MAX = 11 : Public, Static, Literal, HasDefault
+Class Tao.Platform.Windows.Wgl: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed
+  Fields:
+    Int32 WGL_FONT_POLYGONS = 1 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_METHOD_EXT = 8199 : Public, Static, Literal, HasDefault
+    Int32 WGL_MIPMAP_TEXTURE_ARB = 8308 : Public, Static, Literal, HasDefault
+    Int32 WGL_NO_ACCELERATION_ARB = 8229 : Public, Static, Literal, HasDefault
+    Int32 WGL_SAMPLE_BUFFERS_EXT = 8257 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_RGB_ARB = 8304 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX_BUFFERS_EXT = 8228 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX0_ARB = 8327 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENLOCK_SOURCE_EDGE_FALLING_I3D = 8266 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_ALPHA_BITS_EXT = 8225 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_RECTANGLE_FLOAT_R_NV = 8369 : Public, Static, Literal, HasDefault
+    Int32 WGL_IMAGE_BUFFER_LOCK_I3D = 2 : Public, Static, Literal, HasDefault
+    Int32 WGL_BLUE_SHIFT_EXT = 8218 : Public, Static, Literal, HasDefault
+    Int32 WGL_NEED_SYSTEM_PALETTE_EXT = 8197 : Public, Static, Literal, HasDefault
+    Int32 WGL_SHARE_ACCUM_EXT = 8206 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_CUBE_MAP_NEGATIVE_X_ARB = 8318 : Public, Static, Literal, HasDefault
+    Int32 WGL_DRAW_TO_PBUFFER_ARB = 8237 : Public, Static, Literal, HasDefault
+    Int32 WGL_DIGITAL_VIDEO_GAMMA_CORRECTED_I3D = 8275 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_CUBE_MAP_ARB = 8312 : Public, Static, Literal, HasDefault
+    Int32 WGL_TYPE_RGBA_FLOAT_ARB = 8608 : Public, Static, Literal, HasDefault
+    Int32 WGL_FULL_ACCELERATION_EXT = 8231 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_GREEN_BITS_EXT = 8223 : Public, Static, Literal, HasDefault
+    Int32 WGL_BACK_COLOR_BUFFER_BIT_ARB = 2 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_GREEN_BITS_ARB = 8223 : Public, Static, Literal, HasDefault
+    Int32 WGL_MAX_PBUFFER_WIDTH_EXT = 8239 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_RED_BITS_EXT = 8222 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX9_ARB = 8336 : Public, Static, Literal, HasDefault
+    Int32 WGL_TRANSPARENT_EXT = 8202 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_ALPHA_BITS_ARB = 8225 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENERIC_ACCELERATION_EXT = 8230 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX2_ARB = 8329 : Public, Static, Literal, HasDefault
+    Int32 WGL_PIXEL_TYPE_EXT = 8211 : Public, Static, Literal, HasDefault
+    Int32 WGL_NUMBER_PIXEL_FORMATS_EXT = 8192 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCELERATION_ARB = 8195 : Public, Static, Literal, HasDefault
+    Int32 WGL_IMAGE_BUFFER_MIN_ACCESS_I3D = 1 : Public, Static, Literal, HasDefault
+    Int32 WGL_DOUBLE_BUFFER_EXT = 8209 : Public, Static, Literal, HasDefault
+    Int32 WGL_NEED_PALETTE_EXT = 8196 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_FLOAT_RG_NV = 8374 : Public, Static, Literal, HasDefault
+    Int32 WGL_DEPTH_FLOAT_EXT = 8256 : Public, Static, Literal, HasDefault
+    Int32 WGL_BLUE_BITS_ARB = 8217 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_BITS_EXT = 8221 : Public, Static, Literal, HasDefault
+    Int32 WGL_MAX_PBUFFER_WIDTH_ARB = 8239 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_CUBE_MAP_NEGATIVE_Y_ARB = 8320 : Public, Static, Literal, HasDefault
+    Int32 WGL_NUMBER_OVERLAYS_ARB = 8200 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_RGB_ARB = 8309 : Public, Static, Literal, HasDefault
+    Int32 WGL_SUPPORT_GDI_EXT = 8207 : Public, Static, Literal, HasDefault
+    Int32 WGL_PBUFFER_HEIGHT_EXT = 8245 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_RECTANGLE_DEPTH_NV = 8356 : Public, Static, Literal, HasDefault
+    Int32 WGL_SAMPLE_BUFFERS_ARB = 8257 : Public, Static, Literal, HasDefault
+    Int32 WGL_TRANSPARENT_ALPHA_VALUE_ARB = 8250 : Public, Static, Literal, HasDefault
+    Int32 WGL_GREEN_SHIFT_ARB = 8216 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_RECTANGLE_RGBA_NV = 8353 : Public, Static, Literal, HasDefault
+    Int32 WGL_TYPE_COLORINDEX_EXT = 8236 : Public, Static, Literal, HasDefault
+    Int32 WGL_SHARE_STENCIL_ARB = 8205 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENLOCK_SOURCE_DIGITAL_SYNC_I3D = 8264 : Public, Static, Literal, HasDefault
+    Int32 WGL_SHARE_DEPTH_EXT = 8204 : Public, Static, Literal, HasDefault
+    Int32 WGL_NO_ACCELERATION_EXT = 8229 : Public, Static, Literal, HasDefault
+    Int32 WGL_BLUE_SHIFT_ARB = 8218 : Public, Static, Literal, HasDefault
+    Int32 WGL_SUPPORT_GDI_ARB = 8207 : Public, Static, Literal, HasDefault
+    Int32 WGL_NO_TEXTURE_ARB = 8311 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_FLOAT_RGBA_NV = 8376 : Public, Static, Literal, HasDefault
+    Int32 WGL_DEPTH_TEXTURE_FORMAT_NV = 8357 : Public, Static, Literal, HasDefault
+    Int32 WGL_TRANSPARENT_BLUE_VALUE_ARB = 8249 : Public, Static, Literal, HasDefault
+    Int32 WGL_DEPTH_BUFFER_BIT_ARB = 4 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_CUBE_MAP_NEGATIVE_Z_ARB = 8322 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_EXCHANGE_ARB = 8232 : Public, Static, Literal, HasDefault
+    Int32 WGL_TRANSPARENT_RED_VALUE_ARB = 8247 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_COPY_ARB = 8233 : Public, Static, Literal, HasDefault
+    Int32 WGL_GREEN_SHIFT_EXT = 8216 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_CUBE_MAP_POSITIVE_Z_ARB = 8321 : Public, Static, Literal, HasDefault
+    Int32 WGL_TYPE_RGBA_EXT = 8235 : Public, Static, Literal, HasDefault
+    Int32 WGL_TYPE_RGBA_FLOAT_ATI = 8608 : Public, Static, Literal, HasDefault
+    Int32 WGL_NUMBER_PIXEL_FORMATS_ARB = 8192 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_RGBA_ARB = 8310 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_COPY_EXT = 8233 : Public, Static, Literal, HasDefault
+    Int32 WGL_NEED_SYSTEM_PALETTE_ARB = 8197 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_FLOAT_RGB_NV = 8375 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_UNDEFINED_ARB = 8234 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENLOCK_SOURCE_DIGITAL_FIELD_I3D = 8265 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENLOCK_SOURCE_EDGE_RISING_I3D = 8267 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_LAYER_BUFFERS_EXT = 8198 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_UNDEFINED_EXT = 8234 : Public, Static, Literal, HasDefault
+    Int32 WGL_FULL_ACCELERATION_ARB = 8231 : Public, Static, Literal, HasDefault
+    Int32 WGL_NUMBER_UNDERLAYS_ARB = 8201 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_RGBA_ARB = 8305 : Public, Static, Literal, HasDefault
+    Int32 WGL_TRANSPARENT_GREEN_VALUE_ARB = 8248 : Public, Static, Literal, HasDefault
+    Int32 WGL_PIXEL_TYPE_ARB = 8211 : Public, Static, Literal, HasDefault
+    Int32 WGL_NEED_PALETTE_ARB = 8196 : Public, Static, Literal, HasDefault
+    Int32 WGL_NUMBER_OVERLAYS_EXT = 8200 : Public, Static, Literal, HasDefault
+    Int32 WGL_DEPTH_BITS_EXT = 8226 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX3_ARB = 8330 : Public, Static, Literal, HasDefault
+    Int32 WGL_DEPTH_BITS_ARB = 8226 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENERIC_ACCELERATION_ARB = 8230 : Public, Static, Literal, HasDefault
+    Int32 WGL_TYPE_RGBA_ARB = 8235 : Public, Static, Literal, HasDefault
+    Int32 WGL_DRAW_TO_WINDOW_EXT = 8193 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_2D_ARB = 8314 : Public, Static, Literal, HasDefault
+    Int32 WGL_STENCIL_BUFFER_BIT_ARB = 8 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_EXCHANGE_EXT = 8232 : Public, Static, Literal, HasDefault
+    Int32 WGL_SHARE_STENCIL_EXT = 8205 : Public, Static, Literal, HasDefault
+    Int32 WGL_STEREO_ARB = 8210 : Public, Static, Literal, HasDefault
+    Int32 WGL_SHARE_ACCUM_ARB = 8206 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_RECTANGLE_NV = 8354 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_RECTANGLE_FLOAT_RGB_NV = 8371 : Public, Static, Literal, HasDefault
+    Int32 WGL_STENCIL_BITS_EXT = 8227 : Public, Static, Literal, HasDefault
+    Int32 WGL_MIPMAP_LEVEL_ARB = 8315 : Public, Static, Literal, HasDefault
+    Int32 WGL_DRAW_TO_WINDOW_ARB = 8193 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX5_ARB = 8332 : Public, Static, Literal, HasDefault
+    Int32 WGL_DEPTH_COMPONENT_NV = 8359 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX1_ARB = 8328 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_DEPTH_COMPONENT_NV = 8358 : Public, Static, Literal, HasDefault
+    Int32 WGL_FRONT_LEFT_ARB = 8323 : Public, Static, Literal, HasDefault
+    Int32 WGL_MAX_PBUFFER_HEIGHT_EXT = 8240 : Public, Static, Literal, HasDefault
+    Int32 WGL_RED_BITS_EXT = 8213 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENLOCK_SOURCE_EXTENAL_TTL_I3D = 8263 : Public, Static, Literal, HasDefault
+    Int32 WGL_RED_SHIFT_ARB = 8214 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_CUBE_MAP_POSITIVE_Y_ARB = 8319 : Public, Static, Literal, HasDefault
+    Int32 WGL_DIGITAL_VIDEO_CURSOR_ALPHA_VALUE_I3D = 8273 : Public, Static, Literal, HasDefault
+    Int32 WGL_TRANSPARENT_INDEX_VALUE_ARB = 8251 : Public, Static, Literal, HasDefault
+    Int32 WGL_ALPHA_BITS_EXT = 8219 : Public, Static, Literal, HasDefault
+    Int32 WGL_TRANSPARENT_VALUE_EXT = 8203 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_DEPTH_NV = 8355 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_1D_ARB = 8313 : Public, Static, Literal, HasDefault
+    Int32 WGL_MAX_PBUFFER_PIXELS_ARB = 8238 : Public, Static, Literal, HasDefault
+    Int32 WGL_SUPPORT_OPENGL_ARB = 8208 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_TARGET_ARB = 8307 : Public, Static, Literal, HasDefault
+    Int32 WGL_SAMPLE_BUFFERS_3DFX = 8288 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_FLOAT_R_NV = 8373 : Public, Static, Literal, HasDefault
+    Int32 WGL_COLOR_BITS_EXT = 8212 : Public, Static, Literal, HasDefault
+    Int32 WGL_BACK_RIGHT_ARB = 8326 : Public, Static, Literal, HasDefault
+    Int32 WGL_PBUFFER_HEIGHT_ARB = 8245 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_BLUE_BITS_ARB = 8224 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_CUBE_MAP_POSITIVE_X_ARB = 8317 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENLOCK_SOURCE_EXTENAL_SYNC_I3D = 8261 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_METHOD_ARB = 8199 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX8_ARB = 8335 : Public, Static, Literal, HasDefault
+    Int32 WGL_TYPE_COLORINDEX_ARB = 8236 : Public, Static, Literal, HasDefault
+    Int32 WGL_DRAW_TO_PBUFFER_EXT = 8237 : Public, Static, Literal, HasDefault
+    Int32 WGL_CUBE_MAP_FACE_ARB = 8316 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENLOCK_SOURCE_EDGE_BOTH_I3D = 8268 : Public, Static, Literal, HasDefault
+    Int32 WGL_SAMPLES_3DFX = 8289 : Public, Static, Literal, HasDefault
+    Int32 WGL_MAX_PBUFFER_PIXELS_EXT = 8238 : Public, Static, Literal, HasDefault
+    Int32 WGL_DOUBLE_BUFFER_ARB = 8209 : Public, Static, Literal, HasDefault
+    Int32 WGL_STEREO_EXT = 8210 : Public, Static, Literal, HasDefault
+    Int32 WGL_RED_SHIFT_EXT = 8214 : Public, Static, Literal, HasDefault
+    Int32 WGL_ALPHA_BITS_ARB = 8219 : Public, Static, Literal, HasDefault
+    Int32 WGL_COLOR_BITS_ARB = 8212 : Public, Static, Literal, HasDefault
+    Int32 WGL_GAMMA_TABLE_SIZE_I3D = 8270 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX_BUFFERS_ARB = 8228 : Public, Static, Literal, HasDefault
+    Int32 WGL_ERROR_INCOMPATIBLE_DEVICE_CONTEXTS_ARB = 8276 : Public, Static, Literal, HasDefault
+    Int32 WGL_FRONT_COLOR_BUFFER_BIT_ARB = 1 : Public, Static, Literal, HasDefault
+    Int32 WGL_SAMPLES_EXT = 8258 : Public, Static, Literal, HasDefault
+    Int32 WGL_ALPHA_SHIFT_EXT = 8220 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCELERATION_EXT = 8195 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX6_ARB = 8333 : Public, Static, Literal, HasDefault
+    Int32 WGL_FRONT_RIGHT_ARB = 8324 : Public, Static, Literal, HasDefault
+    Int32 WGL_PBUFFER_WIDTH_ARB = 8244 : Public, Static, Literal, HasDefault
+    Int32 WGL_PBUFFER_LARGEST_ARB = 8243 : Public, Static, Literal, HasDefault
+    Int32 WGL_NUMBER_UNDERLAYS_EXT = 8201 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_BITS_ARB = 8221 : Public, Static, Literal, HasDefault
+    Int32 WGL_STENCIL_BITS_ARB = 8227 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_BLUE_BITS_EXT = 8224 : Public, Static, Literal, HasDefault
+    Int32 WGL_MAX_PBUFFER_HEIGHT_ARB = 8240 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX4_ARB = 8331 : Public, Static, Literal, HasDefault
+    Int32 WGL_TEXTURE_FORMAT_ARB = 8306 : Public, Static, Literal, HasDefault
+    Int32 WGL_ACCUM_RED_BITS_ARB = 8222 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_RECTANGLE_FLOAT_RGBA_NV = 8372 : Public, Static, Literal, HasDefault
+    Int32 WGL_FLOAT_COMPONENTS_NV = 8368 : Public, Static, Literal, HasDefault
+    Int32 WGL_TRANSPARENT_ARB = 8202 : Public, Static, Literal, HasDefault
+    Int32 WGL_RED_BITS_ARB = 8213 : Public, Static, Literal, HasDefault
+    Int32 WGL_GREEN_BITS_ARB = 8215 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENLOCK_SOURCE_MULTIVIEW_I3D = 8260 : Public, Static, Literal, HasDefault
+    Int32 WGL_BLUE_BITS_EXT = 8217 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_RECTANGLE_FLOAT_RG_NV = 8370 : Public, Static, Literal, HasDefault
+    Int32 WGL_GREEN_BITS_EXT = 8215 : Public, Static, Literal, HasDefault
+    Int32 WGL_SHARE_DEPTH_ARB = 8204 : Public, Static, Literal, HasDefault
+    Int32 WGL_ALPHA_SHIFT_ARB = 8220 : Public, Static, Literal, HasDefault
+    Int32 WGL_PBUFFER_WIDTH_EXT = 8244 : Public, Static, Literal, HasDefault
+    Int32 WGL_BIND_TO_TEXTURE_RECTANGLE_RGB_NV = 8352 : Public, Static, Literal, HasDefault
+    Int32 WGL_SWAP_LAYER_BUFFERS_ARB = 8198 : Public, Static, Literal, HasDefault
+    Int32 WGL_ERROR_INVALID_PIXEL_TYPE_ARB = 8259 : Public, Static, Literal, HasDefault
+    Int32 WGL_AUX7_ARB = 8334 : Public, Static, Literal, HasDefault
+    Int32 WGL_PBUFFER_LOST_ARB = 8246 : Public, Static, Literal, HasDefault
+    Int32 WGL_ERROR_INVALID_PIXEL_TYPE_EXT = 8259 : Public, Static, Literal, HasDefault
+    Int32 WGL_SAMPLES_ARB = 8258 : Public, Static, Literal, HasDefault
+    Int32 WGL_GENLOCK_SOURCE_EXTENAL_FIELD_I3D = 8262 : Public, Static, Literal, HasDefault
+    Int32 WGL_GAMMA_EXCLUDE_DESKTOP_I3D = 8271 : Public, Static, Literal, HasDefault
+    Int32 WGL_FONT_LINES = 0 : Public, Static, Literal, HasDefault
+    Int32 WGL_DIGITAL_VIDEO_CURSOR_INCLUDED_I3D = 8274 : Public, Static, Literal, HasDefault
+    Int32 WGL_OPTIMAL_PBUFFER_HEIGHT_EXT = 8242 : Public, Static, Literal, HasDefault
+    Int32 WGL_PBUFFER_LARGEST_EXT = 8243 : Public, Static, Literal, HasDefault
+    Int32 WGL_DRAW_TO_BITMAP_EXT = 8194 : Public, Static, Literal, HasDefault
+    Int32 WGL_DIGITAL_VIDEO_CURSOR_ALPHA_FRAMEBUFFER_I3D = 8272 : Public, Static, Literal, HasDefault
+    Int32 WGL_OPTIMAL_PBUFFER_WIDTH_EXT = 8241 : Public, Static, Literal, HasDefault
+    Int32 WGL_DRAW_TO_BITMAP_ARB = 8194 : Public, Static, Literal, HasDefault
+    Int32 WGL_BACK_LEFT_ARB = 8325 : Public, Static, Literal, HasDefault
+    Int32 WGL_SUPPORT_OPENGL_EXT = 8208 : Public, Static, Literal, HasDefault
+  Methods:
+    IsExtensionSupported(String): PrivateScope, Public, Static, HideBySig
+    wglSetGammaTableI3D(IntPtr, Int32, Int16&, Int16&, Int16&): PrivateScope, Public, Static, HideBySig
+    wglSetGammaTableI3D(IntPtr, Int32, IntPtr, IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglEnableGenlockI3D(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglDisableGenlockI3D(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglIsEnabledGenlockI3D(IntPtr, Boolean[](Out)): PrivateScope, Public, Static, HideBySig
+    wglIsEnabledGenlockI3D(IntPtr, Boolean&(Out)): PrivateScope, Public, Static, HideBySig
+    wglIsEnabledGenlockI3D(IntPtr, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGenlockSourceI3D(IntPtr, UInt32): PrivateScope, Public, Static, HideBySig
+    wglGenlockSourceI3D(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceI3D(IntPtr, UInt32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceI3D(IntPtr, Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceI3D(IntPtr, UInt32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceI3D(IntPtr, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceI3D(IntPtr, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGenlockSourceEdgeI3D(IntPtr, UInt32): PrivateScope, Public, Static, HideBySig
+    wglGenlockSourceEdgeI3D(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceEdgeI3D(IntPtr, UInt32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceEdgeI3D(IntPtr, Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceEdgeI3D(IntPtr, UInt32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceEdgeI3D(IntPtr, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceEdgeI3D(IntPtr, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGenlockSampleRateI3D(IntPtr, UInt32): PrivateScope, Public, Static, HideBySig
+    wglGenlockSampleRateI3D(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSampleRateI3D(IntPtr, UInt32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSampleRateI3D(IntPtr, Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSampleRateI3D(IntPtr, UInt32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSampleRateI3D(IntPtr, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSampleRateI3D(IntPtr, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGenlockSourceDelayI3D(IntPtr, UInt32): PrivateScope, Public, Static, HideBySig
+    wglGenlockSourceDelayI3D(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceDelayI3D(IntPtr, UInt32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceDelayI3D(IntPtr, Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceDelayI3D(IntPtr, UInt32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceDelayI3D(IntPtr, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGenlockSourceDelayI3D(IntPtr, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryGenlockMaxSourceDelayI3D(IntPtr, UInt32[](Out), UInt32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryGenlockMaxSourceDelayI3D(IntPtr, Int32[](Out), Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryGenlockMaxSourceDelayI3D(IntPtr, UInt32&(Out), UInt32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryGenlockMaxSourceDelayI3D(IntPtr, Int32&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryGenlockMaxSourceDelayI3D(IntPtr, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglCreateImageBufferI3D(IntPtr, Int32, UInt32): PrivateScope, Public, Static, HideBySig
+    wglCreateImageBufferI3D(IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    wglDestroyImageBufferI3D(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglDestroyImageBufferI3D(IntPtr, Object(In, Out)): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr[], IntPtr, Int32[], UInt32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr[], IntPtr, Int32[], Int32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr[], Object(In, Out), Int32[], UInt32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr[], Object(In, Out), Int32[], Int32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr[], Object(In, Out), Int32&, UInt32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr[], Object(In, Out), Int32&, Int32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr&, Object(In, Out), Int32[], UInt32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr&, Object(In, Out), Int32[], Int32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr&, Object(In, Out), Int32&, UInt32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr&, Object(In, Out), Int32&, Int32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr, Object(In, Out), IntPtr, UInt32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr, Object(In, Out), IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr, Object(In, Out), Int32[], UInt32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr, Object(In, Out), Int32[], Int32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr, Object(In, Out), Int32&, UInt32): PrivateScope, Public, Static, HideBySig
+    wglAssociateImageBufferEventsI3D(IntPtr, IntPtr, Object(In, Out), Int32&, Int32): PrivateScope, Public, Static, HideBySig
+    wglReleaseImageBufferEventsI3D(IntPtr, IntPtr, UInt32): PrivateScope, Public, Static, HideBySig
+    wglReleaseImageBufferEventsI3D(IntPtr, IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglReleaseImageBufferEventsI3D(IntPtr, Object(In, Out), UInt32): PrivateScope, Public, Static, HideBySig
+    wglReleaseImageBufferEventsI3D(IntPtr, Object(In, Out), Int32): PrivateScope, Public, Static, HideBySig
+    wglEnableFrameLockI3D(): PrivateScope, Public, Static, HideBySig
+    wglDisableFrameLockI3D(): PrivateScope, Public, Static, HideBySig
+    wglIsEnabledFrameLockI3D(Boolean[](Out)): PrivateScope, Public, Static, HideBySig
+    wglIsEnabledFrameLockI3D(Boolean&(Out)): PrivateScope, Public, Static, HideBySig
+    wglIsEnabledFrameLockI3D(IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryFrameLockMasterI3D(Boolean[](Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryFrameLockMasterI3D(Boolean&(Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryFrameLockMasterI3D(IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetFrameUsageI3D(Single[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetFrameUsageI3D(Single&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetFrameUsageI3D(IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglBeginFrameTrackingI3D(): PrivateScope, Public, Static, HideBySig
+    wglEndFrameTrackingI3D(): PrivateScope, Public, Static, HideBySig
+    wglQueryFrameTrackingI3D(Int32[](Out), Int32[](Out), Single[](Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryFrameTrackingI3D(Int32&(Out), Int32&(Out), Single&(Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryFrameTrackingI3D(IntPtr(Out), IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    GetDelegate(String, Type): PrivateScope, Public, Static, HideBySig
+    ReloadFunctions(): PrivateScope, Public, Static, HideBySig
+    Load(String): PrivateScope, Public, Static, HideBySig
+    wglSetPbufferAttribARB(IntPtr, Int32[]): PrivateScope, Public, Static, HideBySig
+    wglSetPbufferAttribARB(IntPtr, Int32&): PrivateScope, Public, Static, HideBySig
+    wglSetPbufferAttribARB(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglCreateDisplayColorTableEXT(UInt16): PrivateScope, Public, Static, HideBySig
+    wglCreateDisplayColorTableEXT(Int16): PrivateScope, Public, Static, HideBySig
+    wglLoadDisplayColorTableEXT(UInt16[], UInt32): PrivateScope, Public, Static, HideBySig
+    wglLoadDisplayColorTableEXT(Int16[], Int32): PrivateScope, Public, Static, HideBySig
+    wglLoadDisplayColorTableEXT(UInt16&, UInt32): PrivateScope, Public, Static, HideBySig
+    wglLoadDisplayColorTableEXT(Int16&, Int32): PrivateScope, Public, Static, HideBySig
+    wglLoadDisplayColorTableEXT(IntPtr, UInt32): PrivateScope, Public, Static, HideBySig
+    wglLoadDisplayColorTableEXT(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglBindDisplayColorTableEXT(UInt16): PrivateScope, Public, Static, HideBySig
+    wglBindDisplayColorTableEXT(Int16): PrivateScope, Public, Static, HideBySig
+    wglDestroyDisplayColorTableEXT(UInt16): PrivateScope, Public, Static, HideBySig
+    wglDestroyDisplayColorTableEXT(Int16): PrivateScope, Public, Static, HideBySig
+    wglGetExtensionsStringEXT(): PrivateScope, Public, Static, HideBySig
+    wglMakeContextCurrentEXT(IntPtr, IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetCurrentReadDCEXT(): PrivateScope, Public, Static, HideBySig
+    wglCreatePbufferEXT(IntPtr, Int32, Int32, Int32, Int32[]): PrivateScope, Public, Static, HideBySig
+    wglCreatePbufferEXT(IntPtr, Int32, Int32, Int32, Int32&): PrivateScope, Public, Static, HideBySig
+    wglCreatePbufferEXT(IntPtr, Int32, Int32, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetPbufferDCEXT(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglReleasePbufferDCEXT(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglDestroyPbufferEXT(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglQueryPbufferEXT(IntPtr, Int32, Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryPbufferEXT(IntPtr, Int32, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryPbufferEXT(IntPtr, Int32, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivEXT(IntPtr, Int32, Int32, UInt32, Int32[](Out), Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivEXT(IntPtr, Int32, Int32, Int32, Int32[](Out), Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivEXT(IntPtr, Int32, Int32, UInt32, Int32&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivEXT(IntPtr, Int32, Int32, Int32, Int32&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivEXT(IntPtr, Int32, Int32, UInt32, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivEXT(IntPtr, Int32, Int32, Int32, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvEXT(IntPtr, Int32, Int32, UInt32, Int32[](Out), Single[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvEXT(IntPtr, Int32, Int32, Int32, Int32[](Out), Single[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvEXT(IntPtr, Int32, Int32, UInt32, Int32&(Out), Single&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvEXT(IntPtr, Int32, Int32, Int32, Int32&(Out), Single&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvEXT(IntPtr, Int32, Int32, UInt32, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvEXT(IntPtr, Int32, Int32, Int32, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatEXT(IntPtr, Int32[], Single[], UInt32, Int32[](Out), UInt32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatEXT(IntPtr, Int32[], Single[], Int32, Int32[](Out), Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatEXT(IntPtr, Int32&, Single&, UInt32, Int32&(Out), UInt32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatEXT(IntPtr, Int32&, Single&, Int32, Int32&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatEXT(IntPtr, IntPtr, IntPtr, UInt32, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatEXT(IntPtr, IntPtr, IntPtr, Int32, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglSwapIntervalEXT(Int32): PrivateScope, Public, Static, HideBySig
+    wglGetSwapIntervalEXT(): PrivateScope, Public, Static, HideBySig
+    wglAllocateMemoryNV(Int32, Single, Single, Single): PrivateScope, Public, Static, HideBySig
+    wglFreeMemoryNV(IntPtr[](Out)): PrivateScope, Public, Static, HideBySig
+    wglFreeMemoryNV(IntPtr&(Out)): PrivateScope, Public, Static, HideBySig
+    wglFreeMemoryNV(IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetSyncValuesOML(IntPtr, Int64[](Out), Int64[](Out), Int64[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetSyncValuesOML(IntPtr, Int64&(Out), Int64&(Out), Int64&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetSyncValuesOML(IntPtr, IntPtr(Out), IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetMscRateOML(IntPtr, Int32[](Out), Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetMscRateOML(IntPtr, Int32&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetMscRateOML(IntPtr, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglSwapBuffersMscOML(IntPtr, Int64, Int64, Int64): PrivateScope, Public, Static, HideBySig
+    wglSwapLayerBuffersMscOML(IntPtr, Int32, Int64, Int64, Int64): PrivateScope, Public, Static, HideBySig
+    wglWaitForMscOML(IntPtr, Int64, Int64, Int64, Int64[](Out), Int64[](Out), Int64[](Out)): PrivateScope, Public, Static, HideBySig
+    wglWaitForMscOML(IntPtr, Int64, Int64, Int64, Int64&(Out), Int64&(Out), Int64&(Out)): PrivateScope, Public, Static, HideBySig
+    wglWaitForMscOML(IntPtr, Int64, Int64, Int64, IntPtr(Out), IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglWaitForSbcOML(IntPtr, Int64, Int64[](Out), Int64[](Out), Int64[](Out)): PrivateScope, Public, Static, HideBySig
+    wglWaitForSbcOML(IntPtr, Int64, Int64&(Out), Int64&(Out), Int64&(Out)): PrivateScope, Public, Static, HideBySig
+    wglWaitForSbcOML(IntPtr, Int64, IntPtr(Out), IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetDigitalVideoParametersI3D(IntPtr, Int32, Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetDigitalVideoParametersI3D(IntPtr, Int32, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetDigitalVideoParametersI3D(IntPtr, Int32, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglSetDigitalVideoParametersI3D(IntPtr, Int32, Int32[]): PrivateScope, Public, Static, HideBySig
+    wglSetDigitalVideoParametersI3D(IntPtr, Int32, Int32&): PrivateScope, Public, Static, HideBySig
+    wglSetDigitalVideoParametersI3D(IntPtr, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetGammaTableParametersI3D(IntPtr, Int32, Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGammaTableParametersI3D(IntPtr, Int32, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGammaTableParametersI3D(IntPtr, Int32, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglSetGammaTableParametersI3D(IntPtr, Int32, Int32[]): PrivateScope, Public, Static, HideBySig
+    wglSetGammaTableParametersI3D(IntPtr, Int32, Int32&): PrivateScope, Public, Static, HideBySig
+    wglSetGammaTableParametersI3D(IntPtr, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetGammaTableI3D(IntPtr, Int32, UInt16[](Out), UInt16[](Out), UInt16[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGammaTableI3D(IntPtr, Int32, Int16[](Out), Int16[](Out), Int16[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGammaTableI3D(IntPtr, Int32, UInt16&(Out), UInt16&(Out), UInt16&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGammaTableI3D(IntPtr, Int32, Int16&(Out), Int16&(Out), Int16&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetGammaTableI3D(IntPtr, Int32, IntPtr(Out), IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglSetGammaTableI3D(IntPtr, Int32, UInt16[], UInt16[], UInt16[]): PrivateScope, Public, Static, HideBySig
+    wglSetGammaTableI3D(IntPtr, Int32, Int16[], Int16[], Int16[]): PrivateScope, Public, Static, HideBySig
+    wglSetGammaTableI3D(IntPtr, Int32, UInt16&, UInt16&, UInt16&): PrivateScope, Public, Static, HideBySig
+    wglCreateContext(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglDeleteContext(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetCurrentContext(): PrivateScope, Public, Static, HideBySig
+    wglMakeCurrent(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglCopyContext(IntPtr, IntPtr, UInt32): PrivateScope, Public, Static, HideBySig
+    wglCopyContext(IntPtr, IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormat(IntPtr, PIXELFORMATDESCRIPTOR[]): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormat(IntPtr, PIXELFORMATDESCRIPTOR&): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormat(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglDescribePixelFormat(IntPtr, Int32, UInt32, PIXELFORMATDESCRIPTOR[]): PrivateScope, Public, Static, HideBySig
+    wglDescribePixelFormat(IntPtr, Int32, Int32, PIXELFORMATDESCRIPTOR[]): PrivateScope, Public, Static, HideBySig
+    wglDescribePixelFormat(IntPtr, Int32, UInt32, PIXELFORMATDESCRIPTOR&): PrivateScope, Public, Static, HideBySig
+    wglDescribePixelFormat(IntPtr, Int32, Int32, PIXELFORMATDESCRIPTOR&): PrivateScope, Public, Static, HideBySig
+    wglDescribePixelFormat(IntPtr, Int32, UInt32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglDescribePixelFormat(IntPtr, Int32, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetCurrentDC(): PrivateScope, Public, Static, HideBySig
+    wglGetDefaultProcAddress(String): PrivateScope, Public, Static, HideBySig
+    wglGetProcAddress(String): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormat(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglSetPixelFormat(IntPtr, Int32, PIXELFORMATDESCRIPTOR[]): PrivateScope, Public, Static, HideBySig
+    wglSetPixelFormat(IntPtr, Int32, PIXELFORMATDESCRIPTOR&): PrivateScope, Public, Static, HideBySig
+    wglSetPixelFormat(IntPtr, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglSwapBuffers(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglShareLists(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglCreateLayerContext(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglDescribeLayerPlane(IntPtr, Int32, Int32, UInt32, LAYERPLANEDESCRIPTOR[]): PrivateScope, Public, Static, HideBySig
+    wglDescribeLayerPlane(IntPtr, Int32, Int32, Int32, LAYERPLANEDESCRIPTOR[]): PrivateScope, Public, Static, HideBySig
+    wglDescribeLayerPlane(IntPtr, Int32, Int32, UInt32, LAYERPLANEDESCRIPTOR&): PrivateScope, Public, Static, HideBySig
+    wglDescribeLayerPlane(IntPtr, Int32, Int32, Int32, LAYERPLANEDESCRIPTOR&): PrivateScope, Public, Static, HideBySig
+    wglDescribeLayerPlane(IntPtr, Int32, Int32, UInt32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglDescribeLayerPlane(IntPtr, Int32, Int32, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglSetLayerPaletteEntries(IntPtr, Int32, Int32, Int32, Int32[]): PrivateScope, Public, Static, HideBySig
+    wglSetLayerPaletteEntries(IntPtr, Int32, Int32, Int32, Int32&): PrivateScope, Public, Static, HideBySig
+    wglSetLayerPaletteEntries(IntPtr, Int32, Int32, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetLayerPaletteEntries(IntPtr, Int32, Int32, Int32, Int32[]): PrivateScope, Public, Static, HideBySig
+    wglGetLayerPaletteEntries(IntPtr, Int32, Int32, Int32, Int32&): PrivateScope, Public, Static, HideBySig
+    wglGetLayerPaletteEntries(IntPtr, Int32, Int32, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglRealizeLayerPalette(IntPtr, Int32, Boolean): PrivateScope, Public, Static, HideBySig
+    wglSwapLayerBuffers(IntPtr, UInt32): PrivateScope, Public, Static, HideBySig
+    wglSwapLayerBuffers(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglUseFontBitmapsA(IntPtr, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    wglUseFontBitmapsW(IntPtr, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    wglUseFontOutlinesA(IntPtr, Int32, Int32, Int32, Single, Single, Int32, GLYPHMETRICSFLOAT[]): PrivateScope, Public, Static, HideBySig
+    wglUseFontOutlinesA(IntPtr, Int32, Int32, Int32, Single, Single, Int32, GLYPHMETRICSFLOAT&): PrivateScope, Public, Static, HideBySig
+    wglUseFontOutlinesA(IntPtr, Int32, Int32, Int32, Single, Single, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglUseFontOutlinesW(IntPtr, Int32, Int32, Int32, Single, Single, Int32, GLYPHMETRICSFLOAT[]): PrivateScope, Public, Static, HideBySig
+    wglUseFontOutlinesW(IntPtr, Int32, Int32, Int32, Single, Single, Int32, GLYPHMETRICSFLOAT&): PrivateScope, Public, Static, HideBySig
+    wglUseFontOutlinesW(IntPtr, Int32, Int32, Int32, Single, Single, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglCreateBufferRegionARB(IntPtr, Int32, UInt32): PrivateScope, Public, Static, HideBySig
+    wglCreateBufferRegionARB(IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    wglDeleteBufferRegionARB(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglSaveBufferRegionARB(IntPtr, Int32, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    wglRestoreBufferRegionARB(IntPtr, Int32, Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    wglGetExtensionsStringARB(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivARB(IntPtr, Int32, Int32, UInt32, Int32[], Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivARB(IntPtr, Int32, Int32, Int32, Int32[], Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivARB(IntPtr, Int32, Int32, UInt32, Int32&, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivARB(IntPtr, Int32, Int32, Int32, Int32&, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivARB(IntPtr, Int32, Int32, UInt32, IntPtr, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribivARB(IntPtr, Int32, Int32, Int32, IntPtr, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvARB(IntPtr, Int32, Int32, UInt32, Int32[], Single[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvARB(IntPtr, Int32, Int32, Int32, Int32[], Single[](Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvARB(IntPtr, Int32, Int32, UInt32, Int32&, Single&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvARB(IntPtr, Int32, Int32, Int32, Int32&, Single&(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvARB(IntPtr, Int32, Int32, UInt32, IntPtr, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglGetPixelFormatAttribfvARB(IntPtr, Int32, Int32, Int32, IntPtr, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatARB(IntPtr, Int32[], Single[], UInt32, Int32[](Out), UInt32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatARB(IntPtr, Int32[], Single[], Int32, Int32[](Out), Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatARB(IntPtr, Int32&, Single&, UInt32, Int32&(Out), UInt32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatARB(IntPtr, Int32&, Single&, Int32, Int32&(Out), Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatARB(IntPtr, IntPtr, IntPtr, UInt32, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglChoosePixelFormatARB(IntPtr, IntPtr, IntPtr, Int32, IntPtr(Out), IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglMakeContextCurrentARB(IntPtr, IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetCurrentReadDCARB(): PrivateScope, Public, Static, HideBySig
+    wglCreatePbufferARB(IntPtr, Int32, Int32, Int32, Int32[]): PrivateScope, Public, Static, HideBySig
+    wglCreatePbufferARB(IntPtr, Int32, Int32, Int32, Int32&): PrivateScope, Public, Static, HideBySig
+    wglCreatePbufferARB(IntPtr, Int32, Int32, Int32, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglGetPbufferDCARB(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglReleasePbufferDCARB(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    wglDestroyPbufferARB(IntPtr): PrivateScope, Public, Static, HideBySig
+    wglQueryPbufferARB(IntPtr, Int32, Int32[](Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryPbufferARB(IntPtr, Int32, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    wglQueryPbufferARB(IntPtr, Int32, IntPtr(Out)): PrivateScope, Public, Static, HideBySig
+    wglBindTexImageARB(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    wglReleaseTexImageARB(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+Class Tao.Platform.Windows.Winmm: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 SND_SYNC : Public, Static
+    Int32 SND_ASYNC : Public, Static
+    Int32 SND_NODEFAULT : Public, Static
+    Int32 SND_MEMORY : Public, Static
+    Int32 SND_LOOP : Public, Static
+    Int32 SND_NOSTOP : Public, Static
+    Int32 SND_NOWAIT : Public, Static
+    Int32 SND_ALIAS : Public, Static
+    Int32 SND_ALIAS_ID : Public, Static
+    Int32 SND_FILENAME : Public, Static
+    Int32 SND_RESOURCE : Public, Static
+    Int32 SND_PURGE : Public, Static
+    Int32 SND_APPLICATION : Public, Static
+    Int32 TIMERR_BASE : Public, Static
+    Int32 TIMERR_NOERROR : Public, Static
+    Int32 TIMERR_NOCANDO : Public, Static
+    Int32 JOY_BUTTON1 : Public, Static
+    Int32 JOY_BUTTON2 : Public, Static
+    Int32 JOY_BUTTON3 : Public, Static
+    Int32 JOY_BUTTON4 : Public, Static
+    Int32 JOYCAPS_HASZ : Public, Static
+    Int32 JOYCAPS_HASR : Public, Static
+    Int32 JOYCAPS_HASU : Public, Static
+    Int32 JOYCAPS_HASV : Public, Static
+    Int32 JOYCAPS_HASPOV : Public, Static
+    Int32 JOYCAPS_POV4DIR : Public, Static
+    Int32 JOYCAPS_POVCTS : Public, Static
+    Int32 JOY_RETURNX : Public, Static
+    Int32 JOY_RETURNY : Public, Static
+    Int32 JOY_RETURNZ : Public, Static
+    Int32 JOY_RETURNR : Public, Static
+    Int32 JOY_RETURNU : Public, Static
+    Int32 JOY_RETURNV : Public, Static
+    Int32 JOY_RETURNPOV : Public, Static
+    Int32 JOY_RETURNBUTTONS : Public, Static
+    Int32 JOY_RETURNRAWDATA : Public, Static
+    Int32 JOY_RETURNPOVCTS : Public, Static
+    Int32 JOY_RETURNCENTERED : Public, Static
+    Int32 JOY_USEDEADZONE : Public, Static
+    Int32 JOY_RETURNALL : Public, Static
+    Int32 JOY_CAL_READALWAYS : Public, Static
+    Int32 JOY_CAL_READXYONLY : Public, Static
+    Int32 JOY_CAL_READ3 : Public, Static
+    Int32 JOY_CAL_READ4 : Public, Static
+    Int32 JOY_CAL_READXONLY : Public, Static
+    Int32 JOY_CAL_READYONLY : Public, Static
+    Int32 JOY_CAL_READ5 : Public, Static
+    Int32 JOY_CAL_READ6 : Public, Static
+    Int32 JOY_CAL_READZONLY : Public, Static
+    Int32 JOY_CAL_READRONLY : Public, Static
+    Int32 JOY_CAL_READUONLY : Public, Static
+    Int32 JOY_CAL_READVONLY : Public, Static
+    Int32 JOY_POVCENTERED : Public, Static
+    Int32 JOY_POVFORWARD : Public, Static
+    Int32 JOY_POVRIGHT : Public, Static
+    Int32 JOY_POVBACKWARD : Public, Static
+    Int32 JOY_POVLEFT : Public, Static
+    Int32 MMSYSERR_BASE : Public, Static
+    Int32 MMSYSERR_NOERROR : Public, Static
+    Int32 MMSYSERR_ERROR : Public, Static
+    Int32 MMSYSERR_BADDEVICEID : Public, Static
+    Int32 MMSYSERR_NOTENABLED : Public, Static
+    Int32 MMSYSERR_ALLOCATED : Public, Static
+    Int32 MMSYSERR_INVALHANDLE : Public, Static
+    Int32 MMSYSERR_NODRIVER : Public, Static
+    Int32 MMSYSERR_NOMEM : Public, Static
+    Int32 MMSYSERR_NOTSUPPORTED : Public, Static
+    Int32 MMSYSERR_BADERRNUM : Public, Static
+    Int32 MMSYSERR_INVALFLAG : Public, Static
+    Int32 MMSYSERR_INVALPARAM : Public, Static
+    Int32 MMSYSERR_LASTERROR : Public, Static
+    Int32 JOYERR_NOERROR : Public, Static
+    Int32 JOYERR_PARMS : Public, Static
+    Int32 JOYERR_NOCANDO : Public, Static
+    Int32 JOYERR_UNPLUGGED : Public, Static
+    Int32 JOYSTICKID1 : Public, Static
+    Int32 JOYSTICKID2 : Public, Static
+    Int32 MM_JOY1MOVE : Public, Static
+    Int32 MM_JOY2MOVE : Public, Static
+    Int32 MM_JOY1ZMOVE : Public, Static
+    Int32 MM_JOY2ZMOVE : Public, Static
+  Methods:
+    PlaySound(String, IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    timeBeginPeriod(Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    timeEndPeriod(Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    timeGetTime(): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    joyConfigChanged(Int64): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    joyGetDevCaps(IntPtr, JOYCAPS&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    joyGetNumDevs(): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    joyGetPos(Int32, JOYINFO&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    joyGetPosEx(Int32, JOYINFOEX&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    joyGetThreshold(Int32, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    joyReleaseCapture(Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    joySetCapture(Int32, Int32, Int32, Boolean): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    joySetThreshold(Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+Struct Tao.Platform.Windows.Winmm+JOYCAPS: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt16 wMid : Public
+    UInt16 wPid : Public
+    System.String szPname : Public, HasFieldMarshal
+    Int32 wXmin : Public
+    Int32 wXmax : Public
+    Int32 wYmin : Public
+    Int32 wYmax : Public
+    Int32 wZmin : Public
+    Int32 wZmax : Public
+    Int32 wNumButtons : Public
+    Int32 wPeriodMin : Public
+    Int32 wPeriodMax : Public
+    Int32 wRmin : Public
+    Int32 wRmax : Public
+    Int32 wUmin : Public
+    Int32 wUmax : Public
+    Int32 wVmin : Public
+    Int32 wVmax : Public
+    Int32 wCaps : Public
+    Int32 wMaxAxes : Public
+    Int32 wNumAxes : Public
+    Int32 wMaxButtons : Public
+    System.String szRegKey : Public, HasFieldMarshal
+    System.String szOEMVxD : Public, HasFieldMarshal
+Struct Tao.Platform.Windows.Winmm+JOYINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 wXpos : Public
+    Int32 wYpos : Public
+    Int32 wZpos : Public
+    Int32 wButtons : Public
+Struct Tao.Platform.Windows.Winmm+JOYINFOEX: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 dwSize : Public
+    Int32 dwFlags : Public
+    Int32 dwXpos : Public
+    Int32 dwYpos : Public
+    Int32 dwZpos : Public
+    Int32 dwRpos : Public
+    Int32 dwUpos : Public
+    Int32 dwVpos : Public
+    Int32 dwButtons : Public
+    Int32 dwButtonNumber : Public
+    Int32 dwPOV : Public
+    Int32 dwReserved1 : Public
+    Int32 dwReserved2 : Public
+Class Tao.Platform.Windows.WinNt: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 PROCESSOR_INTEL_386 = 386 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_INTEL_486 = 486 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_INTEL_PENTIUM = 586 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_INTEL_IA64 = 2200 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_AMD_X8664 = 8664 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_MIPS_R4000 = 4000 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_ALPHA_21064 = 21064 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_PPC_601 = 601 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_PPC_603 = 603 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_PPC_604 = 604 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_PPC_620 = 620 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_HITACHI_SH3 = 10003 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_HITACHI_SH3E = 10004 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_HITACHI_SH4 = 10005 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_MOTOROLA_821 = 821 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_SHx_SH3 = 103 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_SHx_SH4 = 104 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_STRONGARM = 2577 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_ARM720 = 1824 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_ARM820 = 2080 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_ARM920 = 2336 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_ARM_7TDMI = 70001 : Public, Static, Literal, HasDefault
+    Int32 PROCESSOR_OPTIL = 18767 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_INTEL = 0 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_MIPS = 1 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_ALPHA = 2 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_PPC = 3 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_SHX = 4 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_ARM = 5 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_IA64 = 6 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_ALPHA64 = 7 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_MSIL = 8 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_AMD64 = 9 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_IA32_ON_WIN64 = 10 : Public, Static, Literal, HasDefault
+    Int16 PROCESSOR_ARCHITECTURE_UNKNOWN = -1 : Public, Static, Literal, HasDefault
+    Int32 PF_FLOATING_POINT_PRECISION_ERRATA = 0 : Public, Static, Literal, HasDefault
+    Int32 PF_FLOATING_POINT_EMULATED = 1 : Public, Static, Literal, HasDefault
+    Int32 PF_COMPARE_EXCHANGE_DOUBLE = 2 : Public, Static, Literal, HasDefault
+    Int32 PF_MMX_INSTRUCTIONS_AVAILABLE = 3 : Public, Static, Literal, HasDefault
+    Int32 PF_PPC_MOVEMEM_64BIT_OK = 4 : Public, Static, Literal, HasDefault
+    Int32 PF_ALPHA_BYTE_INSTRUCTIONS = 5 : Public, Static, Literal, HasDefault
+    Int32 PF_XMMI_INSTRUCTIONS_AVAILABLE = 6 : Public, Static, Literal, HasDefault
+    Int32 PF_3DNOW_INSTRUCTIONS_AVAILABLE = 7 : Public, Static, Literal, HasDefault
+    Int32 PF_RDTSC_INSTRUCTION_AVAILABLE = 8 : Public, Static, Literal, HasDefault
+    Int32 PF_PAE_ENABLED = 9 : Public, Static, Literal, HasDefault
+    Int32 PF_XMMI64_INSTRUCTIONS_AVAILABLE = 10 : Public, Static, Literal, HasDefault

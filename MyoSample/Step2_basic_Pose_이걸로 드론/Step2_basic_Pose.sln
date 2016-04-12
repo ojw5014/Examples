@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step2_basic_Pose", "Step2_basic_Pose\Step2_basic_Pose.csproj", "{D204FADA-4B77-4E87-9682-975913AE30D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenJigWare", "..\..\..\..\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\OpenJigWare\OpenJigWare.csproj", "{E0E62640-C66D-46A3-A57C-80A42A1C3E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "drSocket", "..\..\..\..\..\OjwLib\drSocket\윤철희\drSocket_140227\drSocket\drSocket\drSocket.csproj", "{0FB54B67-E32B-47A5-87E0-9061274FF0AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Debug|x86.ActiveCfg = Debug|x86
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Debug|x86.Build.0 = Debug|x86
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Release|Any CPU.ActiveCfg = Release|x86
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Release|x86.ActiveCfg = Release|x86
+		{D204FADA-4B77-4E87-9682-975913AE30D1}.Release|x86.Build.0 = Release|x86
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E0E62640-C66D-46A3-A57C-80A42A1C3E39}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0FB54B67-E32B-47A5-87E0-9061274FF0AC}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

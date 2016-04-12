@@ -1,0 +1,801 @@
+ImageRuntimeVersion: v2.0.50727
+Assembly Tao.Ode, Version=0.9.0.0, Culture=neutral, PublicKeyToken=e499629dc69cd531: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Tao.Ode.Ode: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Single dInfinity = 3.402823E+38 : Public, Static, Literal, HasDefault
+    Int32 dMaxUserClasses = 4 : Public, Static, Literal, HasDefault
+  Methods:
+    dVectorScale(Single&(Out), Single&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dLDLTAddTL(Single&, Single&, Single&, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dRandReal(): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dQMultiply3(dQuaternion&(Out), dQuaternion&, dQuaternion&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dQtoR(dQuaternion&, dMatrix3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dRtoQ(dMatrix3&, dQuaternion&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWtoDQ(dVector3&, dQuaternion&, dVector4&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyCopyPosition(IntPtr, dVector3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyCopyPosition(IntPtr, Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyCopyQuaternion(IntPtr, dQuaternion&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyCopyQuaternion(IntPtr, Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyCopyRotation(IntPtr, dMatrix3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyCopyRotation(IntPtr, Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateHeightfield(IntPtr, IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSetZero(Single&(Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSetValue(Single&(Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dDot(Single&, Single&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreatePlane2D(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreatePR(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointAddPRTorque(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dFactorCholesky(Single&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSolveCholesky(Single&, Single&(Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dInvertPDMatrix(Single&, Single&(Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dIsPositiveDefinite(Single&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dFactorLDLT(Single&, Single&(Out), Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSolveL1T(Single&, Single&(Out), Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateTriMesh(IntPtr, IntPtr, dTriCallback, dTriArrayCallback, dTriRayCallback): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshSetData(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshEnableTC(IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshIsTCEnabled(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshClearTCCache(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataGet(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataPreprocess(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetTriMeshDataID(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshSetLastTransform(IntPtr, dMatrix4&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshSetLastTransform(IntPtr, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetTriangle(IntPtr, Int32, dVector3&, dVector3&, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetPoint(IntPtr, Int32, Single, Single, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetTriangleCount(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dRSetIdentity(dMatrix3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dRFromAxisAndAngle(dMatrix3&(Out), Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dRFromEulerAngles(dMatrix3&(Out), Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dRFrom2Axes(dMatrix3&(Out), Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dRFromZAxis(Single[], Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dRFromZAxis(dMatrix3, Single, Single, Single): PrivateScope, Public, Static, HideBySig
+    dQSetIdentity(dQuaternion&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dQFromAxisAndAngle(dQuaternion&(Out), Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dQMultiply0(dQuaternion&(Out), dQuaternion&, dQuaternion&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dQMultiply1(dQuaternion&(Out), dQuaternion&, dQuaternion&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dQMultiply2(dQuaternion&(Out), dQuaternion&, dQuaternion&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceGetGeom(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataCreate(): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataDestroy(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataSet(IntPtr, Int32, IntPtr&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataUpdate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetData(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetLastTransformUnsafe(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetLastTransform(IntPtr): PrivateScope, Public, Static, HideBySig
+    dGeomTriMeshDataBuildSingle(IntPtr, dVector3[], Int32, Int32, Int32[], Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataBuildSingle1(IntPtr, dVector3[], Int32, Int32, Int32[], Int32, Int32, dVector3[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataBuildDouble(IntPtr, dVector3, Int32, Int32, Int32[], Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataBuildDouble1(IntPtr, dVector3[], Int32, Int32, Int32[], Int32, Int32, dVector3[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataBuildDouble(IntPtr, IntPtr, Int32, Int32, IntPtr, Int32, Int32, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataBuildDouble(IntPtr, IntPtr, Int32, Int32, IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataBuildSimple(IntPtr, dVector3[], Int32, Int32[], Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataBuildSingle(IntPtr, IntPtr, Int32, Int32, IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataBuildSimple1(IntPtr, dVector3[], Int32, Int32[], Int32, dVector3[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshDataBuildSingle1(IntPtr, IntPtr, Int32, Int32, IntPtr, Int32, Int32, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshSetCallback(IntPtr, dTriCallback): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetCallback(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshSetArrayCallback(IntPtr, dTriArrayCallback): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetArrayCallback(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshSetRayCallback(IntPtr, dTriRayCallback): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTriMeshGetRayCallback(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTransformGetInfo(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateGeomClass(dGeomClass): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetClassData(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateGeom(Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dClosestLineSegmentPoints(dVector3, dVector3, dVector3, dVector3, dVector3&, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBoxTouchesBox(dVector3, dMatrix3, dVector3, dVector3, dMatrix3, dVector3): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBoxBox(dVector3, dMatrix3, dVector3, dVector3, dMatrix3, dVector3, dVector3&, Single&, Int32&, Int32, dContactGeom[]&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dInfiniteAABB(IntPtr, Aabb&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCloseODE(): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSimpleSpaceCreate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dHashSpaceCreate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dQuadTreeSpaceCreate(IntPtr, dVector3, dVector3, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dQuadTreeSpaceCreate(IntPtr, Single&, Single&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceDestroy(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dHashSpaceSetLevels(IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dHashSpaceGetLevels(IntPtr, Int32&, Int32&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceSetCleanup(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceGetCleanup(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceAdd(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceRemove(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceQuery(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceClean(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceGetNumGeoms(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCapsuleSetParams(IntPtr, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCapsuleGetParams(IntPtr, Single&, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCapsulePointDepth(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateCylinder(IntPtr, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCylinderSetParams(IntPtr, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCylinderGetParams(IntPtr, Single&, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateRay(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRaySetLength(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRayGetLength(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRaySet(IntPtr, Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRayGet(IntPtr, dVector3&, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRayGet(IntPtr, Single&, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRaySetParams(IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRayGetParams(IntPtr, Int32&, Int32&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRayGetParams(IntPtr, Int32[](Out), Int32[](Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRaySetClosestHit(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomRayGetClosestHit(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateGeomTransform(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTransformSetGeom(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTransformGetGeom(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTransformSetCleanup(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTransformGetCleanup(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomTransformSetInfo(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSphereSetRadius(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSphereGetRadius(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSpherePointDepth(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetConvex(IntPtr, Single[], Int32, Single[], Int32, Int32[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateConvex(IntPtr, Single[], Int32, Single[], Int32, Int32[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateBox(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomBoxSetLengths(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomBoxGetLengths(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomBoxGetLengths(IntPtr, Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCopyOffsetPosition(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCopyOffsetPosition(IntPtr, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCopyOffsetRotation(IntPtr, dMatrix3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCopyOffsetRotation(IntPtr, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCopyPosition(IntPtr, dVector3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCopyPosition(IntPtr, Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCopyRotation(IntPtr, dMatrix3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomCopyRotation(IntPtr, Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomBoxPointDepth(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreatePlane(IntPtr, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomPlaneSetParams(IntPtr, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomPlaneGetParams(IntPtr, dVector4&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomPlanePointDepth(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateCapsule(IntPtr, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetCollideBits(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomEnable(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomDisable(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomIsEnabled(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetOffsetPosition(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetOffsetRotation(IntPtr, dMatrix3): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetOffsetQuaternion(IntPtr, dQuaternion): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetOffsetQuaternion(IntPtr, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetOffsetWorldPosition(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetOffsetWorldRotation(IntPtr, dMatrix3): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetOffsetWorldRotation(IntPtr, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetOffsetWorldQuaternion(IntPtr, dQuaternion): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetOffsetWorldQuaternion(IntPtr, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomClearOffset(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomIsOffset(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetOffsetPosition(IntPtr): PrivateScope, Public, Static, HideBySig
+    dGeomGetOffsetRotation(IntPtr): PrivateScope, Public, Static, HideBySig
+    dGeomGetOffsetQuaternion(IntPtr, dQuaternion&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCollide(IntPtr, IntPtr, Int32, dContactGeom[](In, Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceCollide(IntPtr, IntPtr, dNearCallback): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dSpaceCollide2(IntPtr, IntPtr, IntPtr, dNearCallback): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dCreateSphere(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataBuildCallback(IntPtr, IntPtr, dHeightfieldGetHeight, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataBuildShort(IntPtr, UInt16[], Int32, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataBuildShort(IntPtr, Int16[], Int32, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataBuildShort(IntPtr, IntPtr, Int32, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataBuildSingle(IntPtr, Single[], Int32, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataBuildSingle(IntPtr, IntPtr, Int32, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataBuildDouble(IntPtr, Double[], Int32, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataBuildDouble(IntPtr, IntPtr, Int32, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataCreate(): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataDestroy(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataSetBounds(IntPtr, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldGetHeightfieldData(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldSetHeightfieldData(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetRotation(IntPtr): PrivateScope, Public, Static, HideBySig
+    dGeomGetQuaternion(IntPtr, dQuaternion&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetAABB(IntPtr, Aabb&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetAABB(IntPtr, Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomIsSpace(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetSpace(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetClass(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetCategoryBits(IntPtr, UInt64): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetCollideBits(IntPtr, UInt64): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetCategoryBits(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetCapsuleTotal(dMass&, Single, Int32, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetCylinder(dMass&, Single, Int32, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetCylinderTotal(dMass&, Single, Int32, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetBox(dMass&, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetBoxTotal(dMass&, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassAdjust(dMass&, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassTranslate(dMass&, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassRotate(dMass&, Single[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassRotate(dMass&, dMatrix3): PrivateScope, Public, Static, HideBySig
+    dMassAdd(dMass&, dMass): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetTrimesh(dMass&(Out), Single, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomDestroy(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetData(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetData(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetBody(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetBody(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetPosition(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetRotation(IntPtr, Single[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetRotation(IntPtr, dMatrix3): PrivateScope, Public, Static, HideBySig
+    dGeomSetQuaternion(IntPtr, dQuaternion): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomSetQuaternion(IntPtr, Single&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomGetPosition(IntPtr): PrivateScope, Public, Static, HideBySig
+    dGeomHeightfieldDataBuildByte(IntPtr, Byte[], Int32, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dGeomHeightfieldDataBuildByte(IntPtr, IntPtr, Int32, Single, Single, Int32, Int32, Single, Single, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetLMotorParam(IntPtr, Int32, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    JointSetPlane2DAngleParam(IntPtr, Int32, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetPlane2DXParam(IntPtr, Int32, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetPlane2DYParam(IntPtr, Int32, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetPRAnchor(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetPRAxis1(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetPRAxis2(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetPRParam(IntPtr, Int32, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetLMotorAxis(IntPtr, Int32, dVector3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetLMotorNumAxes(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetLMotorParam(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetPRAnchor(IntPtr, dVector3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetPRAxis1(IntPtr, dVector3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetPRAxis2(IntPtr, dVector3&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetPRParam(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetPRPosition(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalAngles(IntPtr, Single&(Out), Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetPRPositionRate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetZero(dMass&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetParameters(dMass&, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetSphere(dMass&, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetSphereTotal(dMass&, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dMassSetCapsule(dMass&, Single, Int32, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetUniversalParam(IntPtr, dJointParams, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalParam(IntPtr, dJointParams): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointAddUniversalTorques(IntPtr, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalAngle1(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalAngle2(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalAngle1Rate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalAngle2Rate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetFixed(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetAMotorMode(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetAMotorMode(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetAMotorNumAxes(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetAMotorNumAxes(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetAMotorAxis(IntPtr, Int32, Int32, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetAMotorAxis(IntPtr, Int32, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetAMotorAxisRel(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetAMotorAngle(IntPtr, Int32, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetAMotorAngle(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetAMotorAngleRate(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetAMotorParam(IntPtr, dJointParams, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetAMotorParam(IntPtr, dJointParams): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointAddAMotorTorques(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetLMotorAxis(IntPtr, Int32, Int32, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetLMotorNumAxes(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetSliderParam(IntPtr, dJointParams, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetSliderParam(IntPtr, dJointParams): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointAddSliderForce(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetHinge2Anchor(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetHinge2Axis1(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetHinge2Axis2(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHinge2Anchor(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHinge2Anchor2(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHinge2Axis1(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHinge2Axis2(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHinge2Angle1(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHinge2Angle1Rate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHinge2Angle2Rate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetHinge2Param(IntPtr, dJointParams, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHinge2Param(IntPtr, dJointParams): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointAddHinge2Torques(IntPtr, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetUniversalAnchor(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetUniversalAxis1(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetUniversalAxis2(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalAnchor(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalAnchor2(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalAxis1(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetUniversalAxis2(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dConnectingJointList(IntPtr, IntPtr, IntPtr[]&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dAreConnected(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dAreConnectedExcluding(IntPtr, IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetBallAnchor(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetBallAnchor2(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetBallAnchor(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetBallAnchor2(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetHingeAnchor(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetHingeAnchorDelta(IntPtr, Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetHingeAxis(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHingeAnchor(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHingeAnchor2(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHingeAxis(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHingeAngle(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHingeAngleRate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetHingeParam(IntPtr, dJointParams, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetHingeParam(IntPtr, dJointParams): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointAddHingeTorque(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetSliderAxis(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetSliderAxisDelta(IntPtr, Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetSliderAxis(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetSliderPosition(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetSliderPositionRate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetAutoDisableDefaults(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateBall(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateHinge(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateSlider(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateContact(IntPtr, IntPtr, dContact&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateHinge2(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateUniversal(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateFixed(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateNull(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateAMotor(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointCreateLMotor(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointDestroy(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGroupCreate(Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGroupDestroy(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGroupEmpty(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointAttach(IntPtr, IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetData(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetData(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetType(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetBody(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointSetFeedback(IntPtr, dJointFeedback&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dJointGetFeedback(IntPtr): PrivateScope, Public, Static, HideBySig
+    dConnectingJoint(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetData(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetData(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetFiniteRotationMode(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetFiniteRotationMode(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetFiniteRotationAxis(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetFiniteRotationAxis(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetNumJoints(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetJoint(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetGravityMode(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetGravityMode(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyEnable(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyDisable(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyIsEnabled(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetAutoDisableFlag(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetAutoDisableFlag(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetAutoDisableLinearThreshold(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetAutoDisableLinearThreshold(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetAutoDisableAngularThreshold(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetAutoDisableAngularThreshold(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetAutoDisableSteps(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetAutoDisableSteps(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetAutoDisableTime(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetAutoDisableTime(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetLinearVel(IntPtr): PrivateScope, Public, Static, HideBySig
+    dBodyGetAngularVel(IntPtr): PrivateScope, Public, Static, HideBySig
+    dBodySetMass(IntPtr, dMass&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetMass(IntPtr, dMass&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyAddForce(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyAddTorque(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyAddRelForce(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyAddRelTorque(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyAddForceAtPos(IntPtr, Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyAddForceAtRelPos(IntPtr, Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyAddRelForceAtPos(IntPtr, Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyAddRelForceAtRelPos(IntPtr, Single, Single, Single, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetForce(IntPtr): PrivateScope, Public, Static, HideBySig
+    dBodyGetTorque(IntPtr): PrivateScope, Public, Static, HideBySig
+    dBodySetForce(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetTorque(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetRelPointPos(IntPtr, Single, Single, Single, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetRelPointVel(IntPtr, Single, Single, Single, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetPointVel(IntPtr, Single, Single, Single, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetPosRelPoint(IntPtr, Single, Single, Single, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyVectorToWorld(IntPtr, Single, Single, Single, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyVectorFromWorld(IntPtr, Single, Single, Single, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetAutoEnableDepthSF1(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetAutoEnableDepthSF1(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetAutoDisableLinearThreshold(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetAutoDisableLinearThreshold(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetAutoDisableAngularThreshold(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetAutoDisableAngularThreshold(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetAutoDisableSteps(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetAutoDisableSteps(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetAutoDisableTime(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetAutoDisableTime(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetAutoDisableFlag(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetAutoDisableFlag(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyCreate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyDestroy(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetPosition(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetRotation(IntPtr, Single[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetRotation(IntPtr, dMatrix3): PrivateScope, Public, Static, HideBySig
+    dBodySetQuaternion(IntPtr, dQuaternion&(In)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetLinearVel(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodySetAngularVel(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dBodyGetPosition(IntPtr): PrivateScope, Public, Static, HideBySig
+    dBodyGetRotation(IntPtr): PrivateScope, Public, Static, HideBySig
+    dBodyGetQuaternion(IntPtr): PrivateScope, Public, Static, HideBySig
+    dWorldCreate(): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dInitODE(): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldDestroy(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetGravity(IntPtr, Single, Single, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetGravity(IntPtr, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetGravity(IntPtr, Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetERP(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetERP(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetCFM(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetCFM(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldImpulseToForce(IntPtr, Single, Single, Single, Single, dVector3&): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldImpulseToForce(IntPtr, Single, Single, Single, Single, Single&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldStep(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldQuickStep(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetQuickStepNumIterations(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetQuickStepNumIterations(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetQuickStepW(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetQuickStepW(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetContactMaxCorrectingVel(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetContactMaxCorrectingVel(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldSetContactSurfaceLayer(IntPtr, Single): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldGetContactSurfaceLayer(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+    dWorldStepFast1(IntPtr, Single, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl, HasSecurity
+Struct Tao.Ode.Ode+dError: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    dError d_ERR_UNKNOWN = 0 : Public, Static, Literal, HasDefault
+    dError d_ERR_IASSERT = 1 : Public, Static, Literal, HasDefault
+    dError d_ERR_UASSERT = 2 : Public, Static, Literal, HasDefault
+    dError d_ERR_LCP = 3 : Public, Static, Literal, HasDefault
+Struct Tao.Ode.Ode+dJointTypes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    dJointTypes dJointTypeNone = 0 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeBall = 1 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeHinge = 2 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeSlider = 3 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeContact = 4 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeUniversal = 5 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeHinge2 = 6 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeFixed = 7 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeNull = 8 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeAMotor = 9 : Public, Static, Literal, HasDefault
+    dJointTypes dJointTypeLMotor = 10 : Public, Static, Literal, HasDefault
+Struct Tao.Ode.Ode+dJointParams: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    dJointParams dParamLoStop = 0 : Public, Static, Literal, HasDefault
+    dJointParams dParamHiStop = 1 : Public, Static, Literal, HasDefault
+    dJointParams dParamVel = 2 : Public, Static, Literal, HasDefault
+    dJointParams dParamFMax = 3 : Public, Static, Literal, HasDefault
+    dJointParams dParamFudgeFactor = 4 : Public, Static, Literal, HasDefault
+    dJointParams dParamBounce = 5 : Public, Static, Literal, HasDefault
+    dJointParams dParamCFM = 6 : Public, Static, Literal, HasDefault
+    dJointParams dParamStopERP = 7 : Public, Static, Literal, HasDefault
+    dJointParams dParamStopCFM = 8 : Public, Static, Literal, HasDefault
+    dJointParams dParamSuspensionERP = 9 : Public, Static, Literal, HasDefault
+    dJointParams dParamSuspensionCFM = 10 : Public, Static, Literal, HasDefault
+    dJointParams dParamLoStop2 = 256 : Public, Static, Literal, HasDefault
+    dJointParams dParamHiStop2 = 257 : Public, Static, Literal, HasDefault
+    dJointParams dParamVel2 = 258 : Public, Static, Literal, HasDefault
+    dJointParams dParamFMax2 = 259 : Public, Static, Literal, HasDefault
+    dJointParams dParamFudgeFactor2 = 260 : Public, Static, Literal, HasDefault
+    dJointParams dParamBounce2 = 261 : Public, Static, Literal, HasDefault
+    dJointParams dParamCFM2 = 262 : Public, Static, Literal, HasDefault
+    dJointParams dParamStopERP2 = 263 : Public, Static, Literal, HasDefault
+    dJointParams dParamStopCFM2 = 264 : Public, Static, Literal, HasDefault
+    dJointParams dParamSuspensionERP2 = 265 : Public, Static, Literal, HasDefault
+    dJointParams dParamSuspensionCFM2 = 266 : Public, Static, Literal, HasDefault
+    dJointParams dParamLoStop3 = 512 : Public, Static, Literal, HasDefault
+    dJointParams dParamHiStop3 = 513 : Public, Static, Literal, HasDefault
+    dJointParams dParamVel3 = 514 : Public, Static, Literal, HasDefault
+    dJointParams dParamFMax3 = 515 : Public, Static, Literal, HasDefault
+    dJointParams dParamFudgeFactor3 = 516 : Public, Static, Literal, HasDefault
+    dJointParams dParamBounce3 = 517 : Public, Static, Literal, HasDefault
+    dJointParams dParamCFM3 = 518 : Public, Static, Literal, HasDefault
+    dJointParams dParamStopERP3 = 519 : Public, Static, Literal, HasDefault
+    dJointParams dParamStopCFM3 = 520 : Public, Static, Literal, HasDefault
+    dJointParams dParamSuspensionERP3 = 521 : Public, Static, Literal, HasDefault
+    dJointParams dParamSuspensionCFM3 = 522 : Public, Static, Literal, HasDefault
+Struct Tao.Ode.Ode+dAMotorMode: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    dAMotorMode dAMotorUser = 0 : Public, Static, Literal, HasDefault
+    dAMotorMode dAMotorEuler = 1 : Public, Static, Literal, HasDefault
+Struct Tao.Ode.Ode+dClassNumbers: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    dClassNumbers dSphereClass = 0 : Public, Static, Literal, HasDefault
+    dClassNumbers dBoxClass = 1 : Public, Static, Literal, HasDefault
+    dClassNumbers dCapsuleClass = 2 : Public, Static, Literal, HasDefault
+    dClassNumbers dCylinderClass = 3 : Public, Static, Literal, HasDefault
+    dClassNumbers dPlaneClass = 4 : Public, Static, Literal, HasDefault
+    dClassNumbers dRayClass = 5 : Public, Static, Literal, HasDefault
+    dClassNumbers dConvexClass = 6 : Public, Static, Literal, HasDefault
+    dClassNumbers dGeomTransformClass = 7 : Public, Static, Literal, HasDefault
+    dClassNumbers dTriMeshClass = 8 : Public, Static, Literal, HasDefault
+    dClassNumbers dFirstSpaceClass = 9 : Public, Static, Literal, HasDefault
+    dClassNumbers dSimpleSpaceClass = 9 : Public, Static, Literal, HasDefault
+    dClassNumbers dHashSpaceClass = 10 : Public, Static, Literal, HasDefault
+    dClassNumbers dQuadTreeSpaceClass = 11 : Public, Static, Literal, HasDefault
+    dClassNumbers dLastSpaceClass = 11 : Public, Static, Literal, HasDefault
+    dClassNumbers dFirstUserClass = 12 : Public, Static, Literal, HasDefault
+    dClassNumbers dLastUserClass = 15 : Public, Static, Literal, HasDefault
+    dClassNumbers dGeomNumClasses = 16 : Public, Static, Literal, HasDefault
+Struct Tao.Ode.Ode+dBodyFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    dBodyFlags dxBodyFlagFiniteRotation = 1 : Public, Static, Literal, HasDefault
+    dBodyFlags dxBodyFlagFiniteRotationAxis = 2 : Public, Static, Literal, HasDefault
+    dBodyFlags dxBodyDisabled = 4 : Public, Static, Literal, HasDefault
+    dBodyFlags dxBodyNoGravity = 8 : Public, Static, Literal, HasDefault
+    dBodyFlags dxBodyAutoDisable = 16 : Public, Static, Literal, HasDefault
+Struct Tao.Ode.Ode+dContactFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    dContactFlags dContactMu2 = 1 : Public, Static, Literal, HasDefault
+    dContactFlags dContactFDir1 = 2 : Public, Static, Literal, HasDefault
+    dContactFlags dContactBounce = 4 : Public, Static, Literal, HasDefault
+    dContactFlags dContactSoftERP = 8 : Public, Static, Literal, HasDefault
+    dContactFlags dContactSoftCFM = 16 : Public, Static, Literal, HasDefault
+    dContactFlags dContactMotion1 = 32 : Public, Static, Literal, HasDefault
+    dContactFlags dContactMotion2 = 64 : Public, Static, Literal, HasDefault
+    dContactFlags dContactSlip1 = 128 : Public, Static, Literal, HasDefault
+    dContactFlags dContactSlip2 = 256 : Public, Static, Literal, HasDefault
+    dContactFlags dContactApprox0 = 0 : Public, Static, Literal, HasDefault
+    dContactFlags dContactApprox1_1 = 4096 : Public, Static, Literal, HasDefault
+    dContactFlags dContactApprox1_2 = 8192 : Public, Static, Literal, HasDefault
+    dContactFlags dContactApprox1 = 12288 : Public, Static, Literal, HasDefault
+Struct Tao.Ode.Ode+GeometryClass: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    GeometryClass dSphereClass = 0 : Public, Static, Literal, HasDefault
+    GeometryClass dBoxClass = 1 : Public, Static, Literal, HasDefault
+    GeometryClass dCapsuleClass = 2 : Public, Static, Literal, HasDefault
+    GeometryClass dCylinderClass = 3 : Public, Static, Literal, HasDefault
+    GeometryClass dPlaneClass = 4 : Public, Static, Literal, HasDefault
+    GeometryClass dRayClass = 5 : Public, Static, Literal, HasDefault
+    GeometryClass dConvexClass = 6 : Public, Static, Literal, HasDefault
+    GeometryClass dGeomTransformClass = 7 : Public, Static, Literal, HasDefault
+    GeometryClass dTriMeshClass = 8 : Public, Static, Literal, HasDefault
+    GeometryClass dHeightfieldClass = 9 : Public, Static, Literal, HasDefault
+    GeometryClass dFirstSpaceClass = 10 : Public, Static, Literal, HasDefault
+    GeometryClass dSimpleSpaceClass = 10 : Public, Static, Literal, HasDefault
+    GeometryClass dHashSpaceClass = 11 : Public, Static, Literal, HasDefault
+    GeometryClass dQuadTreeSpaceClass = 12 : Public, Static, Literal, HasDefault
+    GeometryClass dLastSpaceClass = 12 : Public, Static, Literal, HasDefault
+    GeometryClass dFirstUserClass = 13 : Public, Static, Literal, HasDefault
+    GeometryClass dLastUserClass = 16 : Public, Static, Literal, HasDefault
+    GeometryClass dGeomNumClasses = 17 : Public, Static, Literal, HasDefault
+    GeometryClass dMaxUserClasses = 4 : Public, Static, Literal, HasDefault
+Struct Tao.Ode.Ode+dMass: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Single, dVector4, dMatrix3): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single mass : Public
+    dVector4 c : Public
+    dMatrix3 I : Public
+Struct Tao.Ode.Ode+dContactGeom: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    dVector3 pos : Public
+    dVector3 normal : Public
+    Single depth : Public
+    IntPtr g1 : Public
+    IntPtr g2 : Public
+    Int32 side1 : Public
+    Int32 side2 : Public
+Struct Tao.Ode.Ode+dSurfaceParameters: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, Single, Single, Single, Single, Single, Single, Single, Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 mode : Public
+    Single mu : Public
+    Single mu2 : Public
+    Single bounce : Public
+    Single bounce_vel : Public
+    Single soft_erp : Public
+    Single soft_cfm : Public
+    Single motion1 : Public
+    Single motion2 : Public
+    Single slip1 : Public
+    Single slip2 : Public
+Struct Tao.Ode.Ode+dContact: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(dSurfaceParameters, dContactGeom, dVector3): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    dSurfaceParameters surface : Public
+    dContactGeom geom : Public
+    dVector3 fdir1 : Public
+Struct Tao.Ode.Ode+dVector3: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single X : Public
+    Single Y : Public
+    Single Z : Public
+    Single SIMD_PADDING : Public
+  Properties:
+    Single Item [Int32] 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Single): PrivateScope, Public, HideBySig, SpecialName
+    ToArray(): PrivateScope, Public, HideBySig
+Struct Tao.Ode.Ode+dVector4: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Single, Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single X : Public
+    Single Y : Public
+    Single Z : Public
+    Single W : Public
+  Properties:
+    Single Item [Int32] 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Single): PrivateScope, Public, HideBySig, SpecialName
+    ToArray(): PrivateScope, Public, HideBySig
+Struct Tao.Ode.Ode+dQuaternion: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Single, Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single W : Public
+    Single X : Public
+    Single Y : Public
+    Single Z : Public
+  Properties:
+    Single Item [Int32] 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Single): PrivateScope, Public, HideBySig, SpecialName
+    ToArray(): PrivateScope, Public, HideBySig
+Struct Tao.Ode.Ode+Aabb: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Single, Single, Single, Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single minx : Public
+    Single maxx : Public
+    Single miny : Public
+    Single maxy : Public
+    Single minz : Public
+    Single maxz : Public
+Struct Tao.Ode.Ode+dMatrix3: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Single[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single M00 : Public
+    Single M01 : Public
+    Single M02 : Public
+    Single M03 : Public
+    Single M10 : Public
+    Single M11 : Public
+    Single M12 : Public
+    Single M13 : Public
+    Single M20 : Public
+    Single M21 : Public
+    Single M22 : Public
+    Single M23 : Public
+  Properties:
+    Single Item [Int32] 'get set' : 
+    Single Item [Int32, Int32] 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Int32, Single): PrivateScope, Public, HideBySig, SpecialName
+    ToArray(): PrivateScope, Public, HideBySig
+Struct Tao.Ode.Ode+dMatrix4: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Single[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single M00 : Public
+    Single M01 : Public
+    Single M02 : Public
+    Single M03 : Public
+    Single M10 : Public
+    Single M11 : Public
+    Single M12 : Public
+    Single M13 : Public
+    Single M20 : Public
+    Single M21 : Public
+    Single M22 : Public
+    Single M23 : Public
+    Single M30 : Public
+    Single M31 : Public
+    Single M32 : Public
+    Single M33 : Public
+  Properties:
+    Single Item [Int32] 'get set' : 
+    Single Item [Int32, Int32] 'get set' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, Int32, Single): PrivateScope, Public, HideBySig, SpecialName
+    ToArray(): PrivateScope, Public, HideBySig
+Struct Tao.Ode.Ode+dJointFeedback: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(dVector3, dVector3, dVector3, dVector3): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    dVector3 f1 : Public
+    dVector3 t1 : Public
+    dVector3 f2 : Public
+    dVector3 t2 : Public
+Class Tao.Ode.Ode+dNearCallback: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, IntPtr, IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, IntPtr, IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Struct Tao.Ode.Ode+TriMeshNumbers: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    TriMeshNumbers TRIMESH_FACE_NORMALS = 1 : Public, Static, Literal, HasDefault
+    TriMeshNumbers TRIMESH_LAST_TRANSFORMATION = 2 : Public, Static, Literal, HasDefault
+Class Tao.Ode.Ode+dTriCallback: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, IntPtr, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, IntPtr, Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Tao.Ode.Ode+dTriArrayCallback: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, IntPtr, Int32[], Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, IntPtr, Int32[], Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Tao.Ode.Ode+dTriRayCallback: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, IntPtr, Int32, Single, Single): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, IntPtr, Int32, Single, Single, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Tao.Ode.Ode+dAABBTestFn: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, IntPtr, Single&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, IntPtr, Single&, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(Single&, IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Tao.Ode.Ode+dColliderFn: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, IntPtr, Int32, dContactGeom&(Out), Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, IntPtr, Int32, dContactGeom&(Out), Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(dContactGeom&(Out), IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Tao.Ode.Ode+dGetAABBFn: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, Single&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, Single&(Out), AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(Single&(Out), IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Tao.Ode.Ode+dGetColliderFnFn: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Tao.Ode.Ode+dGeomDtorFn: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class Tao.Ode.Ode+dHeightfieldGetHeight: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, Int32, Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Struct Tao.Ode.Ode+dGeomClass: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 bytes : Public
+    dGetColliderFnFn collider : Public
+    dGetAABBFn aabb : Public
+    dAABBTestFn aabb_test : Public
+    dGeomDtorFn dtor : Public

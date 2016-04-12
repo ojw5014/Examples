@@ -1,0 +1,7 @@
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Ojw3DTool\Ojw3DTool\Ojw3DTool\obj\x86\Release\Ojw3DTool.Main.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Ojw3DTool\Ojw3DTool\Ojw3DTool\obj\x86\Release\Ojw3DTool.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Ojw3DTool\Ojw3DTool\Ojw3DTool\obj\x86\Release\Ojw3DTool.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Ojw3DTool\Ojw3DTool\Ojw3DTool\bin\Release\Ojw3DTool.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Ojw3DTool\Ojw3DTool\Ojw3DTool\bin\Release\Ojw3DTool.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Ojw3DTool\Ojw3DTool\Ojw3DTool\obj\x86\Release\Ojw3DTool.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Ojw3DTool\Ojw3DTool\Ojw3DTool\obj\x86\Release\Ojw3DTool.pdb

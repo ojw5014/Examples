@@ -1,0 +1,53 @@
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\bin\Debug\Step2_basic_Pose.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\bin\Debug\Step2_basic_Pose.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\bin\Debug\MyoSharp.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\bin\Debug\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\bin\Debug\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.Form1.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose\Step2_basic_Pose\bin\Debug\OpenJigWare.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\bin\Debug\Step2_basic_Pose.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\bin\Debug\Step2_basic_Pose.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\bin\Debug\MyoSharp.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\bin\Debug\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\bin\Debug\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\bin\Debug\OpenJigWare.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.Form1.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 제니보\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.Form1.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\bin\Debug\Step2_basic_Pose.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\bin\Debug\Step2_basic_Pose.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\bin\Debug\MyoSharp.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\bin\Debug\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\bin\Debug\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 매카넘\Step2_basic_Pose\bin\Debug\OpenJigWare.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\Step2_basic_Pose.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\Step2_basic_Pose.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\MyoSharp.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\Tao.Platform.Windows.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\Tao.OpenGl.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\Tao.FreeGlut.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\OpenJigWare.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.Form1.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\obj\x86\Debug\Step2_basic_Pose.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\AxInterop.WMPLib.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step2_basic_Pose_이걸로 드론\Step2_basic_Pose\bin\Debug\Interop.WMPLib.dll

@@ -1,0 +1,16 @@
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\Step3_AccGyro.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\Step3_AccGyro.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\MyoSharp.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\obj\x86\Debug\Step3_AccGyro.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\obj\x86\Debug\Step3_AccGyro.Form1.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\obj\x86\Debug\Step3_AccGyro.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\obj\x86\Debug\Step3_AccGyro.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\obj\x86\Debug\Step3_AccGyro.exe
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\obj\x86\Debug\Step3_AccGyro.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\Tao.Platform.Windows.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\AxInterop.WMPLib.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\Tao.OpenGl.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\Tao.FreeGlut.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\MyoSample\Step3_AccGyro\Step3_AccGyro\bin\Debug\Interop.WMPLib.dll
