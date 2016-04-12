@@ -34,8 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="OpenJigWare">
-      <HintPath>..\..\..\Released_DLL\OpenJigWare.dll</HintPath>
+    <Reference Include="OpenJigWare, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\OpenJigWare.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,19 +50,19 @@
     <Reference Include="System.Xml" />
     <Reference Include="Tao.FreeGlut, Version=2.4.0.2, Culture=neutral, PublicKeyToken=6e602a6ad6c0d06d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Released_DLL\Tao.FreeGlut.dll</HintPath>
+      <HintPath>..\..\..\..\..\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Tao.FreeGlut.dll</HintPath>
     </Reference>
     <Reference Include="Tao.Ode, Version=0.9.0.0, Culture=neutral, PublicKeyToken=e499629dc69cd531, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Released_DLL\Tao.Ode.dll</HintPath>
+      <HintPath>..\..\..\..\..\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Tao.Ode.dll</HintPath>
     </Reference>
     <Reference Include="Tao.OpenGl, Version=2.1.0.12, Culture=neutral, PublicKeyToken=1ca010269a4501ef, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Released_DLL\Tao.OpenGl.dll</HintPath>
+      <HintPath>..\..\..\..\..\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Tao.OpenGl.dll</HintPath>
     </Reference>
     <Reference Include="Tao.Platform.Windows, Version=1.0.0.5, Culture=neutral, PublicKeyToken=701104b2da67a104, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Released_DLL\Tao.Platform.Windows.dll</HintPath>
+      <HintPath>..\..\..\..\..\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Released_DLL\Tao.Platform.Windows.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

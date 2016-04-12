@@ -28,21 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.picDisp = new System.Windows.Forms.PictureBox();
+            this.pnProperty = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.picDisp)).BeginInit();
             this.SuspendLayout();
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // picDisp
+            // 
+            this.picDisp.Location = new System.Drawing.Point(12, 11);
+            this.picDisp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picDisp.Name = "picDisp";
+            this.picDisp.Size = new System.Drawing.Size(353, 293);
+            this.picDisp.TabIndex = 5;
+            this.picDisp.TabStop = false;
+            // 
+            // pnProperty
+            // 
+            this.pnProperty.Location = new System.Drawing.Point(371, 11);
+            this.pnProperty.Name = "pnProperty";
+            this.pnProperty.Size = new System.Drawing.Size(314, 293);
+            this.pnProperty.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(694, 468);
+            this.Controls.Add(this.pnProperty);
+            this.Controls.Add(this.picDisp);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picDisp)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox picDisp;
+        private System.Windows.Forms.Panel pnProperty;
     }
 }
 

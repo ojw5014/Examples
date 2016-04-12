@@ -7,3 +7,10 @@ D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\obj\x8
 D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\obj\x86\Debug\testMessage.csproj.GenerateResource.Cache
 D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\obj\x86\Debug\testMessage.exe
 D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\obj\x86\Debug\testMessage.pdb
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\bin\Debug\Tao.Platform.Windows.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\bin\Debug\MyoSharp.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\bin\Debug\AxInterop.WMPLib.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\bin\Debug\Tao.OpenGl.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\bin\Debug\Tao.FreeGlut.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\bin\Debug\Interop.WMPLib.dll
+D:\Bin\C#\GitHub\for Others(public)\Examples\test\testMessage\testMessage\bin\Debug\Microsoft.Contracts.dll

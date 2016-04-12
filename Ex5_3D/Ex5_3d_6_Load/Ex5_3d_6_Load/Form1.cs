@@ -37,9 +37,10 @@ namespace Ex5_3d_6_Load
                 timer1.Enabled = true;
             }
 
-           
+            m_CTmr.Set();
         }
 
+        Ojw.CTimer m_CTmr = new Ojw.CTimer();
         private void timer1_Tick(object sender, EventArgs e)
         {
             m_C3d.OjwDraw();

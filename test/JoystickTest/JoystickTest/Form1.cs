@@ -110,8 +110,8 @@ namespace JoystickTest
             Ojw.CMessage.Init(txtMessage);
 
             m_C3d.Init(picDisp);
-            m_C3d.SetScale(0.1f);
-            m_C3d.SetPos_Display(0, 50, 0);
+            //m_C3d.SetScale(0.1f);
+            //m_C3d.SetPos_Display(0, 50, 0);
             if (m_C3d.FileOpen("Joystick.ojw") == true)
             {
                 timer1.Enabled = true;
@@ -125,6 +125,7 @@ namespace JoystickTest
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            #region Joystick
             m_CJoy.Update();
             //lbX0.Text = m_CJoy.X.ToString();
             //lbY0.Text = m_CJoy.Y.ToString();
@@ -207,7 +208,9 @@ namespace JoystickTest
                 if (m_CJoy.IsDown((PadKey)((int)PadKey.Button7 + i)) == true)
                     Ojw.CMessage.Write((7 + i).ToString());
             }
+            #endregion Joystick
 
+            // 3D 모델링을 그리자
             m_C3d.OjwDraw(m_afAngle);
         }
 

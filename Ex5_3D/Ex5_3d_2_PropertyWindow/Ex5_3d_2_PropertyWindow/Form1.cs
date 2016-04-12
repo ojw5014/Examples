@@ -32,7 +32,7 @@ namespace Ex5_3d_2_PropertyWindow
             // 이것만 선언하면 기본 선언은 끝.
             m_C3d.Init(picDisp);
             // 프로퍼티창 생성
-            m_C3d.CreateProb(pnProperty);
+            m_C3d.CreateProb_VirtualObject(pnProperty);
 
 
 
@@ -60,13 +60,13 @@ namespace Ex5_3d_2_PropertyWindow
             m_C3d.Prop_Set_DispObject("#7");
 
             // 형상의 시작 위치를 약간 변경한다.
-            m_C3d.Prop_Set_Offset_Trans_Y(-100);
+            m_C3d.Prop_Set_Offset_Trans(new Ojw.SVector3D_t(100, -100, 0));
             
             // 만들어진걸 살짝 이동한다.
-            m_C3d.Prop_Set_Trans_X1(100);
+            //m_C3d.Prop_Set_Trans_X1(100);
                         
             // Update
-            m_C3d.Prop_Update();
+            m_C3d.Prop_Update_VirtualObject();
 
 
             #endregion 아무것도 안보이면 이상하니까 .....

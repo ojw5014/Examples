@@ -38,9 +38,8 @@ namespace Ex2_MessageBox
         {
             Ojw.CMessage.Write("Message1");
             
-            Ojw.CMessage.Write2("Test1, ");
-            Ojw.CMessage.Write2("Test2, ");
-            Ojw.CMessage.Write2("Test3, ");
+            for (int i = 0; i < 3; i++)
+                Ojw.CMessage.Write2("Test{0}, ", i);
 
             Ojw.CMessage.Write2("\r\n");
         }

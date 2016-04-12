@@ -29,13 +29,16 @@ namespace Simple_3D_Robot
         {
             // 이것만 선언하면 기본 선언은 끝.
             m_C3d.Init(picDisp);
+            // 캐드파일의 경로를 임의의 경로로 바꾼다. -> 안 정하면 실행파일과 같은 경로
+            m_C3d.SetAseFile_Path("Cad");
 
             Ojw.CMessage.Init(txtMessage);
 
             // property window
             m_C3d.CreateProb_VirtualObject(pnProperty);
-            
-            if (m_C3d.FileOpen(@"16dof_ecoHead.ojw") == true) // 모델링 파일이 잘 로드 되었다면 
+
+            //if (m_C3d.FileOpen(@"16dof_ecoHead.ojw") == true) // 모델링 파일이 잘 로드 되었다면 
+            if (m_C3d.FileOpen(@"robolink-spider.ojw") == true) // 모델링 파일이 잘 로드 되었다면 
             {
                 Ojw.CMessage.Write("File Opened");
                 // 그림을 그리기 위한 timer 가동

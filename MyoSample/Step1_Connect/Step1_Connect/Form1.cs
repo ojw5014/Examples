@@ -14,7 +14,7 @@ using MyoSharp.Device; // IHub
 using OpenJigWare; // Ojw.CMessage
 
 // 반드시 실행 경로에 Microsoft.Contracts.dll, x64폴더, x86폴더를 복사해 두도록 한다.
-// 참조 - 참조추가 - 찾아보기 - MyoSharp.dll, OpenJigWare.dll 선택 - 확인
+// 참조(reference) - 참조추가(add reference) - 찾아보기(searching tab) - MyoSharp.dll, OpenJigWare.dll 선택 - 확인
 
 namespace Step1_Connect
 {
