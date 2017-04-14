@@ -1,9 +1,0 @@
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\test3d_Simple\test3d_Simple\bin\Debug\test3d_Simple.exe
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\test3d_Simple\test3d_Simple\bin\Debug\test3d_Simple.pdb
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\test3d_Simple\test3d_Simple\bin\Debug\OpenJigWare.dll
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\test3d_Simple\test3d_Simple\obj\x86\Debug\test3d_Simple.csprojResolveAssemblyReference.cache
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\test3d_Simple\test3d_Simple\obj\x86\Debug\test3d_Simple.Form1.resources
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\test3d_Simple\test3d_Simple\obj\x86\Debug\test3d_Simple.Properties.Resources.resources
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\test3d_Simple\test3d_Simple\obj\x86\Debug\test3d_Simple.csproj.GenerateResource.Cache
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\test3d_Simple\test3d_Simple\obj\x86\Debug\test3d_Simple.exe
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\test3d_Simple\test3d_Simple\obj\x86\Debug\test3d_Simple.pdb

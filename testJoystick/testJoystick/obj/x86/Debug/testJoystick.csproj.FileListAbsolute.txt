@@ -1,8 +1,0 @@
-D:\Bin\C#\GitHub\for Others(public)\Examples\testJoystick\testJoystick\bin\Debug\testJoystick.exe.config
-D:\Bin\C#\GitHub\for Others(public)\Examples\testJoystick\testJoystick\bin\Debug\testJoystick.exe
-D:\Bin\C#\GitHub\for Others(public)\Examples\testJoystick\testJoystick\bin\Debug\testJoystick.pdb
-D:\Bin\C#\GitHub\for Others(public)\Examples\testJoystick\testJoystick\obj\x86\Debug\testJoystick.Form1.resources
-D:\Bin\C#\GitHub\for Others(public)\Examples\testJoystick\testJoystick\obj\x86\Debug\testJoystick.Properties.Resources.resources
-D:\Bin\C#\GitHub\for Others(public)\Examples\testJoystick\testJoystick\obj\x86\Debug\testJoystick.csproj.GenerateResource.Cache
-D:\Bin\C#\GitHub\for Others(public)\Examples\testJoystick\testJoystick\obj\x86\Debug\testJoystick.exe
-D:\Bin\C#\GitHub\for Others(public)\Examples\testJoystick\testJoystick\obj\x86\Debug\testJoystick.pdb

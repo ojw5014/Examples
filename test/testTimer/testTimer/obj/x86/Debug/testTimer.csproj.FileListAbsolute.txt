@@ -1,9 +1,0 @@
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testTimer\testTimer\bin\Debug\testTimer.exe
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testTimer\testTimer\bin\Debug\testTimer.pdb
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testTimer\testTimer\bin\Debug\OpenJigWare.dll
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testTimer\testTimer\obj\x86\Debug\testTimer.csprojResolveAssemblyReference.cache
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testTimer\testTimer\obj\x86\Debug\testTimer.Form1.resources
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testTimer\testTimer\obj\x86\Debug\testTimer.Properties.Resources.resources
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testTimer\testTimer\obj\x86\Debug\testTimer.csproj.GenerateResource.Cache
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testTimer\testTimer\obj\x86\Debug\testTimer.exe
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testTimer\testTimer\obj\x86\Debug\testTimer.pdb

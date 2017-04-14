@@ -1,9 +1,0 @@
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testInputBox\testInputBox\bin\Debug\testInputBox.exe
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testInputBox\testInputBox\bin\Debug\testInputBox.pdb
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testInputBox\testInputBox\bin\Debug\OpenJigWare.dll
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testInputBox\testInputBox\obj\x86\Debug\testInputBox.csprojResolveAssemblyReference.cache
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testInputBox\testInputBox\obj\x86\Debug\testInputBox.Form1.resources
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testInputBox\testInputBox\obj\x86\Debug\testInputBox.Properties.Resources.resources
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testInputBox\testInputBox\obj\x86\Debug\testInputBox.csproj.GenerateResource.Cache
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testInputBox\testInputBox\obj\x86\Debug\testInputBox.exe
-D:\Bin\C#\GitHub\for Others(public)\Examples\test\testInputBox\testInputBox\obj\x86\Debug\testInputBox.pdb
