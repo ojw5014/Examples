@@ -62,3 +62,5 @@ Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex5_3D\Ex5_3d_6_Load\Ex5_3d_6
 Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex5_3D\Ex5_3d_6_Load\Ex5_3d_6_Load\obj\x86\Debug\Ex5_3d_6_Load.Form1.resources
 Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex5_3D\Ex5_3d_6_Load\Ex5_3d_6_Load\obj\x86\Debug\Ex5_3d_6_Load.Properties.Resources.resources
 Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex5_3D\Ex5_3d_6_Load\Ex5_3d_6_Load\obj\x86\Debug\Ex5_3d_6_Load.csproj.GenerateResource.Cache
+Z:\guest\Examples\Ex5_3D\Ex5_3d_6_Load\Ex5_3d_6_Load\obj\x86\Debug\Ex5_3d_6_Load.exe
+Z:\guest\Examples\Ex5_3D\Ex5_3d_6_Load\Ex5_3d_6_Load\obj\x86\Debug\Ex5_3d_6_Load.pdb

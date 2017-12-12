@@ -46,3 +46,5 @@ Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex6_Motor\Herculex\TestMotor_
 Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex6_Motor\Herculex\TestMotor_Step2_Moving\TestMotor_Step2_Moving\obj\x86\Debug\TestMotor_Step2_Moving.Form1.resources
 Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex6_Motor\Herculex\TestMotor_Step2_Moving\TestMotor_Step2_Moving\obj\x86\Debug\TestMotor_Step2_Moving.Properties.Resources.resources
 Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex6_Motor\Herculex\TestMotor_Step2_Moving\TestMotor_Step2_Moving\obj\x86\Debug\TestMotor_Step2_Moving.csproj.GenerateResource.Cache
+Z:\guest\Examples\Ex6_Motor\Herculex\TestMotor_Step2_Moving\TestMotor_Step2_Moving\obj\x86\Debug\TestMotor_Step2_Moving.exe
+Z:\guest\Examples\Ex6_Motor\Herculex\TestMotor_Step2_Moving\TestMotor_Step2_Moving\obj\x86\Debug\TestMotor_Step2_Moving.pdb

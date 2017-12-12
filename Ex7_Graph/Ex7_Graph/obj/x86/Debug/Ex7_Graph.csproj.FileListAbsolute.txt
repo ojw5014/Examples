@@ -25,3 +25,28 @@ Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex7_Graph\Ex7_Graph\obj\x86\D
 Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex7_Graph\Ex7_Graph\obj\x86\Debug\Ex7_Graph.Form1.resources
 Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex7_Graph\Ex7_Graph\obj\x86\Debug\Ex7_Graph.Properties.Resources.resources
 Z:\10.SW\Bin\C#\GitHub\for Others(public)\Examples\Ex7_Graph\Ex7_Graph\obj\x86\Debug\Ex7_Graph.csproj.GenerateResource.Cache
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\obj\x86\Debug\Ex7_Graph.exe
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\obj\x86\Debug\Ex7_Graph.pdb
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Ex7_Graph.exe
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Ex7_Graph.pdb
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\OpenJigWare.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Tao.Platform.Windows.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\AForge.Controls.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\AForge.Video.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\MyoSharp.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\AxInterop.WMPLib.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\AForge.Video.DirectShow.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\AForge.Imaging.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\IronPython.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Microsoft.Scripting.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Tao.OpenGl.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Tao.FreeGlut.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Interop.WMPLib.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\AForge.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Microsoft.Contracts.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Microsoft.Dynamic.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\bin\Debug\Microsoft.Scripting.Metadata.dll
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\obj\x86\Debug\Ex7_Graph.csprojResolveAssemblyReference.cache
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\obj\x86\Debug\Ex7_Graph.Form1.resources
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\obj\x86\Debug\Ex7_Graph.Properties.Resources.resources
+Z:\guest\Examples\Ex7_Graph\Ex7_Graph\obj\x86\Debug\Ex7_Graph.csproj.GenerateResource.Cache
