@@ -1,0 +1,114 @@
+bk2=t3
+bk1=t2
+bk3=t4
+
+fx=y-331
+fy=x
+fz=z
+
+up=237
+dn=237
+
+// Up 모터의 각도 알아내기
+tup=atan2(fz,fy)
+
+// clipping //
+// 작으면 1, 같거나 크면 0
+a=0
+tupresult0 = abs(abs(((((fz-a)/abs(fz-a)) + 1))/abs((((fz-a)/abs(fz-a)) + 1)))-1)
+tupresult1 = tup//* pow(-1,(tupresult0 + 1)) + 90 //fz가 앞으로 나오면(0보다 크면) 음의각, 뒤로가면 양의 각을 취하도록...
+tupresult2 = tupresult1 - 360 * abs(((((tupresult1-360)/abs(tupresult1-360)) + 1))/abs((((tupresult1-360)/abs(tupresult1-360)) + 1)))
+b=-360
+tupresult3 = tupresult2 + 360 * abs(abs(((((tupresult2-b)/abs(tupresult2-b)) + 1))/abs((((tupresult2-b)/abs(tupresult2-b)) + 1)))-1)
+c=180
+tupresult4 = (tupresult3-360) * abs(((((tupresult3-c)/abs(tupresult3-c)) + 1))/abs((((tupresult3-c)/abs(tupresult3-c)) + 1))) + (tupresult3) * abs(abs(((((tupresult3-c)/abs(tupresult3-c)) + 1))/abs((((tupresult3-c)/abs(tupresult3-c)) + 1)))-1)
+t_turn=tupresult4
+
+// 이제 Wing과 Down 모터의 각을 알아보자
+// Down
+d=sqrt(((fx * fx) + (fy * fy) + (fz * fz)), 2)
+tdn=acos(((up * up) + (dn * dn) - (d * d)) / (2 * up * dn))
+
+t_link = 180 - tdn
+
+// Wing
+dy=sqrt(((fy * fy) + (fz * fz)), 2)
+phi=atan(dy/fx)//atan2(fx, dy)
+t_base=phi - acos(((up*up) + (d*d) - (dn*dn)) / (2 * d * up))
+
+t1=-t_turn
+t2=-t_base
+t3=t_link
+
+
+
+//t_wrist=bk3+(bk1-t2)+(bk2-t3)
+t_wrist=bk3+(bk1-t2)-(bk2-t3)
+v0=(bk1-t2)
+v1=(bk2-t3)
+v2=t_wrist
+t4=t_wrist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

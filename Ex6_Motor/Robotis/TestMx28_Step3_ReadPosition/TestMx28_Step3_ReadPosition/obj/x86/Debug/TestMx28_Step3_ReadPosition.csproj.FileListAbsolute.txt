@@ -1,9 +1,0 @@
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step3_ReadPosition\TestMx28_Step3_ReadPosition\bin\Debug\TestMx28_Step3_ReadPosition.exe
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step3_ReadPosition\TestMx28_Step3_ReadPosition\bin\Debug\TestMx28_Step3_ReadPosition.pdb
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step3_ReadPosition\TestMx28_Step3_ReadPosition\bin\Debug\OpenJigWare.dll
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step3_ReadPosition\TestMx28_Step3_ReadPosition\obj\x86\Debug\TestMx28_Step3_ReadPosition.csprojResolveAssemblyReference.cache
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step3_ReadPosition\TestMx28_Step3_ReadPosition\obj\x86\Debug\TestMx28_Step3_ReadPosition.Form1.resources
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step3_ReadPosition\TestMx28_Step3_ReadPosition\obj\x86\Debug\TestMx28_Step3_ReadPosition.Properties.Resources.resources
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step3_ReadPosition\TestMx28_Step3_ReadPosition\obj\x86\Debug\TestMx28_Step3_ReadPosition.csproj.GenerateResource.Cache
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step3_ReadPosition\TestMx28_Step3_ReadPosition\obj\x86\Debug\TestMx28_Step3_ReadPosition.exe
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step3_ReadPosition\TestMx28_Step3_ReadPosition\obj\x86\Debug\TestMx28_Step3_ReadPosition.pdb

@@ -1,0 +1,344 @@
+{Param_Load}{0}{2017/12/12,8:28:54}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,8:29:32}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,8:29:32}
+------------------------
+1'st. {0}
+------------------------
+
+{Param_Save}{0}{2017/12/12,8:29:33}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:37:39}Loaded Param data[8]
+{Param_Save}{0}{2017/12/12,18:37:41}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:37:57}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,18:38:38}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,18:38:38}
+------------------------
+1'st. {0}
+------------------------
+
+{Param_Save}{0}{2017/12/12,18:38:44}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:39:1}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,18:39:34}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,18:39:34}
+------------------------
+1'st. {0}
+------------------------
+
+{DynamicInvokeImpl}{0}{2017/12/12,18:39:58}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{Param_Save}{0}{2017/12/12,18:40:11}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:43:17}Loaded Param data[8]
+{Param_Save}{0}{2017/12/12,18:43:20}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:45:58}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,18:46:2}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,18:46:2}
+------------------------
+1'st. {0}
+------------------------
+
+{DynamicInvokeImpl}{0}{2017/12/12,18:46:5}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{Param_Save}{0}{2017/12/12,18:46:6}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:46:38}Loaded Param data[8]
+{Param_Save}{0}{2017/12/12,18:46:43}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:46:56}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,18:47:2}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,18:47:2}
+------------------------
+1'st. {0}
+------------------------
+
+{Param_Save}{0}{2017/12/12,18:47:3}Loaded Param data[8]
+{Close}{0}{2017/12/12,18:48:56}
+**************[Error]***********
+삭제된 개체에 액세스할 수 없습니다.
+개체 이름: 'VideoSourcePlayer'
+********************************
+{Param_Load}{0}{2017/12/12,18:49:23}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,18:49:33}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,18:49:33}
+------------------------
+1'st. {0}
+------------------------
+
+{DynamicInvokeImpl}{0}{2017/12/12,18:49:37}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{DynamicInvokeImpl}{0}{2017/12/12,18:49:43}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{Param_Save}{0}{2017/12/12,18:49:57}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:51:45}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,18:51:58}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,18:51:58}
+------------------------
+1'st. {0}
+------------------------
+
+{DynamicInvokeImpl}{0}{2017/12/12,18:52:7}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{DynamicInvokeImpl}{0}{2017/12/12,18:52:11}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{Param_Load}{0}{2017/12/12,18:52:44}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,18:52:50}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,18:52:50}
+------------------------
+1'st. {0}
+------------------------
+
+{DynamicInvokeImpl}{0}{2017/12/12,18:52:57}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{DynamicInvokeImpl}{0}{2017/12/12,18:52:59}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{DynamicInvokeImpl}{0}{2017/12/12,18:53:2}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{DynamicInvokeImpl}{0}{2017/12/12,18:53:6}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{Param_Save}{0}{2017/12/12,18:53:12}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:53:41}Loaded Param data[8]
+{Param_Save}{0}{2017/12/12,18:53:43}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:53:48}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:54:22}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:54:58}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,18:55:41}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:8:3}Loaded Param data[8]
+{FileRestore}{0}{2017/12/12,19:9:9}FileOpened
+{FileOpen}{0}{2017/12/12,19:9:10}Design File - D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Tools\Tools\bin\Release\rts_mini.ojw(v01.04.00)
+{OjwDraw}{0}{2017/12/12,19:9:10}
+**************[Error]***********
+File Missing[12] -> dmb-b02(w).stl,dmf-b01(w).stl,xl-320d.stl,dmf-f01(w).stl,dmf-b03(w).stl,dmf-b04(w).stl,spo-5(gr).stl,spd-3b5(w).stl,spl-2b2(w).stl,spd-4b5(w).stl,dmf-b05(w).stl,dmf-b06(w).stl,
+********************************
+{2017/12/12,19:9:10}
+------------------------
+1'st. File Missing[12] -> dmb-b02(w).stl,dmf-b01(w).stl,xl-320d.stl,dmf-f01(w).stl,dmf-b03(w).stl,dmf-b04(w).stl,spo-5(gr).stl,spd-3b5(w).stl,spl-2b2(w).stl,spd-4b5(w).stl,dmf-b05(w).stl,dmf-b06(w).stl,
+------------------------
+
+{Param_Save}{0}{2017/12/12,19:10:39}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:11:28}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,19:11:35}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,19:11:35}
+------------------------
+1'st. {0}
+------------------------
+
+{Param_Save}{0}{2017/12/12,19:11:35}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:12:2}Loaded Param data[8]
+{DynamicInvokeImpl}{0}{2017/12/12,19:12:5}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,19:12:5}
+------------------------
+1'st. {0}
+------------------------
+
+{Param_Save}{0}{2017/12/12,19:12:5}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:14:53}Loaded Param data[8]
+{FileRestore}{0}{2017/12/12,19:14:58}FileOpened
+{FileOpen}{0}{2017/12/12,19:14:59}Design File - D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug\rts_mini.ojw(v01.04.00)
+{OjwDraw}{0}{2017/12/12,19:14:59}
+**************[Error]***********
+File Missing[1] -> xl-320d.stl,
+********************************
+{2017/12/12,19:14:59}
+------------------------
+1'st. File Missing[1] -> xl-320d.stl,
+------------------------
+
+{Param_Save}{0}{2017/12/12,19:15:7}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:15:29}Loaded Param data[8]
+{FileRestore}{0}{2017/12/12,19:15:34}FileOpened
+{FileOpen}{0}{2017/12/12,19:15:35}Design File - D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug\rts_mini.ojw(v01.04.00)
+{DynamicInvokeImpl}{0}{2017/12/12,19:16:20}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,19:16:20}
+------------------------
+1'st. {0}
+------------------------
+
+{Param_Save}{0}{2017/12/12,19:16:22}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:27:18}Loaded Param data[8]
+{FileRestore}{0}{2017/12/12,19:27:30}FileOpened
+{FileOpen}{0}{2017/12/12,19:27:31}Design File - D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug\rts_mini.ojw(v01.04.00)
+{Param_Load}{0}{2017/12/12,19:27:51}Loaded Param data[8]
+{FileRestore}{0}{2017/12/12,19:27:59}FileOpened
+{FileOpen}{0}{2017/12/12,19:28:0}Design File - D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug\rts_mini.ojw(v01.04.00)
+{DynamicInvokeImpl}{0}{2017/12/12,19:28:0}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,19:28:0}
+------------------------
+1'st. {0}
+------------------------
+
+{Form1.cs}{btnOpenFolder_Click}{130}{2017/12/12,19:28:2}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug)
+{OnFormClosing}{0}{Form1.cs}{Form1_FormClosing}{39}{2017/12/12,19:28:14}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:29:32}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{130}{2017/12/12,19:29:34}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug)
+{Param_Save}{0}{2017/12/12,19:29:48}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:30:4}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{130}{2017/12/12,19:30:5}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug)
+{Param_Save}{0}{2017/12/12,19:30:9}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:34:12}Loaded Param data[8]
+{Param_Save}{0}{2017/12/12,19:34:16}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:34:24}Loaded Param data[8]
+{Param_Save}{0}{2017/12/12,19:34:30}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:34:46}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{133}{2017/12/12,19:34:48}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug)
+{Param_Save}{0}{2017/12/12,19:34:59}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:35:37}Loaded Param data[8]
+{Param_Save}{0}{2017/12/12,19:35:39}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:35:51}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{133}{2017/12/12,19:35:55}Clicked btnHistoryFolder -> Open path (//select, ..\\)
+{Param_Save}{0}{2017/12/12,19:36:5}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:36:24}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{133}{2017/12/12,19:36:27}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug\\..)
+{Param_Save}{0}{2017/12/12,19:36:37}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:36:44}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{133}{2017/12/12,19:36:46}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug\\..\\..)
+{Param_Save}{0}{2017/12/12,19:36:50}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:38:8}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{133}{2017/12/12,19:38:10}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug..\\..)
+{Param_Load}{0}{2017/12/12,19:39:3}Loaded Param data[8]
+{Param_Save}{0}{2017/12/12,19:39:6}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:39:10}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{133}{2017/12/12,19:39:13}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug/../..)
+{Param_Load}{0}{2017/12/12,19:39:28}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{133}{2017/12/12,19:39:30}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug\..\..)
+{Param_Save}{0}{2017/12/12,19:39:38}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:40:9}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{133}{2017/12/12,19:40:11}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug\..)
+{Param_Load}{0}{2017/12/12,19:40:30}Loaded Param data[8]
+{Param_Save}{0}{2017/12/12,19:40:33}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:40:36}Loaded Param data[8]
+{Form1.cs}{btnOpenFolder_Click}{133}{2017/12/12,19:40:38}Clicked btnHistoryFolder -> Open path (//select, D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug)
+{Param_Save}{0}{2017/12/12,19:40:41}Loaded Param data[8]
+{Param_Load}{0}{2017/12/12,19:41:4}Loaded Param data[8]
+{FileRestore}{0}{2017/12/12,19:41:19}FileOpened
+{FileOpen}{0}{2017/12/12,19:41:20}Design File - D:\Bin\C#\OpenJigWare_example\OpenJigWare_example\bin\Debug\rts_mini.ojw(v01.04.00)
+{DynamicInvokeImpl}{0}{2017/12/12,19:41:25}
+**************[Error]***********
+System.Net.Sockets.SocketException (0x80004005): WSACancelBlockingCall를 호출하여 차단 작업이 중단되었습니다
+   위치: System.Net.Sockets.Socket.Accept()
+   위치: rtaNetworking.Streaming.SocketExtensions.<IncommingConnectoins>d__0.MoveNext()
+   위치: rtaNetworking.Streaming.ImageStreamingServer.ServerThread(Object state)
+********************************
+{2017/12/12,19:41:25}
+------------------------
+1'st. {0}
+------------------------
+
+{Param_Save}{0}{2017/12/12,19:41:25}Loaded Param data[8]

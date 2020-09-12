@@ -1,9 +1,0 @@
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step4_AgingProgram\TestMx28_Step4_AgingProgram\obj\x86\Debug\TestMx28_Step4_AgingProgram.Form1.resources
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step4_AgingProgram\TestMx28_Step4_AgingProgram\obj\x86\Debug\TestMx28_Step4_AgingProgram.Properties.Resources.resources
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step4_AgingProgram\TestMx28_Step4_AgingProgram\obj\x86\Debug\TestMx28_Step4_AgingProgram.csproj.GenerateResource.Cache
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step4_AgingProgram\TestMx28_Step4_AgingProgram\bin\Debug\TestMx28_Step4_AgingProgram.exe
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step4_AgingProgram\TestMx28_Step4_AgingProgram\bin\Debug\TestMx28_Step4_AgingProgram.pdb
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step4_AgingProgram\TestMx28_Step4_AgingProgram\bin\Debug\OpenJigWare.dll
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step4_AgingProgram\TestMx28_Step4_AgingProgram\obj\x86\Debug\TestMx28_Step4_AgingProgram.csprojResolveAssemblyReference.cache
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step4_AgingProgram\TestMx28_Step4_AgingProgram\obj\x86\Debug\TestMx28_Step4_AgingProgram.exe
-D:\Bin\C#\GitHub\for Others(public)\Example\Ex6_Motor\Robotis\TestMx28_Step4_AgingProgram\TestMx28_Step4_AgingProgram\obj\x86\Debug\TestMx28_Step4_AgingProgram.pdb
