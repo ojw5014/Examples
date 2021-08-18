@@ -1,0 +1,160 @@
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe.config
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.Platform.Windows.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Controls.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\LeapCSharp.NET3.5.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Interop.SKYPE4COMLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\MyoSharp.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AxInterop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.DirectShow.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Imaging.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.OpenGl.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.FreeGlut.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Interop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.frmMain.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\CalcMath.exe.config
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\CalcMath.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\CalcMath.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\Tao.Platform.Windows.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\AForge.Controls.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\AForge.Video.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\Interop.SKYPE4COMLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\MyoSharp.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\LeapCSharp.NET3.5.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\AxInterop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\AForge.Video.DirectShow.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\AForge.Imaging.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\Tao.OpenGl.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\Tao.FreeGlut.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\Interop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\AForge.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.frmMain.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe.config
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\Tao.Platform.Windows.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\MyoSharp.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\LeapCSharp.NET3.5.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Controls.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\Interop.SKYPE4COMLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\AxInterop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\Tao.OpenGl.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\Tao.FreeGlut.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.DirectShow.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Imaging.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\Interop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\bin\Release\AForge.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.frmMain.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.pdb
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe.config
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.pdb
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\OpenJigWare.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.Platform.Windows.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\MyoSharp.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Controls.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Interop.SKYPE4COMLib.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\LeapCSharp.NET3.5.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AxInterop.WMPLib.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.OpenGl.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.FreeGlut.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.DirectShow.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Imaging.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Interop.WMPLib.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Contracts.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csprojResolveAssemblyReference.cache
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.frmMain.resources
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.Properties.Resources.resources
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csproj.GenerateResource.Cache
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.exe
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\IronPython.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Scripting.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Dynamic.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Scripting.Metadata.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\IronPython.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\Microsoft.Scripting.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\Microsoft.Dynamic.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\CalcMath\bin\Release\Microsoft.Scripting.Metadata.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csprojResolveAssemblyReference.cache
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe.config
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.pdb
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\OpenJigWare.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.Platform.Windows.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Controls.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Interop.SKYPE4COMLib.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\MyoSharp.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\LeapCSharp.NET3.5.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AxInterop.WMPLib.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.DirectShow.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Imaging.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\IronPython.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Scripting.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.OpenGl.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.FreeGlut.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Interop.WMPLib.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Contracts.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Dynamic.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Scripting.Metadata.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csprojResolveAssemblyReference.cache
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.frmMain.resources
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.Properties.Resources.resources
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csproj.GenerateResource.Cache
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.exe
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.pdb
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe.config
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.exe
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\CalcMath.pdb
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\OpenJigWare.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.Platform.Windows.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Controls.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Interop.SKYPE4COMLib.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\MyoSharp.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\LeapCSharp.NET3.5.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AxInterop.WMPLib.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Video.DirectShow.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.Imaging.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\IronPython.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Scripting.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.OpenGl.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Tao.FreeGlut.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Interop.WMPLib.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\AForge.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Contracts.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Dynamic.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\bin\Release\Microsoft.Scripting.Metadata.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csprojResolveAssemblyReference.cache
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.frmMain.resources
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.Properties.Resources.resources
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.csproj.GenerateResource.Cache
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.exe
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\CalcMath\obj\x86\Release\CalcMath.pdb

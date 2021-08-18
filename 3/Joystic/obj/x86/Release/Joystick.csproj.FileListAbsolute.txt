@@ -1,0 +1,359 @@
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+C:\Bin\OpenJigWare\for Me(public)\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\GenerateResource.read.1.tlog
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\GenerateResource.write.1.tlog
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+F:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\ResolveAssemblyReference.cache
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\GenerateResource.read.1.tlog
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\GenerateResource.write.1.tlog
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+F:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+D:\bin\C#\Github\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\IronPython.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Dynamic.dll
+Z:\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.Metadata.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\IronPython.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Dynamic.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.Metadata.dll
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+C:\Users\Dst0\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\IronPython.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Dynamic.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.Metadata.dll
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+C:\Users\Dst1\Desktop\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\IronPython.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Dynamic.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.Metadata.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.SKYPE4COMLib.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\LeapCSharp.NET3.5.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Interop.SKYPE4COMLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.SKYPE4COMLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\LeapCSharp.NET3.5.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\AForge.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\LeapCSharp.NET3.5.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Interop.SKYPE4COMLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\bin\Release\AForge.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+D:\Bin\C#\GitHub\for Me(In Secret)\새 폴더\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Interop.SKYPE4COMLib.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\LeapCSharp.NET3.5.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.dll
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+Z:\ojw5014\10.SW\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\IronPython.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Dynamic.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.Metadata.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\IronPython.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Dynamic.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.Metadata.dll
+D:\Bin\C#\GitHub\for Me(In Secret)\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Interop.SKYPE4COMLib.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\LeapCSharp.NET3.5.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\IronPython.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Dynamic.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.Metadata.dll
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+\\192.168.70.220\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe.config
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.exe
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Joystic.pdb
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\OpenJigWare.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.FreeGlut.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.Ode.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.OpenGl.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Tao.Platform.Windows.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Controls.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Interop.SKYPE4COMLib.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\MyoSharp.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\LeapCSharp.NET3.5.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AxInterop.WMPLib.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Video.DirectShow.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.Imaging.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\IronPython.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Interop.WMPLib.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\AForge.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Contracts.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Dynamic.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\bin\Release\Microsoft.Scripting.Metadata.dll
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csprojResolveAssemblyReference.cache
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.frmMain.resources
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.Properties.Resources.resources
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystick.csproj.GenerateResource.Cache
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.exe
+D:\Bin\cs\OpenJigWare\trunk\OpenJigWare\Joystic\obj\x86\Release\Joystic.pdb
